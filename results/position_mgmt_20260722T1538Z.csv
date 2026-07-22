@@ -1,0 +1,17 @@
+symbol,old_target,new_target,peak_price,decay_pct,reason
+ARI,7.38,7.38,7.06,0.05,decay>trailing
+SOBR,1.26,1.26,1.215,0.05,decay>trailing
+ALP,0.263,0.263,0.2578,0.05,decay>trailing
+VIVS,0.657,0.657,0.67,0.05,"trailing>decay (peak anchored to original 7/16 entry fill; avg cost now 0.55 after 7/21 manual add-on buy)"
+PLAG,1.03,1.03,1.01,0.05,decay>trailing
+STFS,11.71,11.71,10.38,0.05,"decay only, peak<avg"
+CYCU,0.41,0.41,0.407,0.05,decay>trailing
+CSAI,0.389,0.389,0.39,0.05,decay>trailing
+CETY,1.08,1.08,0.9898,0.05,"decay only, peak<avg"
+POM,1.17,1.17,1.13,0.05,decay>trailing
+FRGT,4.02,4.02,3.93,0.05,decay>trailing
+GVH,2.27,2.27,2.09,0.05,"decay only, peak<avg"
+BIVI,1.51,1.51,1.49,0.05,decay>trailing
+QMLS,12.6,12.6,11.9999,0.05,"decay only, peak<=avg"
+TEMT,17.8,17.8,17.5597,0.05,decay>trailing
+VCIG,1.22,1.22,1.24,0.05,"trailing>decay, unchanged"
