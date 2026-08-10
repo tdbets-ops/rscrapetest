@@ -1,0 +1,2 @@
+symbol,quantity,avg_buy_price,current_price,pct_change_since_buy,low_since_buy,current_resting_target_price,rationale
+COHH,1,9.4299,8.0199,-14.95,8.015,9.62,"down -15.0% since buy, near today's low (8.0199 vs low 8.015), second-half avg close 8.4822 < first-half 8.7286 (continuing decline)"
