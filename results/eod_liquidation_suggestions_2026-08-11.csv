@@ -1,0 +1,2 @@
+symbol,quantity,avg_buy_price,current_price,pct_change_since_buy,low_since_buy,current_resting_target_price,rationale
+CRIS,1,3.09,2.335,-0.2443,2.29,3.16,"SUGGEST_LIQUIDATE: down 24.4% since 13:54 UTC fill, near_low (current 2.335 <= low_since_buy*1.02=2.336), and trend_down (second-half-of-day avg close 2.362 < first-half avg 2.549) -- price has been actively falling through the afternoon, not just sitting flat below cost"
