@@ -1,0 +1,2 @@
+symbol,quantity,avg_buy_price,current_price,pct_change_since_buy,low_since_buy,current_resting_target_price,rationale
+RECT,3,1.2304,1.20,-0.0247,1.20,1.27,"Not flagged: pct_change_since_buy -2.47% is above the -5% threshold (only a minor decline, not a SUGGEST_LIQUIDATE candidate per the ARI reference guidance)."
