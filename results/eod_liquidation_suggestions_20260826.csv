@@ -1,0 +1,2 @@
+symbol,quantity,avg_buy_price,current_price,pct_change_since_buy,low_since_buy,current_resting_target_price,rationale
+BAK,3,1.47,1.465,-0.0034,1.43,1.50,not_flagged: pct_change_since_buy -0.34% is above the -5% threshold (condition a fails) and current_price 1.465 > near_low bound 1.4586 (condition c fails); trend_down is true (2nd-half avg close 1.453 < 1st-half avg 1.484) but all three conditions must hold -- SUGGEST_LIQUIDATE not triggered
