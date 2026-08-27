@@ -16,12 +16,12 @@ entry_date,entry_timestamp,symbol,firing,skip_reason,guardrail_detail,fundamenta
 2026-08-25,2026-08-25T13:38:00Z,SNYR,9:30,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,,0.0854,closed,2026-08-25,2026-08-25T14:25:00Z,0.09,paper_target,5.38641686182669,0,5.3864,-4.0984
 2026-08-25,2026-08-25T13:38:00Z,CIIT,9:30,a5_compliance,financial_status_indicator=CC0;financial_status_description=,,2.8562,closed,2026-08-25,2026-08-25T13:45:00Z,3.0,paper_target,5.034661438274636,0,6.085,-0.5672
 2026-08-25,2026-08-25T13:38:00Z,LGHL,9:30,a5_compliance,financial_status_indicator=CC0;financial_status_description=,,0.5336,closed,2026-08-25,2026-08-25T13:45:00Z,0.561,paper_target,5.134932533733151,0,6.1844,0.0
-2026-08-25,2026-08-25T13:38:00Z,AMOD,9:30,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,,3.965,open,,,,,,1,0.8827,-10.1992
+2026-08-25,2026-08-25T13:38:00Z,AMOD,9:30,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,,3.965,closed,2026-08-27,2026-08-27T20:00:00Z,2.9737,paper_drawdown_stop_25pct,-25.0013,2,0.8827,-35.9395
 2026-08-25,2026-08-25T13:38:00Z,LGVN,9:30,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,,0.7198,closed,2026-08-25,2026-08-25T14:40:00Z,0.6625,paper_auto_liquidate_60min,-7.960544595721037,0,0.0,-9.6971
-2026-08-25,2026-08-25T13:38:00Z,SMCZ,9:30,a5_compliance,financial_status_indicator=CC0;financial_status_description=;note=also_leveraged_etf_would_trip_a8,,3.27,open,,,,,,1,0.9174,-7.9511
+2026-08-25,2026-08-25T13:38:00Z,SMCZ,9:30,a5_compliance,financial_status_indicator=CC0;financial_status_description=;note=also_leveraged_etf_would_trip_a8,,3.27,open,,,,,,2,0.9174,-13.4557
 2026-08-25,2026-08-25T13:38:00Z,RMSG,9:30,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,,0.32,closed,2026-08-25,2026-08-25T14:05:00Z,0.336,paper_target,5.000000000000004,0,6.2187,-7.1563
 2026-08-25,2026-08-25T13:38:00Z,DXST,9:30,a5_compliance,financial_status_indicator=CC0;financial_status_description=,,2.63,closed,2026-08-25,2026-08-25T13:45:00Z,2.77,paper_target,5.323193916349815,0,5.6654,0.0
-2026-08-25,2026-08-25T14:44:00Z,SHMD,10:30,a4_earnings_recency,days_since_earnings=1;report_date=2026-08-24,,3.675,open,,,,,,1,1.4966,-20.2721
+2026-08-25,2026-08-25T14:44:00Z,SHMD,10:30,a4_earnings_recency,days_since_earnings=1;report_date=2026-08-24,,3.675,open,,,,,,2,1.4966,-20.2721
 2026-08-25,2026-08-25T14:44:00Z,RCON,10:30,a2_atr,atr_14_pct=3.547;atr_3_pct=0.4745,,2.405,closed,2026-08-26,2026-08-26T20:00:00Z,1.80375,paper_drawdown_stop_25pct,-25.0,1,1.4553,-28.8981
 2026-08-25,2026-08-25T14:44:00Z,NCTY,10:30,a4_earnings_recency,days_since_earnings=1;report_date=2026-08-24,,4.7216,closed,2026-08-25,2026-08-25T15:45:00Z,4.35,paper_auto_liquidate_60min,-7.870213486953574,0,0.0,-12.1061
 2026-08-25,2026-08-25T14:44:00Z,SGLY,10:30,a3_prior_spike,peak_to_baseline_ratio=1.398;volume_spike_ratio=38.13,,2.12,closed,2026-08-25,2026-08-25T14:50:00Z,2.23,paper_target,5.188679245283013,0,8.4906,0.0
@@ -29,9 +29,9 @@ entry_date,entry_timestamp,symbol,firing,skip_reason,guardrail_detail,fundamenta
 2026-08-25,2026-08-25T14:44:00Z,CNTX,10:30,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,,0.4,closed,2026-08-25,2026-08-25T15:05:00Z,0.421,paper_target,5.249999999999991,0,5.35,-0.025
 2026-08-25,2026-08-25T14:44:00Z,MCRP,10:30,a1_spread,spread_pct=0.085,,1.0,closed,2026-08-25,2026-08-25T14:45:00Z,1.05,paper_target,5.000000000000004,0,6.0,0.0
 2026-08-25,2026-08-25T14:44:00Z,ZCMD,10:30,a6_reverse_split_proxy,split_ratio_proxy=1193.66,,0.8102,closed,2026-08-25,2026-08-25T15:45:00Z,0.7612,paper_auto_liquidate_60min,-6.047889410022222,0,0.0,-6.0479
-2026-08-25,2026-08-25T14:44:00Z,LRHC,10:30,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,,0.5387,open,,,,,,1,2.0791,-12.1032
-2026-08-25,2026-08-25T14:44:00Z,ETS,10:30,a7_thin_liquidity,ask_gap_pct=0.0413;last_real_price=0.8757;skip_reason=gap_exceeded,,0.8757,open,,,,,,1,0.491,-13.2123
-2026-08-25,2026-08-25T14:44:00Z,CDT,10:30,a6_reverse_split_proxy,split_ratio_proxy=1570.9,,2.2026,open,,,,,,1,2.5243,-17.3704
+2026-08-25,2026-08-25T14:44:00Z,LRHC,10:30,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,,0.5387,open,,,,,,2,2.0791,-16.4841
+2026-08-25,2026-08-25T14:44:00Z,ETS,10:30,a7_thin_liquidity,ask_gap_pct=0.0413;last_real_price=0.8757;skip_reason=gap_exceeded,,0.8757,open,,,,,,2,1.6216,-13.2123
+2026-08-25,2026-08-25T14:44:00Z,CDT,10:30,a6_reverse_split_proxy,split_ratio_proxy=1570.9,,2.2026,open,,,,,,2,2.5243,-18.2784
 2026-08-25,2026-08-25T14:44:00Z,YJ,10:30,a3_prior_spike,peak_to_baseline_ratio=11.076;volume_spike_ratio=17293.05,,2.52,closed,2026-08-25,2026-08-25T15:40:00Z,2.65,paper_target,5.158730158730155,0,7.1429,0.0
 2026-08-25,2026-08-25T14:44:00Z,HOOZ,10:30,a8_leveraged_etf,industry=Investment Trusts Or Mutual Funds;description_marker=2x inverse exposure,,8.2019,closed,2026-08-26,2026-08-26T20:00:00Z,8.37,paper_target,2.0495,1,2.9639,-3.6809
 2026-08-25,2026-08-25T14:44:00Z,AIXC,10:30,a3_prior_spike,peak_to_baseline_ratio=3.997;volume_spike_ratio=2086.15,,0.8301,closed,2026-08-25,2026-08-25T15:05:00Z,0.872,paper_target,5.0475846283580355,0,5.421,0.0
@@ -39,29 +39,66 @@ entry_date,entry_timestamp,symbol,firing,skip_reason,guardrail_detail,fundamenta
 2026-08-25,2026-08-25T14:44:00Z,BMNZ,10:30,a8_leveraged_etf,industry=Investment Trusts Or Mutual Funds;description_marker=2x inverse exposure,,5.92,closed,2026-08-25,2026-08-25T17:05:00Z,6.22,paper_target,5.067567567567564,0,5.0676,-3.5034
 2026-08-25,2026-08-25T14:44:00Z,MXC,10:30,a1_spread,spread_pct=0.1029,,8.6501,closed,2026-08-25,2026-08-25T17:10:00Z,9.09,paper_target,5.085490341152122,0,8.6115,0.0
 2026-08-25,2026-08-25T14:44:00Z,MI,10:30,a6_reverse_split_proxy,split_ratio_proxy=204.6,,2.62,closed,2026-08-25,2026-08-25T15:05:00Z,2.76,paper_target,5.3435114503816665,0,5.7252,-1.5267
-2026-08-25,2026-08-25T14:44:00Z,NXTT,10:30,a2_atr,atr_14_pct=0.8938,,6.92,open,,,,,,1,3.0347,-14.5954
-2026-08-25,2026-08-25T14:44:00Z,CMCT,10:30,a6_reverse_split_proxy,split_ratio_proxy=332.2,,4.3386,open,,,,,,1,3.4896,-11.0289
+2026-08-25,2026-08-25T14:44:00Z,NXTT,10:30,a2_atr,atr_14_pct=0.8938,,6.92,closed,2026-08-27,2026-08-27T20:00:00Z,7.35,paper_target,6.2139,2,8.3801,-14.5954
+2026-08-25,2026-08-25T14:44:00Z,CMCT,10:30,a6_reverse_split_proxy,split_ratio_proxy=332.2,,4.3386,open,,,,,,2,3.4896,-11.0289
 2026-08-25,2026-08-25T14:44:00Z,DETX,10:30,a1_spread,spread_pct=0.168,,3.3313,closed,2026-08-25,2026-08-25T16:15:00Z,3.5,paper_target,5.064089094347548,0,7.9158,0.0
-2026-08-25,2026-08-25T14:44:00Z,ALBG,10:30,a8_leveraged_etf,industry=Investment Trusts Or Mutual Funds;description_marker=2x leveraged exposure,,7.06,open,,,,,,1,2.762,-2.4079
+2026-08-25,2026-08-25T14:44:00Z,ALBG,10:30,a8_leveraged_etf,industry=Investment Trusts Or Mutual Funds;description_marker=2x leveraged exposure,,7.06,closed,2026-08-27,2026-08-27T20:00:00Z,7.21,paper_target,2.1246,2,2.8329,-2.5496
 2026-08-26,2026-08-26T13:40:02Z,JEM,9:30,a6_reverse_split_proxy,split_ratio_proxy=160.14;high_52w=885.60,a6,5.53,closed,2026-08-26,2026-08-26T13:45:00Z,5.81,paper_target,5.0633,0,5.9675,-1.6275
 2026-08-26,2026-08-26T13:40:11Z,AIXI,9:30,a5_compliance,indicator=CC4;description=Noncompliant,a5;a6,1.07,closed,2026-08-26,2026-08-26T16:55:00Z,1.13,paper_target,5.6075,0,5.6075,-14.8224
-2026-08-26,2026-08-26T13:40:00Z,NEXR,9:30,a6_reverse_split_proxy,split_ratio_proxy=386.8;high_52w=847.00,a6,2.19,open,,,,,,0,3.1963,-8.6758
+2026-08-26,2026-08-26T13:40:00Z,NEXR,9:30,a6_reverse_split_proxy,split_ratio_proxy=386.8;high_52w=847.00,a6,2.19,open,,,,,,1,3.1963,-8.6758
 2026-08-26,2026-08-26T13:39:11Z,BDRX,9:30,a6_reverse_split_proxy,split_ratio_proxy=59.43;high_52w=59.40,a6,0.9995,closed,2026-08-26,2026-08-26T14:50:00Z,1.05,paper_target,5.0525,0,5.0525,-6.9535
-2026-08-26,2026-08-26T13:39:42Z,AKAN,9:30,a5_compliance,indicator=CC4;description=Noncompliant,a5;a6,4.255,open,,,,,,0,2.2327,-4.8179
+2026-08-26,2026-08-26T13:39:42Z,AKAN,9:30,a5_compliance,indicator=CC4;description=Noncompliant,a5;a6,4.255,open,,,,,,1,2.2327,-6.698
 2026-08-26,2026-08-26T13:39:05Z,IPST,9:30,a6_reverse_split_proxy,split_ratio_proxy=79.10;high_52w=532.00,a6,6.725,closed,2026-08-26,2026-08-26T13:40:00Z,7.07,paper_target,5.1301,0,6.0223,-1.5851
 2026-08-26,2026-08-26T13:40:13Z,VEEA,9:30,a5_compliance,indicator=CC4;description=Noncompliant,a5,0.1145,closed,2026-08-26,2026-08-26T14:10:00Z,0.121,paper_target,5.6769,0,7.4236,-0.3493
 2026-08-26,2026-08-26T13:34:04Z,NDRA,9:30,a1_spread,spread_pct=0.1174,,4.172,closed,2026-08-26,2026-08-26T13:50:00Z,4.39,paper_target,5.2253,0,17.4497,0.0
 2026-08-26,2026-08-26T13:39:24Z,RAIN,9:30,a1_spread,spread_pct=0.0845,,1.03,closed,2026-08-26,2026-08-26T13:35:00Z,1.09,paper_target,5.8252,0,8.7379,0.0
-2026-08-26,2026-08-26T13:38:49Z,PFSA,9:30,a5_compliance,indicator=CC4;description=Noncompliant,a5;a6,4.409,open,,,,,,0,2.064,-6.7793
+2026-08-26,2026-08-26T13:38:49Z,PFSA,9:30,a5_compliance,indicator=CC4;description=Noncompliant,a5;a6,4.409,closed,2026-08-27,2026-08-27T20:00:00Z,4.67,paper_target,5.9197,1,7.961,-7.0084
 2026-08-26,2026-08-26T13:40:16Z,DDC,9:30,a1_spread,spread_pct=0.1393,,0.6173,closed,2026-08-26,2026-08-26T13:40:00Z,0.649,paper_target,5.1353,0,5.2649,-4.0337
 2026-08-26,2026-08-26T13:40:04Z,RITR,9:30,a5_compliance,indicator=CC4;description=Noncompliant,a5;a6,0.0825,closed,2026-08-26,2026-08-26T15:00:00Z,0.087,paper_target,5.4545,0,6.6667,-0.6061
 2026-08-26,2026-08-26T13:30:02Z,ROMA,9:30,a1_spread,spread_pct=0.1259,,8.18,closed,2026-08-26,2026-08-26T14:40:00Z,8.59,paper_target,5.0122,0,11.5416,0.0
 2026-08-26,2026-08-26T13:40:05Z,OFAL,9:30,a5_compliance,indicator=CC4;description=Noncompliant,a5;a6,0.9401,closed,2026-08-26,2026-08-26T18:05:00Z,0.978,paper_target,4.0315,0,6.2653,-1.9892
 2026-08-26,2026-08-26T13:40:10Z,FNGR,9:30,a5_compliance,indicator=CC4;description=Noncompliant,a5,0.1532,closed,2026-08-26,2026-08-26T14:10:00Z,0.161,paper_target,5.0914,0,6.201,-0.9791
 2026-08-26,2026-08-26T13:40:15Z,BTCT,9:30,a3_prior_spike,peak_to_baseline_ratio=4.83;peak=2.75;baseline=0.5695,,1.735,closed,2026-08-26,2026-08-26T14:10:00Z,1.83,paper_target,5.4755,0,6.0519,-3.17
-2026-08-26,2026-08-26T13:36:39Z,MBAI,9:30,a7_stale_quote_gap,ask_gap_pct=0.0478;last_real_price=7.005;ask=7.34,,7.005,open,,,,,,0,4.9236,-6.4954
+2026-08-26,2026-08-26T13:36:39Z,MBAI,9:30,a7_stale_quote_gap,ask_gap_pct=0.0478;last_real_price=7.005;ask=7.34,,7.005,open,,,,,,1,4.9236,-6.4954
 2026-08-26,2026-08-26T14:45:00Z,JZ,10:30,a1_spread,spread_pct=0.1029,,1.75,closed,2026-08-26,2026-08-26T15:40:00Z,1.84,paper_target,5.1429,0,7.7143,-0.5714
 2026-08-26,2026-08-26T14:45:00Z,GIPR,10:30,a1_spread,spread_pct=0.1153,,0.477,closed,2026-08-26,2026-08-26T18:20:00Z,0.497,paper_target,4.1929,0,4.2977,-15.8071
-2026-08-26,2026-08-26T14:45:00Z,EXOD,10:30,a3_prior_spike,peak_to_baseline_ratio=1.9000;volume_spike_ratio=15.14,,8.5529,open,,,,,,0,2.771,-6.8152
+2026-08-26,2026-08-26T14:45:00Z,EXOD,10:30,a3_prior_spike,peak_to_baseline_ratio=1.9000;volume_spike_ratio=15.14,,8.5529,closed,2026-08-27,2026-08-27T20:00:00Z,9.31,paper_target,8.852,1,11.0734,-6.8152
 2026-08-26,2026-08-26T14:45:00Z,QFIN,10:30,a4_earnings_recency,days_since_earnings=1;report_date=2026-08-25,,9.935,closed,2026-08-26,2026-08-26T15:45:00Z,9.58,paper_auto_liquidate_60min,-3.5732,0,0.0,-4.1268
-2026-08-26,2026-08-26T14:45:00Z,AEHG,10:30,a8_leveraged_etf,industry=Investment Trusts Or Mutual Funds;description_marker=2x_leveraged_exposure,a8,8.1217,open,,,,,,0,5.0051,-1.2399
+2026-08-26,2026-08-26T14:45:00Z,AEHG,10:30,a8_leveraged_etf,industry=Investment Trusts Or Mutual Funds;description_marker=2x_leveraged_exposure,a8,8.1217,closed,2026-08-27,2026-08-27T20:00:00Z,9.11,paper_target,12.1686,1,14.3849,-1.56
+2026-08-27,2026-08-27T13:40:00Z,SKK,9:30,a1_spread,spread_pct=0.1617;bid=4.05;ask=4.70;last=4.02,,4.02,closed,2026-08-27,2026-08-27T13:50:00Z,4.41,paper_target,9.701492537313449,0,11.6915,0.0
+2026-08-27,2026-08-27T13:40:00Z,RPGL,9:30,a1_spread,spread_pct=0.0846;bid=1.92;ask=2.09;last=2.0101,,2.0101,closed,2026-08-27,2026-08-27T13:45:00Z,2.16,paper_target,7.457340430824344,0,9.4423,0.0
+2026-08-27,2026-08-27T13:40:00Z,HCWC,9:30,a1_spread,spread_pct=0.0815;bid=0.265;ask=0.2868;last=0.2676,,0.2676,closed,2026-08-27,2026-08-27T13:40:00Z,0.281,paper_target,5.007473841554567,0,6.7638,0.0
+2026-08-27,2026-08-27T13:40:00Z,CISS,9:30,a2_atr,atr14_pct=1.0535;atr3_pct=0.1769;atr14=2.5734;atr3=0.4321;price=2.4427,a6,2.4427,closed,2026-08-27,2026-08-27T14:00:00Z,2.61,paper_target,6.848978589265976,0,8.8918,-0.9293
+2026-08-27,2026-08-27T13:40:00Z,OMH,9:30,a2_atr,atr14_pct=0.9440;atr3_pct=0.6002;atr14=0.07901;atr3=0.05023;price=0.0837,a5;a6,0.0837,open,,,,,,0,2.0311,-10.1553
+2026-08-27,2026-08-27T13:40:00Z,CRE,9:30,a3_prior_spike,peak_to_baseline_ratio=3.245;volume_spike_ratio=3060.45;baseline_price=2.65;peak_price=8.60,,5.395,closed,2026-08-27,2026-08-27T13:55:00Z,5.67,paper_target,5.097312326227995,0,5.0973,-1.203
+2026-08-27,2026-08-27T13:40:00Z,SOAR,9:30,a3_prior_spike,peak_to_baseline_ratio=2.567;volume_spike_ratio=24.94;baseline_price=0.1335;peak_price=0.3427,,0.1984,closed,2026-08-27,2026-08-27T16:25:00Z,0.209,paper_target,5.34274193548387,0,5.7964,-7.1573
+2026-08-27,2026-08-27T13:40:00Z,IPST,9:30,a3_prior_spike,peak_to_baseline_ratio=11.668;volume_spike_ratio=10402.32;baseline_price=2.1717;peak_price=25.34,,5.21,closed,2026-08-27,2026-08-27T13:40:00Z,5.52,paper_target,5.950095969289819,0,7.9655,0.0
+2026-08-27,2026-08-27T13:40:00Z,EXYN,9:30,a3_prior_spike,peak_to_baseline_ratio=2.266;volume_spike_ratio=81.63;baseline_price=1.9067;peak_price=4.32,,3.57,open,,,,,,0,2.8011,-10.0812
+2026-08-27,2026-08-27T13:40:00Z,XPON,9:30,a3_prior_spike,peak_to_baseline_ratio=3.499;volume_spike_ratio=4615.64;baseline_price=3.37;peak_price=11.79,,8.2205,open,,,,,,0,2.613,-10.4677
+2026-08-27,2026-08-27T13:40:00Z,LUCK,9:30,a4_earnings_recency,days_since_earnings=0;report_date=2026-08-27;eps_actual=-0.21;eps_estimate=-0.02,,5.7463,closed,2026-08-27,2026-08-27T14:10:00Z,6.04,paper_target,5.111114978333889,0,6.8514,-1.6741
+2026-08-27,2026-08-27T13:40:00Z,CHGA,9:30,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5;a6,0.1432,open,,,,,,0,1.1872,-13.1285
+2026-08-27,2026-08-27T13:40:00Z,VEEA,9:30,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5,0.1004,open,,,,,,0,4.5817,-5.2789
+2026-08-27,2026-08-27T13:40:00Z,NXL,9:30,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5,0.2498,closed,2026-08-27,2026-08-27T13:40:00Z,0.265,paper_target,6.08486789431546,0,8.0464,0.0
+2026-08-27,2026-08-27T13:40:00Z,SMTK,9:30,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5;a6,3.67,open,,,,,,0,4.6322,-7.6294
+2026-08-27,2026-08-27T13:40:00Z,HODO,9:30,a6_reverse_split_proxy,split_ratio_proxy=85.68;high_52_weeks=19.4928;last_trade_price=0.2275,a6,0.229,closed,2026-08-27,2026-08-27T14:25:00Z,0.241,paper_target,5.240174672489075,0,5.2838,-2.9694
+2026-08-27,2026-08-27T13:40:00Z,NVDQ,9:30,a8_leveraged_etf,industry=Investment Trusts Or Mutual Funds;description_marker=daily price movement of / (-2x) inverse exposure,a8,8.95,open,,,,,,0,0.0,-8.8257
+2026-08-27,2026-08-27T13:40:00Z,NVD,9:30,a8_leveraged_etf,industry=Investment Trusts Or Mutual Funds;description_marker=2x inverse leveraged exposure / daily price movement,a8,3.9597,open,,,,,,0,0.0076,-8.8315
+2026-08-27,2026-08-27T14:41:00Z,GRAN,10:30,a1_spread_pct,spread_pct=0.2613,,1.11,closed,2026-08-27,2026-08-27T19:30:00Z,1.32,paper_target,18.918918918918916,0,20.7207,0.0
+2026-08-27,2026-08-27T14:41:00Z,DCX,10:30,a1_spread_pct,spread_pct=0.1235,,0.7694,open,,,,,,0,0.0,-12.5942
+2026-08-27,2026-08-27T14:41:00Z,SMJF,10:30,a1_spread_pct,spread_pct=0.2432,,9.95,closed,2026-08-27,2026-08-27T15:40:00Z,7.4625,paper_drawdown_stop_25pct,-24.999999999999993,0,0.0,-90.9548
+2026-08-27,2026-08-27T14:41:00Z,GTN.A,10:30,a1_spread_pct,spread_pct=0.1670,,6.23,closed,2026-08-27,2026-08-27T17:00:00Z,6.55,paper_target,5.136436597110745,0,6.7416,0.0
+2026-08-27,2026-08-27T14:41:00Z,BMGL,10:30,a1_spread_pct,spread_pct=0.1015,,5.32,open,,,,,,0,4.4756,-9.7744
+2026-08-27,2026-08-27T14:41:00Z,VBIO,10:30,a5_compliance,"financial_status_indicator=CC4;financial_status_description=Noncompliant;check=i,ii",a5;a6,0.1298,open,,,,,,0,2.2342,-9.6302
+2026-08-27,2026-08-27T14:41:00Z,CALC,10:30,a5_compliance,"financial_status_indicator=CC4;financial_status_description=Noncompliant;check=i,ii",a5,0.4902,open,,,,,,0,2.7336,-4.7328
+2026-08-27,2026-08-27T14:41:00Z,APRE,10:30,a5_compliance,"financial_status_indicator=CC4;financial_status_description=Noncompliant;check=i,ii",a5,0.8426,closed,2026-08-27,2026-08-27T17:35:00Z,0.877,paper_target,4.082601471635412,0,5.5661,-3.869
+2026-08-27,2026-08-27T14:41:00Z,MSTZ,10:30,a8_leveraged_inverse_etf,industry=Investment Trusts Or Mutual Funds;check=i,a8,4.795,open,,,,,,0,1.5641,-8.2377
+2026-08-27,2026-08-27T14:41:00Z,VWAV,10:30,a6_reverse_split_proxy,split_ratio_proxy=18.59,a6,0.8498,closed,2026-08-27,2026-08-27T16:35:00Z,0.893,paper_target,5.083549070369501,0,5.8837,-1.1532
+2026-08-27,2026-08-27T14:41:00Z,FTFT,10:30,a6_reverse_split_proxy,split_ratio_proxy=105.68,a6,0.5874,open,,,,,,0,1.9748,-5.4137
+2026-08-27,2026-08-27T14:41:00Z,YAAS,10:30,a6_reverse_split_proxy,split_ratio_proxy=60.09,a6,2.245,closed,2026-08-27,2026-08-27T14:45:00Z,2.36,paper_target,5.122494432071259,0,5.1225,0.0
+2026-08-27,2026-08-27T14:41:00Z,WSHP,10:30,a6_reverse_split_proxy,split_ratio_proxy=44.85,a6,5.573,closed,2026-08-27,2026-08-27T19:30:00Z,5.69,paper_target,2.0994078593217296,0,2.0994,-6.693
+2026-08-27,2026-08-27T14:41:00Z,BDRX,10:30,a6_reverse_split_proxy,split_ratio_proxy=67.76,a6,0.8766,open,,,,,,0,2.6694,-0.7529
+2026-08-27,2026-08-27T14:41:00Z,CRCD,10:30,a6_reverse_split_proxy,split_ratio_proxy=32.36,a6;a8,2.2599,closed,2026-08-27,2026-08-27T18:30:00Z,2.33,paper_target,3.101907164033809,0,3.9869,-2.6506
+2026-08-27,2026-08-27T14:41:00Z,NBIZ,10:30,a6_reverse_split_proxy,split_ratio_proxy=190.78,a6;a8,6.29,closed,2026-08-27,2026-08-27T15:00:00Z,6.61,paper_target,5.087440381558033,0,5.5596,-0.4769
+2026-08-27,2026-08-27T14:41:00Z,LUCY,10:30,a3_prior_spike,peak_to_baseline_ratio=1.812;volume_spike_ratio=1658.38,,1.005,open,,,,,,0,3.4726,-7.4527
+2026-08-27,2026-08-27T14:41:00Z,FBDT,10:30,a2_atr_guardrail,atr_14_pct=0.6929;atr_3_pct=1.2056,,1.0699,open,,,,,,0,2.8133,-11.6086
+2026-08-27,2026-08-27T14:41:00Z,APUS,10:30,a7_stale_quote,ask_gap_pct=0.0437;last_real_price=4.005;reason=gap_exceeded,,4.09,open,,,,,,0,1.0513,-8.6406

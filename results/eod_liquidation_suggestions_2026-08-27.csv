@@ -1,0 +1,2 @@
+symbol,quantity,avg_buy_price,current_price,pct_change_since_buy,low_since_buy,current_resting_target_price,rationale
+WEN,1,7.9399,7.815,-1.5731,7.77,8.10,"Not flagged: pct_change -1.57% does not meet the <=-5% threshold (near_low=true, trend_down=true, but decline threshold not met)"
