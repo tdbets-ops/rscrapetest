@@ -1,0 +1,2 @@
+symbol,quantity,avg_buy_price,current_price,pct_change_since_buy,low_since_buy,current_resting_target_price,rationale
+RYET,5,0.85,0.8588,0.0104,0.82,0.867,not flagged: pct_change_since_buy +1.04% (not <=-5%, so near_low/trend_down not evaluated as SUGGEST_LIQUIDATE requires all three)
