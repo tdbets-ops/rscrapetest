@@ -1,4 +1,4 @@
-# Daily analytics — 2026-08-31 (PARTIAL — D10 still running, follow-up commit pending)
+# Daily analytics — 2026-08-31
 
 ## Headline
 
@@ -66,4 +66,26 @@ Only RYET is open (bought 10:30 window, 5 sh @ $0.85). pct_change_since_buy is *
 
 ## Guardrail paper-trade ledger (D10)
 
-**Still running as a background agent at commit time — this section will be completed and this summary republished in a follow-up commit once it finishes.**
+**⚠️ Data-quality flag before reading the table**: OMH (skip_reason a2_atr), and VBIO/CALC (skip_reason a5_compliance) closed today with implausible ROIs of +4297%, +2812%, and +396% — traced to apparent reverse stock splits over the weekend (confirmed via 60+ consistent intraday bars, reproduced under both split-adjusted and raw pricing) that created a price discontinuity between the stored entry_price and today's daily bar. FTFT and KALA (both skip_reason **a6_reverse_split_proxy** — the guardrail this ledger exists to validate) show the same pattern but are still open, so they haven't polluted a6's numbers *yet*; expect a similar distortion when they close. **These 3 closed outliers are excluded from the "clean" columns below**; raw (as-recorded) aggregates are shown alongside for transparency. This is likely to recur — a reverse split is structurally exactly the failure mode a6 is trying to flag, so paper trades that survive one will keep generating unusable ROI outliers.
+
+| skip_reason | n (closed) | win% | mean ROI% (raw) | mean ROI% (clean) | median ROI% | sum ROI% (clean) | still open |
+|---|---|---|---|---|---|---|---|
+| a3_prior_spike | 33 | 93.9% | 4.24 | 4.24 | 5.08 | 139.89 | 9 |
+| a5_compliance | 29 | 82.8% | 113.69 | 3.30 (n=27, excl. VBIO/CALC) | 5.09 | 89.23 | 3 |
+| **a6_reverse_split_proxy** | **22** | **72.7%** | **0.11** | **0.11** | **5.07** | **2.32** | **5 (incl. FTFT/KALA, likely split-distorted on close)** |
+| a1_spread (all variants) | 25 | 96.0% | 5.30 | 5.30 | 5.14 | 132.49 | 6 |
+| a2_atr (all variants) | 9 | 55.6% | 476.42 | -9.48 (n=6, excl. OMH; a2_atr_guardrail n=2 kept as-is) | 5.03 | -47.85 | 3 |
+| a8_leveraged_inverse_etf | 6 | 100.0% | 4.24 | 4.24 | 2.09 | 25.45 | 1 |
+| a4_earnings_recency | 5 | 40.0% | -3.30 | -3.30 | -3.57 | -16.50 | 1 |
+| a7 (thin_liquidity/stale_quote, all variants) | 2 | 50.0% | 0.34 | 0.34 | 0.34 | 0.67 | 0 |
+
+Totals: 133 closed, 31 open (was 104 closed / 36 open before today). Today: 24 new paper positions opened from today's skipped_candidates (20 closed same-day: 18 target hits, 2 auto-liquidates; 4 still open); of the 36 carried-forward open positions, 9 closed (5 time-stops at session 4, 3 target hits, 1 drawdown stop), 27 remain open.
+
+**a6 specifically (the guardrail under review)**: 72.7% win rate, mean +0.11%, median +5.07%, summed +2.32% ROI on its 22 closed paper trades — a solidly positive, unremarkable-looking population, *not* the kind of result that would argue for loosening the 15x threshold. Sample is still small (22 closed, 5 open) and about to get noisier from the FTFT/KALA split issue above.
+
+**Baseline for comparison** (account's actual realized results, 2026-08-25 through today, matching the ledger's window): **11 real closed round trips, 54.5% win rate (6W/5L), +$0.03 total realized P&L** (source: get_realized_pnl / get_pnl_trade_history). Every guardrail's closed-paper win rate above (55.6%–100%) is at or above this baseline, and most guardrails' clean mean/median ROI is comparable to or better than the real book's near-breakeven result — but see the caveats below before reading that as "loosen the guardrails."
+
+**Mandatory caveats** (bound what these numbers mean):
+1. Guardrails short-circuit in a1→a8 order, so skip_reason is only a candidate's *first* failure. A paper winner blocked by a6 might still have failed a7 or a8 had a6 not existed (a7 is never recomputed here — it needs an extra historicals call per candidate — so removing a6 or a8 is never a clean "we would have won this" claim). Cross-check the fundamentals_guardrails_failed column, which records every one of a5/a6/a8 a candidate would have failed.
+2. Paper entries fill at the observed price with no spread paid and no slippage, while real buys are MARKET orders — every paper result is optimistic relative to a real fill, most of all for the wide-spread, thin, low-priced names these guardrails target.
+3. Target exits assume a limit fills whenever a bar's high touches it, matching how the real resting GTC limit behaves (and how D3 already simulates), but it's still an assumption.
