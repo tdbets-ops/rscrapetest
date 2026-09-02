@@ -1,0 +1,2 @@
+symbol,quantity,avg_buy_price,current_price,pct_change_since_buy,low_since_buy,current_resting_target_price,rationale
+CANF,1,2.5399,2.36,-0.0708,2.32,2.60,SUGGEST_LIQUIDATE: pct_change_since_buy=-7.08% (<=-5% threshold); near_low (current 2.36 <= low_since_buy*1.02=2.3664); trend_down (2nd-half avg close 2.3958 < 1st-half avg 2.5388 since 14:42 fill). Advisory only -- not executed.
