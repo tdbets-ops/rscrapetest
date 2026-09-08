@@ -1,0 +1,2 @@
+symbol,quantity,avg_buy_price,current_price,pct_change_since_buy,low_since_buy,current_resting_target_price,rationale
+LASE,4,1.06,0.9511,-0.1027,0.95,1.09,"Down 10.3% since buy; current price $0.9511 is within 2% of post-buy low $0.9500 (threshold $0.9690); 5-min closes trending down since fill (first-half avg close $1.0558 -> second-half avg close $1.0118). Meets all three SUGGEST_LIQUIDATE conditions; well below current resting GTC target of $1.09."
