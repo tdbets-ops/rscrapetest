@@ -1,0 +1,3 @@
+symbol,quantity,avg_buy_price,current_price,pct_change_since_buy,low_since_buy,current_resting_target_price,rationale
+BBOT,1,5.7399,5.51,-0.0401,5.48,5.86,not_flagged: pct_change -4.01% does not meet <=-5% threshold (near_low=true, trend_down=true)
+BENF,3,1.4387,1.2117,-0.1578,1.125,1.47,not_flagged: pct_change -15.78% meets threshold and trend_down=true but not near_low (current 1.2117 vs low_since_buy*1.02=1.1475)
