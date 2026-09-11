@@ -1,0 +1,5 @@
+symbol,quantity,avg_buy_price,current_price,pct_change_since_buy,low_since_buy,current_resting_target_price,rationale
+CVV,1,4.9399,4.7499,-0.0385,4.56,5.04,Not flagged: pct_change -3.85% does not meet the -5% threshold (D7 rule requires all three of pct<=-5%, near_low, trend_down).
+SGLY,2,1.7699,1.57,-0.1129,1.52,1.81,"Not flagged: pct_change -11.29% and trend_down=True, but NOT near_low -- current price 1.57 is 3.3% above low_since_buy 1.52 (near_low requires <=1.02x low)."
+SMR,1,9.0799,8.605,-0.0523,8.57,9.27,"SUGGEST_LIQUIDATE: pct_change -5.23% (<=-5%), near_low (current 8.605 vs low 8.57, within 1.02x), and trend_down (second-half avg close below first-half avg close). Advisory only -- no order placed."
+TLS,1,4.1699,3.94,-0.0551,3.94,4.26,"SUGGEST_LIQUIDATE: pct_change -5.51% (<=-5%), near_low (current price equals low_since_buy), and trend_down (second-half avg close below first-half avg close). Advisory only -- no order placed."
