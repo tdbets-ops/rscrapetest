@@ -1,0 +1,4 @@
+symbol,quantity,avg_buy_price,current_price,pct_change_since_buy,low_since_buy,current_resting_target_price,rationale
+CNXU,1,4.47,4.46,-0.22,4.36,4.56,No liquidation suggested: pct_change_since_buy (-0.22%) does not breach -5% threshold. Price is well above low_since_buy (near_low=False), even though second-half average close is below first-half (trend_down=True).
+RADX,2,1.8099,1.52,-16.02,1.5,1.85,SUGGEST_LIQUIDATE: all three conditions met - pct_change_since_buy -16.02% <= -5%; current_price 1.52 is within 2% of low_since_buy 1.50 (near_low=True); second-half average close (1.5876) is below first-half average close (1.7076), confirming a downtrend since fill. Advisory only - not executed automatically.
+PRPL,1,2.86,2.90,1.40,2.801,2.92,No liquidation suggested: pct_change_since_buy is positive (+1.40%), fails the <= -5% threshold despite trend_down=True; price also not near its intraday low.
