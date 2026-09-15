@@ -93,4 +93,58 @@ Evaluated the three today-bought positions still open: **CNXU, RADX, PRPL**. Fil
 
 **These are advisory suggestions only. No order was placed, cancelled, or modified as part of this task or this suggestion — any action requires separate, explicit execution.**
 
-<!-- D10_PAPER_LEDGER_SECTION_GOES_HERE -->
+## Guardrail paper-trade ledger
+
+**Coverage:** 428 ledger rows (406 closed, 22 open) as of 2026-09-15 close, spanning entries from 2026-08-25 through today. Today: 25 new paper positions opened (from `results/skipped_candidates_20260915T1445Z.csv`; `DDC` excluded — already had an open row from 2026-09-10, dedup applied), 18 closed (12 same-day exits: JBDI, PFSA, LHSW, UZX, HYFT, BOXL, DBGI, PLCE, QCLS, ARMP, USDE, BURU; 6 carried-forward exits: MWYN time-stop-4-sessions, NXXT 25%-drawdown-stop, REED/MNTK/RENT/IMMP paper_target).
+
+**Data gap:** `YYGH` (open since 2026-08-28) returned not_found on daily historicals, 5-minute historicals, and tradability — likely delisted. Left unchanged in the ledger; needs manual review/write-off rather than continued carry-forward.
+
+### Results by skip_reason (closed trades only)
+
+| skip_reason | n closed | win rate | mean roi_pct | median roi_pct | summed roi_pct | still open |
+|---|---:|---:|---:|---:|---:|---:|
+| a1_spread | 49 | 81.6% | 2.05% | 5.01% | 100.3% | 1 |
+| a1_spread_gate | 6 | 83.3% | 0.00% | 5.00% | 0.0% | 0 |
+| a1_spread_guardrail | 17 | 94.1% | 4.76% | 5.12% | 80.8% | 4 |
+| a1_spread_pct | 8 | 62.5% | 85.98% | 4.70% | 687.8% | 0 |
+| a2_atr | 22 | 59.1% | 189.85% | 3.90% | 4176.7% | 0 |
+| a2_atr_guardrail | 16 | 43.8% | -7.04% | -3.91% | -112.6% | 2 |
+| a3_prior_spike | 88 | 81.8% | 109.31% | 5.01% | 9619.7% | 9 |
+| a3_prior_spike_guardrail | 1 | 100.0% | 5.00% | 5.00% | 5.0% | 0 |
+| a4_earnings_recency | 19 | 52.6% | -0.07% | 3.00% | -1.3% | 1 |
+| a5_compliance | 51 | 72.5% | 63.30% | 4.27% | 3228.3% | 2 |
+| a5_compliance_guardrail | 14 | 78.6% | 118.82% | 5.00% | 1663.5% | 0 |
+| **a6_reverse_split_proxy** | **65** | **69.2%** | **3.80%** | **5.00%** | **246.7%** | **1** |
+| a7_ask_gap_exceeded | 5 | 60.0% | -5.81% | 4.09% | -29.0% | 1 |
+| a7_stale_quote | 3 | 66.7% | -1.15% | 5.00% | -3.4% | 0 |
+| a7_stale_quote_gap | 3 | 66.7% | 0.17% | 3.00% | 0.5% | 0 |
+| a7_thin_liquidity | 7 | 57.1% | 0.59% | 2.00% | 4.1% | 0 |
+| a7_thin_liquidity_gap | 2 | 50.0% | -0.42% | -0.42% | -0.8% | 0 |
+| a7_thin_liquidity_stale_quote | 3 | 100.0% | 5.23% | 5.26% | 15.7% | 0 |
+| a8_leveraged_etf | 14 | 92.9% | 3.12% | 3.56% | 43.7% | 1 |
+| a8_leveraged_etf_gap | 2 | 100.0% | 11.08% | 11.08% | 22.2% | 0 |
+| a8_leveraged_inverse_etf | 11 | 81.8% | 1.59% | 5.15% | 17.4% | 0 |
+| **All closed (any reason)** | **406** | **74.1%** | **48.68%** | — | **19,765.1%** | **22** |
+
+*Naming note: several guardrails have logged under more than one `skip_reason` spelling over time (e.g. `a1_spread` vs `a1_spread_guardrail` vs `a1_spread_pct`; `a2_atr` vs `a2_atr_guardrail`; `a5_compliance` vs `a5_compliance_guardrail`). Rows are grouped by the exact `skip_reason` string as recorded, per spec, rather than merged — treat same-numbered rows as one guardrail family when reading results.*
+
+*Several mean_roi figures (a2_atr, a3_prior_spike, a5_compliance, a5_compliance_guardrail) are skewed by a handful of extreme outlier trades (e.g. GOSS +8,500%, OMH +4,297%, VBIO +2,812% — all `paper_target` exits on very low-priced names). The median columns are the more robust read on typical performance; the mean/summed columns are included as specified but should not be read as "typical."*
+
+### a6_reverse_split_proxy — guardrail under active review
+
+**65 closed paper trades, 69.2% win rate, mean ROI +3.80%, median ROI +5.00%, summed ROI +246.7%, 1 still open.** This is the population that a6 blocked and that would have been bought (and largely hit target) had the guardrail not existed. It is a solidly positive, majority-winning population on this ledger's numbers — but see caveats 1 and 2 below before treating that as a case for loosening a6.
+
+### Caveats (mandatory)
+
+1. **Guardrails short-circuit in a1→a8 order**, so `skip_reason` records only a candidate's *first* failure. Paper results for guardrail aX measure aX's *marginal* cost given a1…a(X-1) already passed — decision-relevant, but a paper winner blocked by a6 might also have been blocked by a7 or a8 had a6 not existed. Cross-check the `fundamentals_guardrails_failed` column, which records every one of a5/a6/a8 the candidate would have failed (for a6 rows specifically, 1 also carries `a8` and several carry `a5;a6` when a5 fired first but a6 would also have applied). **a7 is not recomputed here** — checking it would require an extra historicals call per candidate — so this is a known gap in every guardrail's marginal-cost estimate, including a6's.
+2. **Paper entries fill at the observed price with no spread paid and no slippage**, while real buys are market orders. Every paper result here is optimistic relative to a real fill, and most optimistic precisely for the wide-spread, thin, low-priced names these guardrails (a1, a5, a6 especially) are designed to catch — the a6 population (reverse-split-proxy penny stocks with sky-high split ratios) is a textbook case of this bias.
+3. **Target exits assume a limit fills whenever a bar's high touches it.** This matches how the real resting GTC limit order behaves, but it is still an assumption — real fills at the exact touch price are not guaranteed, particularly on illiquid names.
+
+### Baseline: paper ledger vs. actual account performance
+
+| | Win rate | P&L |
+|---|---|---|
+| **Paper ledger, all closed guardrail-blocked trades** | 74.1% (406 trades) | +19,765% summed ROI (mean +48.7%/trade) |
+| **Account 757884218, actual realized (all-time)** | ~55.5% (sample of the most recent 200 realized closes, 2026-07-23 to today) | **-$136.89** total realized gain, -3.68% total rate of return (all-time, via `get_realized_pnl`, span=all) |
+
+The account's actual win rate is an approximation from the most recent ~200 realized trades (the trade-history endpoint paginates and the account's history runs back to ~2026-07-16); the P&L figure is the exact all-time aggregate. **A guardrail is only worth loosening if its blocked population would have beaten what the account actually achieved** — on raw win rate and ROI, every guardrail bucket above (including a6) clears that bar handily, but per caveats 1-3 this paper ledger is a best-case, frictionless, single-guardrail-marginal estimate, not a live-trading forecast. Any loosening decision should discount these numbers for spread/slippage cost and for the un-tested a7 interaction before acting on them.
