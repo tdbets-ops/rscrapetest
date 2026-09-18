@@ -1,0 +1,2 @@
+symbol,quantity,avg_buy_price,current_price,pct_change_since_buy,low_since_buy,current_resting_target_price,rationale
+NUWE,5.0,0.93,0.9028,-2.92,0.88,0.977,"Checked: pct_change_since_buy -2.92% (not <= -5% threshold), near_low=false (current 0.9028 vs low*1.02=0.8976), trend_down=true. Fails the pct_change gate so not flagged despite trend_down. Only today-bought position still open (GWAV/AEI/RTB/TRVG all closed via resting sells before this firing)."
