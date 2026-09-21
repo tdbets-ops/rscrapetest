@@ -64,4 +64,26 @@ Both of today's real buys (LVWR, FLX) had already closed by the time of this 4:3
 - The full cohort log now spans 2,215 distinct symbols. Recovery tracking quoted the 150 most-recently-added symbols this cycle (uncapped total 2,215) and appended to `decliner_recovery_tracking.csv`; 3 symbols (UNI, WLFI, DOT) could not be quoted (likely delisted).
 
 ## Guardrail paper-trade ledger (D10)
-*Pending — the paper-trade ledger update (opening today's new paper positions from both skipped_candidates files and carrying forward all pre-existing open positions) is still running as a background subagent at the time of this commit. Per the 2026-07-28 lesson about not promising a follow-up that never lands, this partial report is being committed now; the ledger update and its per-guardrail win-rate table will follow in a separate commit later in this same firing once the subagent completes.*
+38 new paper positions opened today (13 from the 9:30 skip list, 25 from 10:30), after dedup against already-open symbols and same-day duplicates. 21 closed same-day (19 at target, 2 via the 60-min auto-liquidate: SSM -6.05%, FRGT -12.69%); 17 remain open. Separately, 16 pre-existing open positions from earlier days were carried forward on today's daily bar: 5 closed (CDT -25.0% drawdown-stop, WHLR -25.0% drawdown-stop, AEHL -25.0% drawdown-stop, ASTX +8.72% target, FEBO -5.61% time-stop-4-sessions), 10 remain open with updated peak/drawdown, and 1 (YYGH) could not be evaluated — Robinhood reports it `inactive_instruments` with no quote or daily bar over a wide range, likely a delisting/ticker-change; left untouched and flagged for manual review. **28 total paper positions open** across the ledger after today.
+
+**Full-history closed-trade stats by guardrail family** (493 closed rows, rolling up naming variants like `a1_spread`/`a1_spread_gate`/`a1_spread_pct` into 8 families):
+
+| skip_reason | n | win% | mean roi% | median roi% | sum roi% | still open |
+|---|---:|---:|---:|---:|---:|---:|
+| a1_spread | 103 | 81.6% | 39.961 | 5.045 | 4115.97 | 3 |
+| a2_atr | 45 | 57.8% | 90.559 | 4.157 | 4075.17 | 2 |
+| a3_prior_spike | 113 | 79.6% | 86.971 | 5.000 | 9827.75 | 4 |
+| a4_earnings | 19 | 52.6% | -0.069 | 3.000 | -1.31 | 2 |
+| a5_compliance | 73 | 75.3% | 67.285 | 5.000 | 4911.80 | 3 |
+| a6_reverse_split_proxy | 77 | 66.2% | 2.404 | 5.000 | 185.11 | 5 |
+| a7_thin_liquidity | 26 | 69.2% | 0.029 | 5.000 | 0.75 | 3 |
+| a8_leveraged_inverse_etf | 37 | 78.4% | 2.298 | 5.000 | 85.03 | 6 |
+
+On **a6** and **a8** specifically (the two under active review): both show positive average paper outcomes (a6: 66.2% win rate, +2.4% mean roi; a8: 78.4% win rate, +2.3% mean roi), suggesting these guardrails may be excluding trades with a positive average realized result — though see caveat (2) below on optimistic paper fills, and note a6/a8 candidates are disproportionately thin/volatile names where that optimism bias is largest.
+
+**Baseline — actual account performance** (best effort, via `get_realized_pnl`/`get_pnl_trade_history` for account 757884218): total realized P&L since trading began (~2026-06-22) is **-$137.25 across 253 closing trades** (Jun +$63.23/26 trades, Jul -$189.41/136 trades, Aug 22-Sep 21 -$11.07/91 trades). A partial 200-trade sample of that history shows an actual win rate of **~53.0%**, versus paper win rates of 58-82% per guardrail family above. The comparison is directional only — real trades are dollar P&L on small (mostly 1-30) share counts and reflect real spread/slippage/partial-target-fill dynamics the paper ledger doesn't fully replicate.
+
+**Caveats (restated per spec, always apply to the table above):**
+1. Guardrails short-circuit in a1->a8 order, so `skip_reason` is only a candidate's FIRST failure. A paper winner blocked by a6 might also have been blocked by a7 or a8 had a6 not existed — cross-check each row's `fundamentals_guardrails_failed` column (a7 is never recomputed here, since it needs its own extra historicals call per candidate).
+2. Paper entries fill at the observed price with no spread paid and no slippage, while real buys are MARKET orders — every paper result above is optimistic relative to a real fill, most of all for the thin, low-priced names these guardrails specifically target.
+3. Target exits assume a limit fills whenever a bar's high touches it, matching both the live resting GTC limit and D3's own simulation — but it remains an assumption, not an observed fill.
