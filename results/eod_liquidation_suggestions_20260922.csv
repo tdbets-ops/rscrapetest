@@ -1,0 +1,5 @@
+symbol,quantity,avg_buy_price,current_price,pct_change_since_buy,low_since_buy,current_resting_target_price,rationale
+DAVA,2,2.1199,2.125,0.0024,2.07,2.17,"no_flag: pct_change_since_buy=+0.24% (not <=-5%); not near_low (low_since_buy=2.07, current=2.125); trend_down=True but threshold not met"
+XNDU,1,5.9574,5.7699,-0.0315,5.75,6.08,no_flag: pct_change_since_buy=-3.15% (not <=-5%); near_low=True; trend_down=True but pct_change threshold not met
+NUR,4,1.21,1.16,-0.0413,1.1,1.24,"no_flag: pct_change_since_buy=-4.13% (not <=-5%); not near_low (low_since_buy=1.10, current=1.16); trend_down=True but pct_change threshold not met"
+AXG,3,1.6185,1.63,0.0071,1.58,1.66,no_flag: pct_change_since_buy=+0.71% (not <=-5%); not near_low; trend_down=False
