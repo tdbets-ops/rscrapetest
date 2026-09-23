@@ -1,0 +1,2 @@
+symbol,quantity,avg_buy_price,current_price,pct_change_since_buy,low_since_buy,current_resting_target_price,rationale
+INNV,1,9.5799,9.0009,-0.0604,8.9205,9.78,"SUGGEST_LIQUIDATE: pct_change_since_buy -6.04% (<=-5% threshold met); near_low=true (current 9.0009 vs low_since_buy*1.02=9.0989); trend_down=true (2nd-half avg close 9.026 < 1st-half avg close 9.304). All three conditions met. Advisory only -- no order placed."
