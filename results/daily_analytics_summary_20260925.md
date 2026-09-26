@@ -117,6 +117,85 @@ came within 0.1% of breakeven inside the 60-minute window. That is a step
 16a2 auto-liquidation, not a step 16a3 time-stop/drawdown-stop, so it is not
 counted in the "Exit-rule firings" section above.
 
+## Guardrail paper-trade ledger (D10)
+
+**New today:** 35 bracket candidates were skipped at the 10:30 firing; 32 new
+paper positions opened (3 — GIPR, HUBC, RKDA — deduped against an already-open
+row from an earlier day, per the dedup rule). Of the 32 new positions, 13
+closed same-day (all via `paper_target`) and 19 remain open.
+
+**Carried forward:** of 33 pre-existing open positions, 30 had a 2026-09-25
+daily bar and were updated (17 closed today — 4 via `paper_time_stop_4_sessions`,
+1 via `paper_target` counted among those, 4 via `paper_drawdown_stop_25pct`,
+plus 5 more `paper_target` exits; 13 remain open). **YYGH, PECE, and IRAB had
+no daily bar for 2026-09-25** (YYGH returned `not_found` on historicals —
+likely delisted; PECE and IRAB simply had zero trades that session) and were
+left unchanged this cycle — flagged for manual review if they stay silent.
+
+**Closed-trade stats by skip_reason** (ALL-TIME ledger, not just today —
+596 closed rows total):
+
+| skip_reason | n | win rate | mean roi% | median roi% | sum roi% | still open |
+|---|---|---|---|---|---|---|
+| a6_reverse_split_proxy | 96 | 71.9% | 2.45% | 4.97% | 234.78% | 9 |
+| a5_compliance / a5_compliance_guardrail | 69 / 19 | 73.9% / 84.2% | 46.89% / 88.59% | 4.5% / 5.0% | 3235.14% / 1683.28% | 1 / 6 |
+| a3_prior_spike / _guardrail | 138 / 3 | 81.2% / 66.7% | 71.59% / -1.06% | 5.01% / 4.39% | 9880.04% / -3.17% | 3 / 0 |
+| a2_atr / _guardrail | 32 / 21 | 65.6% / 52.4% | 131.0% / -5.47% | 4.76% / 3.44% | 4191.9% / -114.81% | 2 / 1 |
+| a1_spread (+3 label variants) | 71+27+17+6 | 82–89% | 1.9–122% | ~5.0% | see caveat | 4 |
+| a7_thin_liquidity (+variants) | ~29 total | 50–100% | -4.2% to 5.2% | varies | small | 7 |
+| a8_leveraged_inverse_etf (+variants) | ~46 total | 72–100% | 0.2–86.5% | 2–9% | positive | 1 |
+| a4_earnings / _recency | 1 / 21 | 100% / 47.6% | 6.5% / -0.46% | 6.5% / -0.12% | 6.5 / -9.61% | 0 / 4 |
+
+**⚠️ Data-quality flag, unrelated to today's backfill:** the `skip_reason`
+column has drifted across several naming variants over time (e.g.
+`a1_spread` vs `a1_spread_guardrail` vs `a1_spread_pct` vs `a1_spread_gate`;
+similarly for a2/a7/a8) — the table above groups the obvious ones but a
+clean re-bucketing would need a symbol-level pass. More importantly, **12
+pre-existing closed rows (all dated before today, all exited via
+`paper_target`) show implausible ROI in the hundreds or thousands of
+percent** — e.g. OMH (2026-08-27, entry $0.0837 → exit $3.68 = +4297%), GOSS
+(2026-09-10, +8500%), MGN (appears twice, +689% and +3215%). These may be
+genuine extreme moves in illiquid reverse-split-prone microcaps (which is
+exactly the population a6/a5 target), or they may reflect a stale/incorrect
+target computed on a sub-penny entry price in an earlier session — this
+backfill did not create them and cannot resolve which, but they **heavily
+distort category means** (removing OMH alone drops a2_atr's mean from +131%
+to -3.4%). **Recommend treating median roi%, not mean, as the reliable
+per-category number** until these 12 rows are individually audited.
+
+**a6 called out specifically (under active review):** with its 2 outlier
+rows (FTFT, +198% and +148%, both `paper_target`) INCLUDED: n=96, win 71.9%,
+mean +2.45%, median +4.97%, sum +234.78%. **EXCLUDING those 2**: n=94, win
+71.3%, **mean flips to -1.19%**, median +4.88%, sum -111.64%. The win rate
+and median barely move, but the mean's sign depends entirely on 2 of 96
+rows — a caution against reading a6's mean-ROI as settled evidence either
+way. The 15x threshold should still not be adjusted without a cleaner pass.
+
+**Caveats (per standing instructions):**
+1. Guardrails short-circuit in a1→a8 order; `skip_reason` is only the
+   candidate's first failure, so a paper "win" blocked by a6 might also have
+   failed a7 or a8 (a7 is never recomputed here — no extra API call). Cross-
+   check `fundamentals_guardrails_failed` before treating any removal as a
+   clean win.
+2. Paper entries fill at the observed price with no spread/slippage; real
+   buys are MARKET orders, so every paper result is optimistic — most of all
+   for the thin, low-priced names these guardrails specifically target.
+3. Target exits assume a resting limit fills the instant a bar's high
+   touches it, mirroring D3's assumption — plausible, but still an
+   assumption.
+
+**Baseline (D10g) — the account's ACTUAL realized results**, from
+`get_realized_pnl` (all-time, equity only): **-$143.28 total (-3.66%)** over
+269 closing trades since the account went live. Most recent ~30-day bucket
+(2026-08-27 through today): -$13.58 over 99 trades (-2.69%). A win-rate
+figure isn't directly available from this aggregate endpoint (it reports $
+and % gain per period, not win/loss counts), so it is not directly
+comparable to the paper ledger's per-trade win rate above — but the
+headline point stands regardless: **the real account is net negative
+all-time and in its most recent month**, which is the number any guardrail's
+paper-blocked population must beat, not merely turn positive, before that
+guardrail is worth loosening.
+
 ## Manual EOD liquidation suggestions (D7, advisory only — retrospective)
 
 Of today's two buys, only **QCLS** was still open at 2026-09-25 4:00pm ET
