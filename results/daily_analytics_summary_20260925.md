@@ -110,4 +110,25 @@ instructions does not apply today.
 
 Both of today's actual buys (QCLS, NTRB) remained open per the decay/trailing
 simulation as of the 4:00pm ET cutoff (never reached target); this is a
-same-day snapshot only, not a verdict on the eventual trade outcome.
+same-day snapshot only, not a verdict on the eventual trade outcome. In the
+REAL account, NTRB was closed intraday (15:53 UTC) by the step 16a2 60-minute
+auto-liquidate rule at $7.7501 (bought at $8.1199, -4.5%) — its peak never
+came within 0.1% of breakeven inside the 60-minute window. That is a step
+16a2 auto-liquidation, not a step 16a3 time-stop/drawdown-stop, so it is not
+counted in the "Exit-rule firings" section above.
+
+## Manual EOD liquidation suggestions (D7, advisory only — retrospective)
+
+Of today's two buys, only **QCLS** was still open at 2026-09-25 4:00pm ET
+(NTRB had already been auto-liquidated, above). Evaluated against the
+standard three-condition rule using that day's bars through 20:00 UTC:
+
+| symbol | pct_change_since_buy | near_low | trend_down | flagged |
+|---|---|---|---|---|
+| QCLS | -2.25% | true (0.8678 vs low×1.02=0.8697) | true | **no** — pct_change_since_buy did not clear the -5% threshold |
+
+`results/eod_liquidation_suggestions_20260925.csv` is header-only (nothing
+flagged). **This D7 read is purely retrospective** — it reconstructs what the
+advisory would have said at 2026-09-25 4pm ET using that day's data; it is
+not actionable today (2026-09-26, a non-trading Saturday) and no order was
+or would be placed regardless, per this section's advisory-only design.
