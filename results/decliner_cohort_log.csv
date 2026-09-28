@@ -12396,3 +12396,242 @@ date_seen,symbol,price_at_scan,pct_change_at_scan,sector,industry
 2026-09-25,ZKIN,1.63,-0.09444444444444453,,
 2026-09-25,ZNB,1.3213,-0.07601398601398603,,
 2026-09-25,ZTG,1.45,-0.07051282051282057,,
+2026-09-28,ACET,7.04,-0.2195121951219512,Health Technology,Pharmaceuticals: Major
+2026-09-28,ACTU,0.6148,-0.09588235294117652,Health Technology,Pharmaceuticals: Major
+2026-09-28,ADBG,3.315,-0.0778859527121002,Miscellaneous,Investment Trusts Or Mutual Funds
+2026-09-28,ADGM,0.182,-0.06666666666666672,Health Technology,Medical Specialties
+2026-09-28,ADXN,3.44,-0.05753424657534246,Health Technology,Pharmaceuticals: Major
+2026-09-28,AEHG,8.9,-0.08717948717948715,Miscellaneous,Investment Trusts Or Mutual Funds
+2026-09-28,AEHL,8.785,-0.06143162393162386,Producer Manufacturing,Building Products
+2026-09-28,AERO,0.78776,-0.06409570992384545,Transportation,Airlines
+2026-09-28,AFRU,8.35,-0.07836644591611489,Miscellaneous,Investment Trusts Or Mutual Funds
+2026-09-28,AGMH,0.7288,-0.05227568270481146,Technology Services,Packaged Software
+2026-09-28,AIDX,0.4035,-0.07177363699102818,Health Services,Medical/Nursing Services
+2026-09-28,AIFF,1.67,-0.16915422885572134,Health Technology,Medical Specialties
+2026-09-28,AIOT,2.59,-0.075,Technology Services,Packaged Software
+2026-09-28,AIXC,1.615,-0.06647398843930635,Technology Services,Packaged Software
+2026-09-28,AIXI,1.63,-0.05232558139534888,Technology Services,Packaged Software
+2026-09-28,AKAN,2.87,-0.05901639344262286,Process Industries,Agricultural Commodities/Milling
+2026-09-28,ALBG,4.206,-0.08688289696496024,Miscellaneous,Investment Trusts Or Mutual Funds
+2026-09-28,ALOY,8.4549,-0.05001123595505618,Non-Energy Minerals,Other Metals/Minerals
+2026-09-28,ALP,5.2537,-0.05847670250896054,Technology Services,Packaged Software
+2026-09-28,AMZE,0.1281,-0.058088235294117774,Technology Services,Packaged Software
+2026-09-28,ANGI,5.14,-0.0516605166051661,Technology Services,Internet Software/Services
+2026-09-28,APUS,6.2501,-0.13791724137931038,Health Technology,Biotechnology
+2026-09-28,AQMS,2.4797,-0.0535496183206108,Non-Energy Minerals,Other Metals/Minerals
+2026-09-28,ARB,0.209893,-0.07135620141491279,Miscellaneous,Investment Trusts Or Mutual Funds
+2026-09-28,ARQ,1.91,-0.054455445544554504,Process Industries,Chemicals: Major Diversified
+2026-09-28,ASAN,8.37,-0.07206208425720625,Technology Services,Packaged Software
+2026-09-28,ASM,5.635,-0.051346801346801446,Non-Energy Minerals,Precious Metals
+2026-09-28,ASPI,2.7399,-0.06328205128205122,Industrial Services,Engineering & Construction
+2026-09-28,ATHR,3.4,-0.08108108108108115,Technology Services,Internet Software/Services
+2026-09-28,ATRA,8.36,-0.05107832009080602,Health Technology,Pharmaceuticals: Major
+2026-09-28,ATTT,2.51,-0.08058608058608066,Consumer Durables,Electronics/Appliances
+2026-09-28,AUID,0.4183,-0.09829704677732265,Electronic Technology,Semiconductors
+2026-09-28,AUR,5.71,-0.05463576158940398,Technology Services,Packaged Software
+2026-09-28,AVAT,1.65,-0.10326086956521748,Finance,Financial Conglomerates
+2026-09-28,AXG,0.1733,-0.1335,Finance,Investment Banks/Brokers
+2026-09-28,AXTL,3.1727,-0.0948074179743224,Miscellaneous,Investment Trusts Or Mutual Funds
+2026-09-28,BANL,4.8296,-0.05301960784313717,Transportation,Air Freight/Couriers
+2026-09-28,BFRI,1.12,-0.0508474576271185,Health Technology,Pharmaceuticals: Major
+2026-09-28,BGDE,4.83,-0.1614583333333333,Technology Services,Packaged Software
+2026-09-28,BIAF,7.53,-0.05044136191677169,Health Technology,Medical Specialties
+2026-09-28,BIOX,0.3505,-0.06358535933742998,Process Industries,Chemicals: Agricultural
+2026-09-28,BLRX,2.44,-0.06153846153846159,Health Technology,Pharmaceuticals: Major
+2026-09-28,BMGL,3.51,-0.05135135135135145,Health Services,Medical/Nursing Services
+2026-09-28,BMM,4.85,-0.060077519379845054,Non-Energy Minerals,Other Metals/Minerals
+2026-09-28,BNC,5.79,-0.052373158756137524,Producer Manufacturing,Trucks/Construction/Farm Machinery
+2026-09-28,BOEG,9.72,-0.08715251690458294,Miscellaneous,Investment Trusts Or Mutual Funds
+2026-09-28,BONK,3.53e-06,-0.05614973262032088,,
+2026-09-28,BRIA,1.31,-0.06428571428571418,Distribution Services,Wholesale Distributors
+2026-09-28,BRLS,1.31,-0.057553956834532266,Technology Services,Information Technology Services
+2026-09-28,BRNX,2.3102,-0.07220883534136553,Industrial Services,Engineering & Construction
+2026-09-28,BRTX,2.35,-0.07843137254901951,Health Technology,Medical Specialties
+2026-09-28,BTMD,1.154,-0.054098360655737754,Health Services,Hospital/Nursing Management
+2026-09-28,BTTC,0.4566,-0.08331660309174861,Technology Services,Packaged Software
+2026-09-28,BW,5.945,-0.051834130781499094,Electronic Technology,Electronic Equipment/Instruments
+2026-09-28,CAPS,0.1552,-0.05018359853121166,Distribution Services,Wholesale Distributors
+2026-09-28,CBAT,1.17,-0.06400000000000006,Producer Manufacturing,Electrical Products
+2026-09-28,CDT,0.073,-0.08750000000000008,Health Technology,Pharmaceuticals: Major
+2026-09-28,CENN,4.21,-0.05203665758483251,Consumer Durables,Motor Vehicles
+2026-09-28,CHSN,1.11,-0.05128205128205114,Consumer Non-Durables,Food: Specialty/Candy
+2026-09-28,CISO,0.2265,-0.06055578598092078,Technology Services,Information Technology Services
+2026-09-28,CLDI,1.0655,-0.057079646017699125,Health Technology,Biotechnology
+2026-09-28,CLGN,3.9611,-0.06797647058823528,Health Technology,Medical Specialties
+2026-09-28,CLNN,4.05,-0.05813953488372093,Health Technology,Pharmaceuticals: Major
+2026-09-28,COUR,4.765,-0.056435643564356465,Commercial Services,Miscellaneous Commercial Services
+2026-09-28,CPOP,4.767,-0.0616141732283464,Commercial Services,Advertising/Marketing Services
+2026-09-28,CRE,2.65,-0.06028368794326239,Commercial Services,Commercial Printing/Forms
+2026-09-28,CSAI,3.33,-0.05665722379603392,Technology Services,Packaged Software
+2026-09-28,CVKD,1.09,-0.05217391304347812,Health Technology,Biotechnology
+2026-09-28,CVV,4.11,-0.06590909090909092,Electronic Technology,Electronic Production Equipment
+2026-09-28,CYAB,0.2063,-0.05018416206261507,Technology Services,Packaged Software
+2026-09-28,CYPH,3.8166,-0.0736407766990291,Health Technology,Biotechnology
+2026-09-28,DAVA,1.7107,-0.054861878453038644,Technology Services,Information Technology Services
+2026-09-28,DCOY,2.815,-0.08899676375404528,Health Technology,Biotechnology
+2026-09-28,DDC,0.1853,-0.06224696356275306,Technology Services,Internet Software/Services
+2026-09-28,DFDV,5.5323,-0.08405629139072844,Finance,Financial Conglomerates
+2026-09-28,DFNS,7.05,-0.09499358151476255,Commercial Services,Advertising/Marketing Services
+2026-09-28,DXLG,0.4707,-0.0570913461538461,Retail Trade,Apparel/Footwear Retail
+2026-09-28,ELPW,3.0201,-0.05326018808777434,Producer Manufacturing,Electrical Products
+2026-09-28,ELWT,6.675,-0.06315789473684214,Technology Services,Information Technology Services
+2026-09-28,ENLV,0.5501,-0.07933054393305439,Health Technology,Biotechnology
+2026-09-28,ENVX,2.6933,-0.061567944250871184,Producer Manufacturing,Electrical Products
+2026-09-28,EVEX,2.055,-0.05299539170506902,Electronic Technology,Aerospace & Defense
+2026-09-28,EVTL,0.69,-0.06630581867388369,Electronic Technology,Aerospace & Defense
+2026-09-28,EXK,8.905,-0.051650692225772225,Non-Energy Minerals,Precious Metals
+2026-09-28,EYPT,3.3358,-0.07850828729281774,Health Technology,Pharmaceuticals: Major
+2026-09-28,FEBO,0.6302,-0.08666666666666663,Consumer Durables,Electronics/Appliances
+2026-09-28,FEDU,9.13,-0.08699999999999992,Consumer Services,Other Consumer Services
+2026-09-28,FFAI,1.49,-0.07453416149068329,Consumer Durables,Motor Vehicles
+2026-09-28,FLNC,7.449,-0.05108280254777068,Producer Manufacturing,Electrical Products
+2026-09-28,FMFC,0.182,-0.0704800817160368,Consumer Non-Durables,Consumer Sundries
+2026-09-28,FNGR,0.1417,-0.06406869220607671,Technology Services,Packaged Software
+2026-09-28,FOFO,2.0201,-0.07757990867579916,Commercial Services,Miscellaneous Commercial Services
+2026-09-28,FTHM,0.54,-0.07375643224699817,Technology Services,Packaged Software
+2026-09-28,GAU,1.95,-0.05339805825242723,Non-Energy Minerals,Precious Metals
+2026-09-28,GCDT,0.6069,-0.09552906110283166,Industrial Services,Engineering & Construction
+2026-09-28,GIFT,0.6,-0.09977494373593399,Technology Services,Data Processing Services
+2026-09-28,GIPR,0.4006,-0.06837209302325577,Finance,Real Estate Investment Trusts
+2026-09-28,GLND,5.055,-0.08754512635379066,Finance,Financial Conglomerates
+2026-09-28,GLOO,4.3854,-0.08062893081761004,Technology Services,Packaged Software
+2026-09-28,GLXG,1.025,-0.09292035398230088,Commercial Services,Miscellaneous Commercial Services
+2026-09-28,GNLN,2.9,-0.055374592833876204,Distribution Services,Wholesale Distributors
+2026-09-28,GNPX,2.86,-0.1306990881458967,Health Technology,Pharmaceuticals: Major
+2026-09-28,GTEC,0.9666,-0.11321100917431198,Producer Manufacturing,Industrial Machinery
+2026-09-28,GTM,3.5165,-0.062266666666666616,Technology Services,Packaged Software
+2026-09-28,GUTS,0.4602,-0.05230642504118612,Health Technology,Biotechnology
+2026-09-28,GWH,0.1798,-0.14380952380952383,Producer Manufacturing,Electrical Products
+2026-09-28,HCTI,0.7272,-0.06529562982005149,Technology Services,Information Technology Services
+2026-09-28,HCWB,1.79,-0.0725388601036269,Health Technology,Biotechnology
+2026-09-28,HKIT,2.73,-0.0520833333333333,Technology Services,Packaged Software
+2026-09-28,HLSQ,0.4998,-0.05340909090909091,Health Technology,Biotechnology
+2026-09-28,HUBC,1.78,-0.06315789473684205,Commercial Services,Miscellaneous Commercial Services
+2026-09-28,IFBD,1.16,-0.13432835820895533,Technology Services,Packaged Software
+2026-09-28,IMTE,0.47,-0.06000000000000005,Electronic Technology,Electronic Production Equipment
+2026-09-28,INDP,3.41,-0.11428571428571427,Health Technology,Pharmaceuticals: Major
+2026-09-28,INEO,0.5901,-0.07158590308370058,Distribution Services,Wholesale Distributors
+2026-09-28,INLF,4.2,-0.17647058823529402,Producer Manufacturing,Industrial Machinery
+2026-09-28,INSE,4.29,-0.06126914660831515,Technology Services,Packaged Software
+2026-09-28,IONR,3.13,-0.05438066465256802,Process Industries,Chemicals: Agricultural
+2026-09-28,IPDN,4.225,-0.06111111111111119,Commercial Services,Commercial Printing/Forms
+2026-09-28,IPST,3.0434,-0.17967654986522907,Consumer Non-Durables,Beverages: Alcoholic
+2026-09-28,ITRG,2.605,-0.052727272727272734,Non-Energy Minerals,Precious Metals
+2026-09-28,IZM,1.22,-0.054263565891472916,Retail Trade,Internet Retail
+2026-09-28,JAGX,6.76,-0.12207792207792213,Health Technology,Pharmaceuticals: Major
+2026-09-28,JDZG,3.33,-0.22737819025522032,Commercial Services,Miscellaneous Commercial Services
+2026-09-28,JG,6.3,-0.07216494845360828,Technology Services,Data Processing Services
+2026-09-28,JUNS,2.47,-0.07490636704119841,Health Technology,Pharmaceuticals: Major
+2026-09-28,JXG,6.5632,-0.051560693641618464,Consumer Non-Durables,Apparel/Footwear
+2026-09-28,JZ,0.4263,-0.061426684280052796,Commercial Services,Miscellaneous Commercial Services
+2026-09-28,KITT,2.02,-0.12931034482758613,Producer Manufacturing,Industrial Machinery
+2026-09-28,KLXE,1.475,-0.08385093167701864,Energy Minerals,Oil & Gas Production
+2026-09-28,KPLT,4.625,-0.08234126984126985,Commercial Services,Miscellaneous Commercial Services
+2026-09-28,KSCP,0.855,-0.06023301824576838,Producer Manufacturing,Industrial Machinery
+2026-09-28,LABT,1.325,-0.20658682634730538,Health Technology,Biotechnology
+2026-09-28,LDI,0.63255,-0.05603641247575001,Finance,Finance/Rental/Leasing
+2026-09-28,LGHL,6.51,-0.1082191780821918,Finance,Investment Banks/Brokers
+2026-09-28,LONA,2.94,-0.0953846153846154,Health Technology,Biotechnology
+2026-09-28,MBRX,0.5542,-0.07878989361702127,Health Technology,Pharmaceuticals: Major
+2026-09-28,MITQ,0.5886,-0.05141015310233688,Consumer Durables,Electronics/Appliances
+2026-09-28,MNDR,1.29,-0.05147058823529416,Health Services,Medical/Nursing Services
+2026-09-28,MNOV,2.36,-0.08527131782945743,Health Technology,Pharmaceuticals: Major
+2026-09-28,MRLN,1.86,-0.0653266331658291,Technology Services,Packaged Software
+2026-09-28,MTEK,0.977,-0.10776255707762557,Consumer Durables,Electronics/Appliances
+2026-09-28,MVIS,1.52,-0.050000000000000044,Electronic Technology,Semiconductors
+2026-09-28,NCEL,2.76,-0.0632954352621755,Health Technology,Biotechnology
+2026-09-28,NCPL,1.23,-0.09558823529411772,Commercial Services,Miscellaneous Commercial Services
+2026-09-28,NCT,4.135,-0.06659142212189616,Transportation,Marine Shipping
+2026-09-28,NEXM,2.05,-0.05963302752293593,Non-Energy Minerals,Other Metals/Minerals
+2026-09-28,NFE,6.27,-0.08064516129032268,Utilities,Gas Distributors
+2026-09-28,NG,6.71,-0.05890603085553996,Non-Energy Minerals,Precious Metals
+2026-09-28,NIVF,0.4643,-0.17104088555615077,Finance,Financial Conglomerates
+2026-09-28,NRGV,4.165,-0.053409090909090975,Producer Manufacturing,Electrical Products
+2026-09-28,NRSN,5.9243,-0.1475827338129497,Health Technology,Pharmaceuticals: Major
+2026-09-28,NUR,1.01,-0.056074766355140235,Distribution Services,Electronics Distributors
+2026-09-28,NWTG,0.98,-0.057692307692307744,Consumer Durables,Recreational Products
+2026-09-28,NXH,3.105,-0.050458715596330285,Retail Trade,Internet Retail
+2026-09-28,OCUL,8.895,-0.078238341968912,Health Technology,Pharmaceuticals: Major
+2026-09-28,OIO,1.56,-0.05454545454545446,Finance,Financial Conglomerates
+2026-09-28,OKUR,2.7,-0.06896551724137923,Health Technology,Pharmaceuticals: Major
+2026-09-28,ONEN,2.18,-0.12799999999999995,Finance,Financial Conglomerates
+2026-09-28,ONFO,0.8623,-0.0524175824175825,Commercial Services,Advertising/Marketing Services
+2026-09-28,OPTT,1.755,-0.126865671641791,Producer Manufacturing,Electrical Products
+2026-09-28,PAAI,1.66,-0.051428571428571476,Technology Services,Internet Software/Services
+2026-09-28,PARA,0.6535,-0.0664285714285714,Technology Services,Packaged Software
+2026-09-28,PDSB,0.7322,-0.08142014803663288,Health Technology,Pharmaceuticals: Major
+2026-09-28,PFSA,1.8489,-0.1518807339449542,Finance,Financial Conglomerates
+2026-09-28,PICS,8.23,-0.05293440736478701,Commercial Services,Miscellaneous Commercial Services
+2026-09-28,PMAX,1.5052,-0.0708641975308642,Communications,Specialty Telecommunications
+2026-09-28,PMEC,0.55,-0.1020408163265306,Commercial Services,Miscellaneous Commercial Services
+2026-09-28,POM,0.91,-0.125,Distribution Services,Medical Distributors
+2026-09-28,PTN,9.5,-0.05894006934125811,Health Technology,Pharmaceuticals: Major
+2026-09-28,PZG,1.22,-0.06870229007633594,Non-Energy Minerals,Precious Metals
+2026-09-28,QNME,0.6576,-0.10954637779282339,Transportation,Air Freight/Couriers
+2026-09-28,QTEX,0.663,-0.1456185567010309,Health Technology,Medical Specialties
+2026-09-28,RDZN,1.315,-0.06071428571428569,Technology Services,Packaged Software
+2026-09-28,RECT,1.31,-0.050724637681159306,Distribution Services,Wholesale Distributors
+2026-09-28,REFR,0.7501,-0.05218599949456659,Consumer Durables,Home Furnishings
+2026-09-28,REKR,0.3816,-0.055445544554455516,Commercial Services,Miscellaneous Commercial Services
+2026-09-28,RENX,2.04,-0.07272727272727278,Finance,Real Estate Development
+2026-09-28,RKDA,0.29,-0.057217165149544884,Process Industries,Chemicals: Agricultural
+2026-09-28,RML,6.0,-0.05956112852664575,Non-Energy Minerals,Precious Metals
+2026-09-28,ROMA,8.37,-0.0664941669826684,Commercial Services,Miscellaneous Commercial Services
+2026-09-28,RUBI,1.0601,-0.06185840707964589,Transportation,Marine Shipping
+2026-09-28,SBSW,9.9391,-0.06323279924599431,Non-Energy Minerals,Precious Metals
+2026-09-28,SCKT,0.4527,-0.06156716417910449,Electronic Technology,Computer Peripherals
+2026-09-28,SCZM,8.85,-0.06645569620253172,Non-Energy Minerals,Precious Metals
+2026-09-28,SFWL,8.83,-0.05763073639274271,Transportation,Air Freight/Couriers
+2026-09-28,SHFS,0.1261,-0.19783715012722655,Finance,Financial Conglomerates
+2026-09-28,SLE,4.75,-0.055666003976143186,Technology Services,Internet Software/Services
+2026-09-28,SLMT,4.52,-0.05439330543933068,Consumer Services,Movies/Entertainment
+2026-09-28,SLND,0.6184,-0.061893203883495236,Industrial Services,Engineering & Construction
+2026-09-28,SMX,7.1502,-0.10734082397003744,Technology Services,Packaged Software
+2026-09-28,SNSC,1.23,-0.05384615384615389,Industrial Services,Engineering & Construction
+2026-09-28,SPHL,2.88,-0.07692307692307698,Consumer Durables,Homebuilding
+2026-09-28,SPRU,1.84,-0.051546391752577254,Utilities,Electric Utilities
+2026-09-28,SPT,9.0,-0.05660377358490558,Technology Services,Packaged Software
+2026-09-28,SQFT,1.38,-0.08000000000000007,Finance,Real Estate Investment Trusts
+2026-09-28,SRL,5.05,-0.05783582089552248,Non-Energy Minerals,Steel
+2026-09-28,STKE,1.555,-0.057575757575757565,Finance,Financial Conglomerates
+2026-09-28,SUGP,0.5,-0.10039582583663181,Commercial Services,Miscellaneous Commercial Services
+2026-09-28,SURG,0.1367,-0.066256830601093,Technology Services,Packaged Software
+2026-09-28,SWAG,1.46,-0.06410256410256415,Commercial Services,Advertising/Marketing Services
+2026-09-28,SWRD,2.475,-0.051724137931034406,Non-Energy Minerals,Construction Materials
+2026-09-28,TAOP,0.5225,-0.0667976424361493,Technology Services,Packaged Software
+2026-09-28,TCRT,1.0206,-0.06366972477064231,Health Technology,Biotechnology
+2026-09-28,TDIC,2.65,-0.1613924050632912,Commercial Services,Miscellaneous Commercial Services
+2026-09-28,TGL,1.54,-0.2769953051643192,Commercial Services,Miscellaneous Commercial Services
+2026-09-28,THH,1.585,-0.06213017751479289,Consumer Services,Media Conglomerates
+2026-09-28,THM,2.568,-0.06956521739130425,Non-Energy Minerals,Precious Metals
+2026-09-28,TII,2.69,-0.06597222222222221,Non-Energy Minerals,Other Metals/Minerals
+2026-09-28,TMCR,3.7501,-0.07859950859950861,Finance,Financial Conglomerates
+2026-09-28,TRAW,0.5288,-0.06107954545454543,Health Technology,Biotechnology
+2026-09-28,TREO,3.35,-0.05633802816901401,Non-Energy Minerals,Other Metals/Minerals
+2026-09-28,TRTX,6.21,-0.053353658536585316,Finance,Real Estate Investment Trusts
+2026-09-28,TRUG,0.2681,-0.0569820612029546,Technology Services,Packaged Software
+2026-09-28,TRX,1.22,-0.054263565891472916,Non-Energy Minerals,Precious Metals
+2026-09-28,TWG,0.1317,-0.19695121951219507,Distribution Services,Food Distributors
+2026-09-28,UK,1.99,-0.052380952380952424,Finance,Real Estate Development
+2026-09-28,USAS,4.504,-0.06749482401656325,Non-Energy Minerals,Other Metals/Minerals
+2026-09-28,VEEA,2.87,-0.06818181818181816,Technology Services,Packaged Software
+2026-09-28,VNET,6.205,-0.06551204819277102,Technology Services,Data Processing Services
+2026-09-28,VNTG,0.6858,-0.05925925925925928,Transportation,Marine Shipping
+2026-09-28,VSA,2.525,-0.07846715328467163,Commercial Services,Miscellaneous Commercial Services
+2026-09-28,VSME,0.9246,-0.07540000000000002,Commercial Services,Advertising/Marketing Services
+2026-09-28,VVOS,0.1323,-0.05970149253731337,Health Technology,Medical Specialties
+2026-09-28,VWAV,4.06,-0.16632443531827526,Technology Services,Packaged Software
+2026-09-28,WHLR,4.46,-0.14230769230769236,Finance,Real Estate Investment Trusts
+2026-09-28,WVVI,1.81,-0.06701030927835046,Consumer Non-Durables,Beverages: Alcoholic
+2026-09-28,WXM,3.7247,-0.06882500000000003,Distribution Services,Wholesale Distributors
+2026-09-28,XAIR,2.6,-0.08771929824561403,Health Technology,Medical Specialties
+2026-09-28,XHG,2.22,-0.05531914893617017,Finance,Real Estate Development
+2026-09-28,XLAB,2.3,-0.053497942386831414,Technology Services,Data Processing Services
+2026-09-28,XPL,0.6,-0.05347846663511601,Non-Energy Minerals,Other Metals/Minerals
+2026-09-28,XXII,1.15,-0.13533834586466176,Health Technology,Biotechnology
+2026-09-28,YJ,1.7,-0.06593406593406599,Retail Trade,Catalog/Specialty Distribution
+2026-09-28,YOUL,0.435,-0.10951893551688842,Miscellaneous,Miscellaneous
+2026-09-28,YTRA,0.9221,-0.06858585858585854,Consumer Services,Other Consumer Services
+2026-09-28,ZBAO,0.0808,-0.11982570806100228,Finance,Insurance Brokers/Services
+2026-09-28,ZEO,0.3599,-0.05587618048268622,Utilities,Electric Utilities
+2026-09-28,ZKIN,2.18,-0.07234042553191486,Producer Manufacturing,Industrial Machinery

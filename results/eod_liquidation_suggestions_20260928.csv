@@ -1,0 +1,2 @@
+symbol,quantity,avg_buy_price,current_price,pct_change_since_buy,low_since_buy,current_resting_target_price,rationale
+OPTT,2,1.7585,1.675,-0.0475,1.670,1.80,"Not flagged: pct_change_since_buy -4.75% is above the -5% threshold (condition d not met), though near_low is true (current within 2% of low_since_buy)."
