@@ -1,0 +1,6 @@
+symbol,quantity,avg_buy_price,current_price,pct_change_since_buy,low_since_buy,current_resting_target_price,rationale
+BXBL,1,3.29,3.27,-0.0061,3.25,3.36,not flagged: pct_change -0.61% above -5% threshold
+LNAI,3,1.4988,1.48,-0.0125,1.385,1.53,not flagged: pct_change -1.25% above -5% threshold
+BSEM,1,3.2785,3.08,-0.0605,3.0,3.35,not flagged: near_low=false (current 3.08 vs low 3.00, +2.7%, outside 2% near-low band) despite pct_change -6.05% and trend_down=true
+GLAS,1,5.8974,5.6,-0.0504,5.18,6.02,not flagged: near_low=false (current 5.60 vs low 5.18, +8.1%, outside 2% near-low band) despite pct_change -5.04% and trend_down=true
+OXBR,4,1.1239,0.9799,-0.1281,0.965,1.15,"SUGGEST_LIQUIDATE: pct_change -12.81% <= -5%, near_low=true (0.9799 vs low 0.965, within 2%), trend_down=true (second-half avg close 0.9842 < first-half avg 1.0956); down sharply, sitting at its post-buy low, still falling -- advisory only, no order placed"
