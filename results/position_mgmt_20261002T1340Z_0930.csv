@@ -1,0 +1,9 @@
+timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
+2026-10-02T13:51:20Z,BXBL,3.46,3.46,3.38,3.05,0.05,no_change_target_matches
+2026-10-02T13:51:20Z,BKYI,2.61,2.61,2.49,2.1209,0.05,no_change_target_matches
+2026-10-02T13:51:20Z,QNC,1.93,1.93,1.87,1.46,0.05,no_change_target_matches
+2026-10-02T13:51:20Z,BSEM,3.45,3.45,3.378,3.00,0.05,no_change_target_matches
+2026-10-02T13:51:20Z,GLAS,6.20,6.20,5.61,4.9661,0.05,no_change_target_matches
+2026-10-02T13:51:20Z,OXBR,1.18,1.18,1.1679,0.965,0.05,no_change_target_matches
+2026-10-02T13:51:20Z,GRML,9.76,9.76,9.54,8.50,0.05,no_change_target_matches
+2026-10-02T13:51:20Z,EPRX,8.50,8.50,8.255,7.68,0.05,no_change_target_matches
