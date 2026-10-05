@@ -1,0 +1,2 @@
+symbol,quantity,avg_buy_price,current_price,pct_change_since_buy,low_since_buy,current_resting_target_price,rationale
+NXH,2,2.2899,2.06,-0.1004,2.02,2.34,"pct_change_since_buy -10.04% <= -5% AND near_low (current 2.06 <= low_since_buy*1.02=2.0604) AND trend_down (first-half avg close 2.1537 > second-half avg close 2.0714) -- all three SUGGEST_LIQUIDATE criteria met"
