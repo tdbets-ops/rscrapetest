@@ -1,0 +1,2 @@
+symbol,quantity,avg_buy_price,current_price,pct_change_since_buy,low_since_buy,current_resting_target_price,rationale
+ENHA,3,1.2872,1.235,-4.05,1.180,1.32,"Fails the first gate: pct_change_since_buy -4.05% does not clear the -5% threshold, so near_low/trend_down were not evaluated. No SUGGEST_LIQUIDATE flag."
