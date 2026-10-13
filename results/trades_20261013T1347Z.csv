@@ -1,0 +1,2 @@
+timestamp_utc,symbol,quantity,avg_fill_price,limit_sell_price,pct_change_at_bracket,last_price_at_bracket,guardrail_detail
+2026-10-13T13:47:00Z,ENHA,3,1.2872,1.36,-0.1433333333333334,1.284,a1_spread=0.0545;a2_atr14_pct=0.1005;a2_atr3_pct=0.1723;a3_ratio=1.120;a3_vol_spike=4.23;a4_days_since_earnings=61;a5_indicator=CA0;a5_description=;a6_split_ratio_proxy=10.90;a7_ask_gap_pct=0.0280;a8_industry=Financial Conglomerates

@@ -1,21 +1,31 @@
 symbol,entry_price,pct_change,skip_reason,guardrail_detail,fundamentals_guardrails_failed,evaluated_at,firing
-AIOK,6.75,-0.23448275862068957,a1_spread_widened_at_execution,spread_pct_at_eval=0.0148;spread_pct_at_order=0.1458;bid=6.75;ask=7.75;last=6.86,,2026-10-12T13:44:00Z,9:30
-OFAL,0.4387,-0.21927272727272734,a5_compliance_guardrail,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5;a6,2026-10-12T13:44:00Z,9:30
-WORX,3.075,-0.195656836461126,a3_prior_spike,peak_to_baseline_ratio=2.856,,2026-10-12T13:44:00Z,9:30
-NTCL,1.225,-0.18666666666666668,a6_reverse_split_proxy,split_ratio_proxy=126.5,a6,2026-10-12T13:44:00Z,9:30
-FFR,1.50,-0.16666666666666669,a3_prior_spike,peak_to_baseline_ratio=1.703;volume_spike_ratio=13.74,,2026-10-12T13:44:00Z,9:30
-VEEA,4.8215,-0.16491228070175445,a3_prior_spike,peak_to_baseline_ratio=1.822;volume_spike_ratio=34.92,,2026-10-12T13:44:00Z,9:30
-GCDT,0.4263,-0.15980000000000005,a2_atr_guardrail,atr_14_pct=1.879;atr_3_pct=1.144,,2026-10-12T13:44:00Z,9:30
-LBGJ,1.63,-0.1440106951871658,a1_spread,spread_pct=0.0859,,2026-10-12T13:44:00Z,9:30
-MLEC,2.03,-0.13636363636363646,a1_spread,spread_pct=0.0837,,2026-10-12T13:44:00Z,9:30
-RETO,1.1401,-0.12704545454545452,a2_atr_guardrail,atr_14_pct=10.25;atr_3_pct=0.4118,,2026-10-12T13:44:00Z,9:30
-DCX,2.41,-0.11630976826048685,a2_atr_guardrail,atr_14_pct=3.547;atr_3_pct=0.2464,,2026-10-12T13:44:00Z,9:30
-VJET,1.035,-0.10333333333333326,a2_atr_guardrail,atr_14_pct=1.550;atr_3_pct=1.642,,2026-10-12T13:44:00Z,9:30
-FLYE,2.1398,-0.14549356223175963,a3_prior_spike,peak_to_baseline_ratio=2.355;volume_spike_ratio=522.4,,2026-10-12T13:44:00Z,9:30
-QTEX,1.6499,-0.11791443850267387,a3_prior_spike,peak_to_baseline_ratio=2.301;volume_spike_ratio=14.26,,2026-10-12T13:44:00Z,9:30
-CD,7.502,-0.10277136258660514,a3_prior_spike,peak_to_baseline_ratio=3.147,,2026-10-12T13:44:00Z,9:30
-ENTL,9.22,-0.11416512250360304,a8_leveraged_etf,industry=Investment Trusts Or Mutual Funds;description_marker=leveraged exposure,a8,2026-10-12T13:44:00Z,9:30
-AAOX,9.52,-0.10754716981132065,a8_leveraged_etf,industry=Investment Trusts Or Mutual Funds;description_marker=leveraged exposure,a8,2026-10-12T13:44:00Z,9:30
-AAOG,2.115,-0.10638297872340426,a8_leveraged_etf,industry=Investment Trusts Or Mutual Funds;description_marker=leveraged exposure,a8,2026-10-12T13:44:00Z,9:30
-VCIG,0.4183,-0.10225711481844943,a6_reverse_split_proxy,split_ratio_proxy=9899.1,a6,2026-10-12T13:44:00Z,9:30
-GP,0.335,-0.10809371671991473,a7_thin_liquidity,reason=no_recent_real_trades;last_real_trade_at=13:39:20Z;now=13:46Z,,2026-10-12T13:44:00Z,9:30
+SHFS,0.3,-0.24912718204488787,a5_compliance_guardrail,indicator=CC4;description=Noncompliant,a5;a6,2026-10-13T13:47:00Z,9:30
+SDST,0.0378,-0.2427184466019417,a3_prior_spike,ratio=1.355;vol_spike=5.37,,2026-10-13T13:47:00Z,9:30
+YRD,0.44,-0.23985701519213581,a1_spread_guardrail,spread_pct=0.1136;ask=0.4812;bid=0.4312;last=0.440,,2026-10-13T13:47:00Z,9:30
+CIFC,4.35,-0.23678160919540228,a1_spread_guardrail,spread_pct=0.1172;ask=3.22;bid=2.71;last=4.35,,2026-10-13T13:47:00Z,9:30
+SXTC,0.0785,-0.22254901960784312,a2_atr_guardrail,atr14_pct=12.87;atr3_pct=18.08,,2026-10-13T13:47:00Z,9:30
+MNDR,2.39,-0.22039473684210523,a3_prior_spike,ratio=4.274;vol_spike=330.44,,2026-10-13T13:47:00Z,9:30
+VCIG,0.349,-0.21568181818181814,a6_reverse_split_proxy,split_ratio_proxy=11862.46,a6,2026-10-13T13:47:00Z,9:30
+BBCI,4.085,-0.20594059405940596,a1_spread_guardrail,spread_pct=0.1690;ask=4.18;bid=3.49;last=4.085,,2026-10-13T13:47:00Z,9:30
+CDT,0.54,-0.18015151515151515,a1_spread_guardrail,spread_pct=0.1400;ask=0.5841;bid=0.5085;last=0.540,,2026-10-13T13:47:00Z,9:30
+ZNB,0.8455,-0.17821782178217827,a3_prior_spike,ratio=1.360;vol_spike=796.52,,2026-10-13T13:47:00Z,9:30
+BEEP,2.28,-0.16788321167883224,a1_spread_guardrail,spread_pct=0.1667;ask=2.65;bid=2.27;last=2.28,,2026-10-13T13:47:00Z,9:30
+OPNW,3.46,-0.15326633165829143,a7_thin_liquidity_guardrail,ask_gap_pct=0.0550;last_real_price=3.4502;ask=3.64;stale_reason=gap_exceeded,,2026-10-13T13:47:00Z,9:30
+EHGO,0.533,-0.1531860797711742,a6_reverse_split_proxy,split_ratio_proxy=21.01,a6,2026-10-13T13:47:00Z,9:30
+ASTG,4.54,-0.14893617021276587,a8_leveraged_inverse_etf,industry=Investment Trusts Or Mutual Funds;desc_marker=2x leveraged exposure,a8,2026-10-13T13:47:00Z,9:30
+VIVK,1.87,-0.1474193548387096,a2_atr_guardrail,atr14_pct=0.7307;atr3_pct=1.0037,,2026-10-13T13:47:00Z,9:30
+WHLR,0.3925,-0.14432314410480346,a2_atr_guardrail,atr14_pct=2.663;atr3_pct=0.6847,,2026-10-13T13:47:00Z,9:30
+WORX,2.61,-0.14240506329113928,a3_prior_spike,ratio=2.856;vol_spike=9388.29,,2026-10-13T13:47:00Z,9:30
+RKDA,0.1976,-0.1415929203539823,a3_prior_spike,ratio=1.520;vol_spike=1174.77,,2026-10-13T13:47:00Z,9:30
+ASUP,4.2356,-0.1374613003095974,a8_leveraged_inverse_etf,industry=Investment Trusts Or Mutual Funds;desc_marker=leveraged exposure,a8,2026-10-13T13:47:00Z,9:30
+GIXI,4.0,-0.1326483050847458,a3_prior_spike,ratio=1.563;vol_spike=858.77,,2026-10-13T13:47:00Z,9:30
+ASTY,3.27,-0.13262599469496023,a8_leveraged_inverse_etf,industry=Investment Trusts Or Mutual Funds;desc_marker=2x leveraged exposure,a8,2026-10-13T13:47:00Z,9:30
+RETO,1.005,-0.12508771929824558,a2_atr_guardrail,atr14_pct=10.73;atr3_pct=0.3843,,2026-10-13T13:47:00Z,9:30
+BDAI,2.48,-0.12056737588652477,a3_prior_spike,ratio=1.406;vol_spike=1025.64,,2026-10-13T13:47:00Z,9:30
+POM,0.59,-0.11835748792270533,a1_spread_guardrail,spread_pct=0.1379;ask=0.636;bid=0.5546;last=0.590,,2026-10-13T13:47:00Z,9:30
+ASTX,6.185,-0.11424541607898443,a6_reverse_split_proxy,split_ratio_proxy=18.47,a6;a8,2026-10-13T13:47:00Z,9:30
+MI,0.8112,-0.11419619706136562,a1_spread_guardrail,spread_pct=0.0986;ask=0.880;bid=0.800;last=0.8112,,2026-10-13T13:47:00Z,9:30
+APLX,5.3076,-0.11272875816993459,a8_leveraged_inverse_etf,industry=Investment Trusts Or Mutual Funds;desc_marker=2x exposure;daily price movement of,a8,2026-10-13T13:47:00Z,9:30
+NTCL,0.9869,-0.11009174311926614,a6_reverse_split_proxy,split_ratio_proxy=157.08,a6,2026-10-13T13:47:00Z,9:30
+APUS,4.68,-0.10575000000000001,a3_prior_spike,ratio=5.580;vol_spike=123.03,,2026-10-13T13:47:00Z,9:30
+SBFM,0.2713,-0.10000000000000002,a2_atr_guardrail,atr14_pct=0.6054;atr3_pct=0.8334,,2026-10-13T13:47:00Z,9:30
