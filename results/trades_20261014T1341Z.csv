@@ -1,0 +1,3 @@
+timestamp_utc,symbol,side,quantity,fill_price,limit_sell_price,order_id_buy,order_id_sell,last_price,pct_change,spread_pct,atr_14_pct,atr_3_pct,peak_to_baseline_ratio,volume_spike_ratio,days_since_earnings,financial_status_indicator,financial_status_description,split_ratio_proxy,ask_gap_pct,firing
+2026-10-14T13:45:24Z,SKYD,buy,1,7.0799,7.44,6acf8773-fc7b-48b5-8f58-e12e9df2b74c,6acf8780-cd52-4697-9524-f7b98a164336,7.315,-0.20927723840345194,0.00137,0.0792,0.0742,1.140,n/a,far,CA0,,2.417,-0.00915,9:30
+2026-10-14T13:45:25Z,JLHL,buy,1,4.6899,4.93,6acf8775-522e-4543-9c27-86547601ce65,6acf8781-51ad-443d-a5ce-ff1d11f50af8,4.5727,-0.11456310679611664,0.04594,0.1189,0.1835,1.1224,n/a,far,CC0,,12.68,0.02412,9:30
