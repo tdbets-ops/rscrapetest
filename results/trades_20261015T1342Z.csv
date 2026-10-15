@@ -1,0 +1,5 @@
+symbol,last_price,pct_change,quantity,avg_fill_price,limit_sell_price,spread_pct,atr14_pct,atr3_pct,peak_to_baseline_ratio,volume_spike_ratio,days_since_earnings,financial_status_indicator,financial_status_description,split_ratio_proxy,leveraged_etf_check,ask_gap_pct,evaluated_at,firing
+GLND,3.2989,-0.15412820512820508,1,3.1884,3.35,0.00309,0.2235,0.3201,1.4543,1.668,56,CC0,,7.099,pass,0.0000,2026-10-15T13:46:38Z,9:30
+FLNT,2.2,-0.1538461538461538,1,2.5799,2.71,0.0371,0.0916,0.0978,1.0441,,66,CC0,,1.852,pass,0.0117,2026-10-15T13:46:46Z,9:30
+SAIQ,3.4,-0.12371134020618557,1,3.3799,3.55,0.02933,0.4514,0.3482,1.2199,,,CC0,,3.797,pass,0.0264,2026-10-15T13:46:54Z,9:30
+AGPU,7.67,-0.1081395348837209,1,7.8499,8.25,0.01282,0.1434,0.1599,1.1584,,62,CC0,,1.767,pass,0.0000,2026-10-15T13:47:04Z,9:30

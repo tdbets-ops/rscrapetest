@@ -1,4 +1,5 @@
-timestamp_utc,symbol,side,quantity,fill_price,limit_sell_price,order_id_buy,order_id_sell,last_price,pct_change,spread_pct,atr_14_pct,atr_3_pct,peak_to_baseline_ratio,volume_spike_ratio,days_since_earnings,financial_status_indicator,financial_status_description,split_ratio_proxy,ask_gap_pct,firing
-2026-10-14T14:53:01Z,NWGL,buy,7,0.6558,0.689,6acf974c-b8e5-4451-bd7b-f61eefd8d2a9,6acf9755-1f49-4391-8a08-28af5bc4041c,0.9074,-0.23747899159663863,0.0,1.1693,n/a,1.1693,4.65,far,CC0,,2.829,-0.0745,10:30
-2026-10-14T14:53:14Z,AIBZ,buy,1,2.7585,2.90,6acf975a-14b0-4fbd-a062-c978707bad8b,6acf9761-dd5a-479b-b49c-9bc81628c174,2.74,-0.12319999999999993,0.0145,0.1273,0.1143,1.1511,2.6,far,CC0,,3.727,0.00094,10:30
-2026-10-14T14:53:26Z,REA,buy,1,7.0441,7.40,6acf9765-52f1-4e9c-91d9-9184f5e01f8e,6acf976c-2a89-4f03-b16d-0f124c9a6f81,7.2353,-0.11223312883435592,0.014,0.099,0.1154,1.0364,1.48,far,CB0,,4.205,0.02703,10:30
+symbol,last_price,pct_change,quantity,avg_fill_price,limit_sell_price,spread_pct,atr14_pct,atr3_pct,peak_to_baseline_ratio,volume_spike_ratio,days_since_earnings,financial_status_indicator,financial_status_description,split_ratio_proxy,leveraged_etf_check,ask_gap_pct,evaluated_at,firing
+GLND,3.2989,-0.15412820512820508,1,3.1884,3.35,0.00309,0.2235,0.3201,1.4543,1.668,56,CC0,,7.099,pass,0.0000,2026-10-15T13:46:38Z,9:30
+FLNT,2.2,-0.1538461538461538,1,2.5799,2.71,0.0371,0.0916,0.0978,1.0441,,66,CC0,,1.852,pass,0.0117,2026-10-15T13:46:46Z,9:30
+SAIQ,3.4,-0.12371134020618557,1,3.3799,3.55,0.02933,0.4514,0.3482,1.2199,,,CC0,,3.797,pass,0.0264,2026-10-15T13:46:54Z,9:30
+AGPU,7.67,-0.1081395348837209,1,7.8499,8.25,0.01282,0.1434,0.1599,1.1584,,62,CC0,,1.767,pass,0.0000,2026-10-15T13:47:04Z,9:30
