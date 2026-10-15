@@ -54,3 +54,40 @@ No per-firing breakdown is possible today since only the 9:30am firing scanned �
 
 ---
 *(D3–D6 content above. Further sections, if any, are appended below this line by a separate process.)*
+
+## Exit-rule firings (D6a)
+One step-16a3 liquidation fired today, executed by the local every-10-minute Phase C loop (not a cloud firing — none of today's cloud position_mgmt_*.csv rows show a time_stop/drawdown_stop reason; identified from the raw order history instead):
+
+| Symbol | Condition | sessions_held | drawdown_pct at exit | Realized P&L | 4:00pm close |
+|---|---|---|---|---|---|
+| ZENA | time_stop_4_sessions | 4 | -5.31% | -$0.25 (4 sh, 1.1669→1.105) | $1.115 |
+
+ZENA was bought 2026-10-09 (Fri) and hit its scheduled 4-session time stop today (sessions: 10/9=0, 10/12=1, 10/13=2, 10/14=3, 10/15=4), well short of the -25% drawdown stop. Holding to today's 4:00pm close ($1.115) would have been marginally better (-$0.21 vs -$0.25) but still a loss — essentially a wash, not a clear case either way for this single observation.
+
+## Guardrail saturation check (D6b)
+Today's only buy firing (9:30am ET) placed 4 trades — not zero — so the zero-buy saturation diagnostic does not apply. The 10:30/11:30/3:30 firings never reached Phase B at all today (10:30 and 3:30 are non-buy windows by design regardless; 11:30 is also a non-buy window; all three additionally never scanned due to the Step-0 balance gate). No firing this session placed zero buys after actually running Phase B, so there is nothing to flag here today.
+
+## EOD liquidation suggestions (D7, advisory only — not executed automatically)
+Only one symbol bought today remained open at analysis time: **SAIQ** (1 share, avg buy $3.3799). Not flagged: pct_change_since_buy is -4.73%, just short of the -5% gate (current $3.22 vs low_since_buy $3.11; near_low also fails at current price > low×1.02 = $3.17). Full detail in `results/eod_liquidation_suggestions_2026-10-15.csv`. These are suggestions only — no action is taken on them by this routine.
+
+## Guardrail paper-trade ledger (D10)
+Ledger: `results/guardrail_paper_trades.csv`, 1144 total rows (1122 resolved-closed, 21 open, 1 unresolved historical row with no exit data — a pre-existing delisted-symbol case, excluded from the stats below).
+
+**Today's activity:** 33 new day-0 paper positions opened from today's single skipped_candidates file (3 candidates already had an open paper position from a prior day and were deduped). Of those 33: 28 closed via target, 3 via the 60-minute auto-liquidate, 2 still open (FFAI, EDUC). Separately, 29 pre-existing open rows were carried forward on daily bars: 3 closed via target, 6 via the 25% drawdown stop, 1 via the 4-session time stop (XRTX), 19 remain open (2 of those — LESL, MUZE — left untouched for lack of usable data: LESL's historicals call returned not_found, likely delisted; MUZE had zero real trades today, consistent with its own a7 thin-liquidity skip).
+
+**Cumulative stats by guardrail** (closed rows only, grouped by guardrail letter since `skip_reason` strings have varied over the ledger's history — e.g. `a6`/`a6_reverse_split_proxy` are the same guardrail):
+
+| Guardrail | n closed | Win rate | Mean ROI | Median ROI | Still open |
+|---|---|---|---|---|---|
+| a1 (spread) | 230 | 80.0% | +22.06% | +5.05% | 2 |
+| a2 (ATR) | 108 | 62.0% | +135.69% | +4.32% | 0 |
+| a3 (prior spike) | 248 | 74.2% | +39.92% | +5.00% | 6 |
+| a4 (earnings recency) | 32 | 53.1% | -0.36% | +2.53% | 1 |
+| a5 (compliance) | 176 | 72.7% | +31.79% | +4.22% | 4 |
+| a6 (reverse-split proxy, under active review) | 197 | 65.0% | -0.47% | +4.82% | 3 |
+| a7 (thin liquidity / stale quote) | 57 | 70.2% | -0.03% | +5.00% | 4 |
+| a8 (leveraged/inverse ETF) | 73 | 63.0% | +2.59% | +2.12% | 1 |
+
+(Mean ROI is heavily skewed by a handful of extreme-percentage penny-stock movers in a2/a3 — median is the more representative figure for most of these groups.)
+
+**Baseline comparison (the number that matters):** over the same 2026-08-25→2026-10-15 window, the account's actual realized trades won **57.6% (106/184), net -$22.28** (matches `get_realized_pnl`'s -$22.28/-2.42% exactly). Every guardrail group above shows a HIGHER paper win rate than the account's real 57.6% baseline — including a6 at 65.0%. This is consistent with the account's three standing caveats (short-circuit ordering means skip_reason is only a candidate's first failure; paper fills have no spread/slippage vs real market-order fills; target fills assume a touch always fills) rather than evidence any guardrail should be loosened — a6 in particular remains under review pending a larger sample, per the 2026-08-25 note, and this routine does not change guardrail thresholds itself.
