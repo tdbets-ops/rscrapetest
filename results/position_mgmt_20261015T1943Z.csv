@@ -1,0 +1,5 @@
+timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
+2026-10-15T19:43:42Z,CRVO,2.80,2.80,2.74,2.13,0.02,no_change_decay_governs_trailing_invalid
+2026-10-15T19:43:42Z,SAIQ,3.45,3.45,3.48,3.11,0.02,no_change_decay_governs
+2026-10-15T19:43:42Z,REA,7.22,7.22,7.36,6.1989,0.02,no_change_trailing_governs
+2026-10-15T19:43:42Z,IAE,,,,,,instrument_inactive_unresolvable_skipped
