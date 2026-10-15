@@ -1,0 +1,11 @@
+timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
+2026-10-15T14:45:24Z,GLND,3.35,3.35,3.21,3.0412,0.05,no_change_decay_governs
+2026-10-15T14:45:24Z,SAIQ,3.55,3.55,3.48,3.1408,0.05,no_change_decay_governs
+2026-10-15T14:45:24Z,FLNT,2.72,2.72,2.775,2.52,0.05,no_change_trailing_governs
+2026-10-15T14:45:24Z,ZENA,1.23,1.23,1.21,0.9538,0.05,no_change_decay_governs
+2026-10-15T14:45:24Z,CRVO,2.88,2.88,2.74,2.13,0.05,no_change_decay_governs_trailing_invalid
+2026-10-15T14:45:24Z,ENHA,1.36,1.36,1.33,1.09,0.05,no_change_decay_governs
+2026-10-15T14:45:24Z,JLHL,4.93,4.93,4.87,4.34,0.05,no_change_decay_governs
+2026-10-15T14:45:24Z,AIBZ,2.90,2.90,2.81,2.32,0.05,no_change_decay_governs_trailing_invalid
+2026-10-15T14:45:24Z,REA,7.40,7.40,7.36,6.1989,0.05,no_change_decay_governs
+2026-10-15T14:45:24Z,IAE,,,,,,instrument_inactive_unresolvable_skipped
