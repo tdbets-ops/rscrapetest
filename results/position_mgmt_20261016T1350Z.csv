@@ -1,0 +1,5 @@
+timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
+2026-10-16T13:50:19Z,CRVO,2.88,2.88,2.75,2.13,0.05,no_change_needed;sessions_held=4;dd=-0.1825
+2026-10-16T13:50:19Z,SAIQ,3.55,3.55,3.48,3.1301,0.05,no_change_needed;sessions_held=1;dd=-0.0444
+2026-10-16T13:50:19Z,GP,0.316,0.315,0.3031,0.30,0.05,decay_target_replaced;sessions_held=0;dd=0.0
+2026-10-16T13:50:19Z,IAEZZZ,n/a,n/a,n/a,n/a,n/a,untradeable_instrument_not_found;no_avg_buy_price

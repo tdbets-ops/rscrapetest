@@ -1,0 +1,2 @@
+symbol,side,quantity,avg_fill_price,dollar_spent,limit_sell_price,order_id_buy,order_id_sell,spread_pct,atr14_pct,atr3_pct,prior_spike_ratio,volume_spike_ratio,days_since_earnings,financial_status_indicator,financial_status_description,split_ratio_proxy,ask_gap_pct,industry,last_price_bracket,pct_change_bracket,evaluated_at,firing
+GP,buy,16,0.3005,4.808,0.316,6ad22add-8e00-4a14-8d17-9b9d1e590cc2,6ad22ae8-4e72-407c-ad08-2f7c53a00061,0.0104,0.2755,0.3168,1.2516,n/a,60,CC0,,10.70,0.0175,Motor Vehicles,0.3084,-0.11420373027259685,2026-10-16T13:45:00Z,9:30

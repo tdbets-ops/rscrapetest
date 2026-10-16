@@ -1,0 +1,33 @@
+symbol,entry_price,pct_change,skip_reason,guardrail_detail,fundamentals_guardrails_failed,evaluated_at,firing
+GCDT,0.255,-0.2272727272727273,a1_spread,spread_pct=0.1231,,2026-10-16T13:45:00Z,9:30
+RADX,1.01,-0.14814814814814817,a1_spread,spread_pct=0.0889,,2026-10-16T13:45:00Z,9:30
+TREO,1.7676,-0.12820512820512822,a1_spread,spread_pct=0.1018,,2026-10-16T13:45:00Z,9:30
+MLEC,1.63,-0.11764705882352951,a1_spread,spread_pct=0.1043,,2026-10-16T13:45:00Z,9:30
+NXTC,6.1,-0.11627906976744183,a1_spread,spread_pct=0.0934,,2026-10-16T13:45:00Z,9:30
+PMEC,0.4555,-0.1082615505090055,a1_spread,spread_pct=0.3624,,2026-10-16T13:45:00Z,9:30
+BBCI,2.445,-0.22468354430379744,a2_atr,atr14_pct=0.5322;atr3_pct=1.1627,,2026-10-16T13:45:00Z,9:30
+WFF,0.126,-0.20812499999999998,a2_atr,atr14_pct=37.941;atr3_pct=66.951,,2026-10-16T13:45:00Z,9:30
+ZBAO,0.8381,-0.12832090727711865,a2_atr,atr14_pct=1.0875;atr3_pct=0.9399,,2026-10-16T13:45:00Z,9:30
+WETO,1.095,-0.11426229508196718,a2_atr,atr14_pct=1.1917;atr3_pct=0.2792,,2026-10-16T13:45:00Z,9:30
+SNES,0.6381,-0.14187643020594976,a3_prior_spike,peak_to_baseline_ratio=1.3891;volume_spike_ratio=862.75,,2026-10-16T13:45:00Z,9:30
+ESLA,0.4628,-0.14013452914798208,a3_prior_spike,peak_to_baseline_ratio=1.8434;volume_spike_ratio=2586.0,,2026-10-16T13:45:00Z,9:30
+LOOP,0.3201,-0.13997850617947336,a4_earnings_recency,days_since_earnings=1,,2026-10-16T13:45:00Z,9:30
+NTRP,1.54,-0.10778443113772451,a4_earnings_recency,days_since_earnings=1,,2026-10-16T13:45:00Z,9:30
+BURU,0.76,-0.23423147581139012,a5_compliance,financial_status_indicator=CB4;financial_status_description=Noncompliant,a5;a6,2026-10-16T13:45:00Z,9:30
+HAIN,0.2324,-0.18871940404398724,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5,2026-10-16T13:45:00Z,9:30
+SDST,0.0345,-0.17079207920792072,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5;a6,2026-10-16T13:45:00Z,9:30
+MBRX,0.3106,-0.14563631450959202,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5;a6,2026-10-16T13:45:00Z,9:30
+SNTI,0.2217,-0.12657743785850867,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5,2026-10-16T13:45:00Z,9:30
+CRIS,0.3537,-0.23740157480314958,a6_reverse_split_proxy,split_ratio_proxy=95.03,a6,2026-10-16T13:45:00Z,9:30
+JAGX,4.0999,-0.2047930283224401,a6_reverse_split_proxy,split_ratio_proxy=294.5,a6,2026-10-16T13:45:00Z,9:30
+EOSU,1.79,-0.13658536585365846,a6_reverse_split_proxy,split_ratio_proxy=426.0,a6;a8,2026-10-16T13:45:00Z,9:30
+RBNE,1.69,-0.13402061855670103,a6_reverse_split_proxy,split_ratio_proxy=77.67,a6,2026-10-16T13:45:00Z,9:30
+CWVX,7.9989,-0.12998911860718165,a6_reverse_split_proxy,split_ratio_proxy=15.045,a6;a8,2026-10-16T13:45:00Z,9:30
+CRWG,9.555,-0.1297907188353049,a6_reverse_split_proxy,split_ratio_proxy=16.58,a6;a8,2026-10-16T13:45:00Z,9:30
+IRE,4.3401,-0.10291060291060275,a6_reverse_split_proxy,split_ratio_proxy=28.73,a6;a8,2026-10-16T13:45:00Z,9:30
+IREX,6.4001,-0.10169491525423725,a6_reverse_split_proxy,split_ratio_proxy=24.26,a6;a8,2026-10-16T13:45:00Z,9:30
+MUZE,10.011,-0.1499350714214364,a7_thin_liquidity,no_recent_real_trades,,2026-10-16T13:45:00Z,9:30
+REVB,0.6175,-0.18761479926528474,a7_thin_liquidity,ask_gap_pct=0.0527;last_real_price=0.6175;gap_exceeded,,2026-10-16T13:45:00Z,9:30
+IREC,9.46,-0.10923625954557865,a8_leveraged_etf,check=ii;industry=;description_marker=2x leveraged exposure,a8,2026-10-16T13:45:00Z,9:30
+IREG,3.6,-0.10424317617866008,a8_leveraged_etf,check=i;industry=Investment Trusts Or Mutual Funds,a8,2026-10-16T13:45:00Z,9:30
+IDX,9.205,-0.10097087378640784,a8_leveraged_etf,check=i;industry=Investment Trusts Or Mutual Funds,a8,2026-10-16T13:45:00Z,9:30
