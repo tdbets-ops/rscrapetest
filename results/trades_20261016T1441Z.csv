@@ -1,0 +1,3 @@
+timestamp_utc,symbol,side,quantity,fill_price,limit_sell_price,scan_last_price,scan_pct_change,spread_pct,atr14_pct,atr3_pct,peak_to_baseline_ratio,volume_spike_ratio,days_since_earnings,financial_status_indicator,financial_status_description,split_ratio_proxy,a7_ask_gap_pct,a8_leveraged_flag,firing
+2026-10-16T14:46:17Z,EBS,buy,1,6.2799,6.60,6.26,-0.11977715877437319,0.0016,0.060,0.056,1.124,3.16,72,CA0,,2.247,-0.0142,false,10:30
+2026-10-16T14:46:25Z,AIBZ,buy,2,2.4699,2.60,2.46,-0.10545454545454547,0.0040,0.152,0.179,1.100,2.35,60,CC0,,4.149,0.00407,false,10:30
