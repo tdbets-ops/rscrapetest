@@ -1,6 +1,5 @@
 timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
-20261016T1544Z,CRVO,2.88,2.88,2.75,2.13,0.05,no_change_decay_floor_sessions_held=4;dd=-0.1752
-20261016T1544Z,SAIQ,3.55,3.55,3.48,3.11,0.05,no_change_decay_floor_sessions_held=1;dd=-0.0592
-20261016T1544Z,AIBZ,2.60,2.60,2.47,2.40,0.05,no_change_decay_floor_sessions_held=0;dd=-0.0136;a2_pending_elapsed_min=55.6
-20261016T1544Z,EBS,6.60,6.60,6.3895,6.1505,0.05,no_change_decay_floor_sessions_held=0;dd=0.0157;a2_pending_elapsed_min=55.7
-20261016T1544Z,IAEZZZ,,,,,,skipped_instrument_not_found_likely_delisted
+2026-10-16T19:45:01Z,CRVO,2.83,,2.75,2.13,0.02,time_stop_4_sessions;sessions_held=4;dd=-0.1733;fill_price=2.2541;realized_pnl=-0.49
+2026-10-16T19:45:02Z,SAIQ,3.49,3.45,3.48,3.1101,0.02,decay_target_updated;sessions_held=1;dd=-0.0695
+2026-10-16T19:45:03Z,AIBZ,2.55,2.52,2.47,2.22,0.02,decay_target_updated;sessions_held=0;dd=-0.0789
+2026-10-16T19:45:00Z,IAEZZZ,,,,,,skipped_instrument_not_found_likely_delisted
