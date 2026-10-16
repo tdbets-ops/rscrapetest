@@ -79,3 +79,34 @@ Guardrail skip distribution looks healthy at both firings today — no repeat of
 Checked AIBZ (the one symbol bought today, 10:30 window, still open at close). pct_change_since_buy ≈ -6.87% (fails the first of the three required conditions' threshold loosely but the binding test here is near_low), low_since_buy = $2.220 (at 19:25 UTC), current price $2.30 is **not** within 2% of that low (2.30 > 2.220×1.02 = 2.2644), so `near_low` is false and the SUGGEST_LIQUIDATE flag does **not** fire (all three conditions are required). No rows written — `results/eod_liquidation_suggestions_2026-10-16.csv` is header-only.
 
 **These are advisory only — nothing was placed, cancelled, or modified based on this section.**
+
+## Guardrail paper-trade ledger (D10)
+
+Today: **+48 new paper positions opened** (from the 49 unique bracket candidates skipped at today's two buy firings, minus 1 already carrying an open paper position — none of today's new candidates overlapped with an existing open row). **16 of today's new positions closed intraday**; 32 remain open. Of the **21 pre-existing open positions carried forward**, **8 closed today** (2 via `paper_time_stop_4_sessions` at 4 sessions, 2 via `paper_drawdown_stop_25pct`, 4 via `paper_target`) and 13 remain open. Ledger total: **1,192 rows** (1,154 usable closed + 1 excluded data anomaly + 1 pre-existing no-data/delisted row + 36 open).
+
+**Data-quality flag (does not affect today's own rows):** one pre-existing open position, **KNDI** (opened 2026-10-14 at entry_price $0.439), closed today per the simulation at $4.14 — a nominal **+843% roi_pct**. KNDI's fundamentals show its 52-week low ($0.38) was set 2026-10-15 and its 52-week high ($4.15) was set 2026-10-16, the next trading day — the classic signature of a reverse stock split, not a real 9-10x rally. This roi_pct is **excluded from all aggregate stats below** and the ledger row is marked `DATA_ANOMALY` in `exit_reason` rather than silently reported as a win. A similar scan of the full historical ledger found at least two older rows with the same signature (CTNT: entry $0.0398 → exit $4.33, nominally +10,779%; OMH: entry $0.0837 → exit $3.68, nominally +4,297%) which were **not** caught before now — these predate today's firing and were left as-is (not retroactively edited), but they inflate the "a2" bucket's **mean** well below; its **median** is the reliable figure for that bucket. This points to a real gap worth fixing in a future update: the ledger has no reverse-split guard on its own entry/exit prices the way the live strategy's a6 guardrail does for real buys.
+
+### By guardrail (closed trades only, excluding the KNDI anomaly and 1 no-data row; grouped by leading guardrail code since the `skip_reason` string has been renamed several times across the project's history)
+
+| Guardrail | n closed | win rate | mean roi% | median roi% | sum roi% | still open |
+|---|---|---|---|---|---|---|
+| a3 (prior-spike) | 254 | 73.6% | +38.89 | +5.00 | 9,878.14 | 6 |
+| a1 (spread) | 238 | 80.7% | +21.55 | +5.06 | 5,129.89 | 4 |
+| a6 (reverse-split proxy) | 201 | 64.7% | **-0.53** | +4.82 | -105.66 | 8 |
+| a5 (compliance) | 181 | 72.9% | +31.09 | +4.27 | 5,627.71 | 7 |
+| a2 (ATR) | 112 | 62.5% | +131.29* | +4.41 | 14,704.67* | 3 |
+| a8 (leveraged/inverse ETF) | 75 | 61.3% | +2.18 | +2.06 | 163.41 | 2 |
+| a7 (thin liquidity / stale quote) | 59 | 69.5% | -0.25 | +5.00 | -14.71 | 4 |
+| a4 (earnings recency) | 33 | 54.5% | -0.04 | +3.00 | -1.29 | 2 |
+
+*a2's mean/sum are inflated by the CTNT/OMH reverse-split artifacts described above — read a2's median (+4.41%), not its mean, until those two rows are corrected.
+
+**a6 callout (the guardrail under active review):** a6 is the **weakest-performing** guardrail bucket in the paper ledger by mean return — the only one with a negative mean (-0.53%), and its win rate (64.7%) is below every bucket except a2 and a8. Its median (+4.82%) is close to the standard +5% target, meaning most individual a6-blocked trades would have been small winners, but a disproportionate share of large `paper_drawdown_stop_25pct` losses (-25% each) pulls the mean negative. On this data, **a6 does not look like a guardrail that's unfairly blocking good trades** — if anything it's blocking a below-average population, consistent with keeping it rather than loosening the 15x threshold. This is one day's incremental data on top of the existing sample (n=201 closed now vs the n reported on 2026-08-25); the account owner's call on next steps stands.
+
+### Caveats (apply to every number above)
+1. Guardrails short-circuit in a1→a8 order, so `skip_reason` is only each candidate's FIRST failure. A guardrail's paper result measures its MARGINAL cost given a1..a(X-1) already passed — the decision-relevant quantity — but a paper winner blocked by a6 might also have failed a7 or a8 had a6 not existed. Cross-check `fundamentals_guardrails_failed` for a5/a6/a8. a7 is never retroactively recomputed (needs an extra historicals call per candidate), so no guardrail's removal is a clean "we would have won this" claim.
+2. Paper entries fill at the observed scan price with no spread paid and no slippage; real buys are MARKET orders. Every paper result is optimistic relative to a real fill, most of all for the wide-spread, thin, low-priced names these guardrails specifically target (a1, a7 in particular).
+3. Target exits assume a limit fills whenever a bar's high touches it, matching how the real resting GTC limit behaves and how D3 already simulates — still an assumption.
+
+### Baseline — actual realized results, same window (2026-08-25 to 2026-10-16)
+From `get_realized_pnl`/`get_pnl_trade_history`: **188 real closing trades, 57.98% win rate, -$22.10 total realized P&L** (-2.3% aggregate return rate). The paper ledger's 70.8% aggregate win rate (ex-anomalies) is nominally higher than the account's actual 57.98% — but per caveat 2 above, that gap is exactly what you'd expect if paper fills systematically avoid the spread/slippage cost that real market orders on these same thin names pay, so **this is not evidence that loosening guardrails would have helped the P&L** — it's at least partly an artifact of the paper ledger's optimistic fill assumption. The real $ P&L and the paper ledger's %-return sum are also not directly comparable (different units: dollars at ~$5 position size vs. unsized percentage returns) — only the win rates are an apples-to-apples comparison, and even that comparison is confounded by caveat 2.
