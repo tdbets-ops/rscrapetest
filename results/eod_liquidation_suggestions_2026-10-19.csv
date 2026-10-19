@@ -1,0 +1,4 @@
+symbol,quantity,avg_buy_price,current_price,pct_change_since_buy,low_since_buy,current_resting_target_price,rationale
+NYXH,5,0.9456,0.95,0.004653,0.8999,0.969,pct_change_since_buy=0.0047;near_low=False(low=0.8999);trend_down=False(fh_avg=0.9468;sh_avg=0.9472);hold_no_flag
+NWCL,1,5.1675,4.75,-0.080793,4.63,5.28,pct_change_since_buy=-0.0808;near_low=False(low=4.6300);trend_down=True(fh_avg=5.0111;sh_avg=4.8463);hold_no_flag
+ATOS,1,2.5799,2.57,-0.003837,2.53,2.65,pct_change_since_buy=-0.0038;near_low=True(low=2.5300);trend_down=True(fh_avg=2.5979;sh_avg=2.5550);hold_no_flag
