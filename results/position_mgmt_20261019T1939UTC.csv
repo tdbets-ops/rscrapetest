@@ -1,0 +1,5 @@
+timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
+2026-10-19T19:39:12Z,SAIQ,3.45,3.45,3.48,3.11,0.02,decay_target_unchanged_trailing_lower
+2026-10-19T19:39:12Z,NYXH,0.969,0.969,0.9636,0.8999,0.02,decay_target_unchanged_trailing_invalid_below_cost
+2026-10-19T19:39:12Z,NWCL,5.28,5.28,5.1977,4.63,0.02,decay_target_unchanged_trailing_invalid_below_cost
+2026-10-19T19:39:12Z,ATOS,2.65,2.65,2.70,2.53,0.02,trailing_target_unchanged
