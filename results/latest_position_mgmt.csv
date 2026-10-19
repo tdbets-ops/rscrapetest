@@ -1,9 +1,9 @@
 timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
-2026-10-19T14:38:10Z,BKHA,5.15,5.15,4.90,4.90,0.05,initial_target_set_no_real_bars_since_fill
-2026-10-19T14:38:12Z,MBAI,2.52,2.52,2.3999,2.3999,0.05,initial_target_set_no_real_bars_since_fill
-2026-10-19T14:38:13Z,HUHU,2.21,2.21,2.0965,2.0965,0.05,initial_target_set_no_real_bars_since_fill
-2026-10-19T14:38:14Z,NWCL,5.43,5.43,5.1675,5.1675,0.05,initial_target_set_no_real_bars_since_fill
-2026-10-19T14:38:15Z,ATOS,2.71,2.71,2.5799,2.5799,0.05,initial_target_set_no_real_bars_since_fill
-2026-10-19T14:40:00Z,SAIQ,3.55,3.55,3.4614,3.11,0.05,unchanged;sessions_held=2;dd=-0.0355
-2026-10-19T14:40:00Z,NYXH,0.998,0.998,0.9599,0.8999,0.05,unchanged;sessions_held=0;dd=0.0032
-2026-10-19T14:40:00Z,IAEZZZ,,,,,,unmanageable_instrument_not_found
+2026-10-19T15:37:29Z,SAIQ,3.55,3.55,3.48,3.11,0.05,target_unchanged
+2026-10-19T15:37:29Z,NYXH,0.998,0.998,0.9599,0.8999,0.05,target_unchanged
+2026-10-19T15:37:29Z,BKHA,5.15,5.15,4.75,4.00,0.05,target_unchanged
+2026-10-19T15:37:29Z,MBAI,2.52,2.52,2.3889,2.3889,0.05,target_unchanged
+2026-10-19T15:37:29Z,HUHU,2.21,2.21,2.11,2.03,0.05,target_unchanged
+2026-10-19T15:37:29Z,NWCL,5.43,5.43,5.1977,4.81,0.05,target_unchanged
+2026-10-19T15:37:29Z,ATOS,2.71,2.71,2.70,2.5701,0.05,target_unchanged
+2026-10-19T15:37:29Z,IAEZZZ,,,,,,skipped_inactive_instrument

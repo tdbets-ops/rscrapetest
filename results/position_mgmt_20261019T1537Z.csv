@@ -1,0 +1,9 @@
+timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
+2026-10-19T15:37:29Z,SAIQ,3.55,3.55,3.48,3.11,0.05,target_unchanged
+2026-10-19T15:37:29Z,NYXH,0.998,0.998,0.9599,0.8999,0.05,target_unchanged
+2026-10-19T15:37:29Z,BKHA,5.15,5.15,4.75,4.00,0.05,target_unchanged
+2026-10-19T15:37:29Z,MBAI,2.52,2.52,2.3889,2.3889,0.05,target_unchanged
+2026-10-19T15:37:29Z,HUHU,2.21,2.21,2.11,2.03,0.05,target_unchanged
+2026-10-19T15:37:29Z,NWCL,5.43,5.43,5.1977,4.81,0.05,target_unchanged
+2026-10-19T15:37:29Z,ATOS,2.71,2.71,2.70,2.5701,0.05,target_unchanged
+2026-10-19T15:37:29Z,IAEZZZ,,,,,,skipped_inactive_instrument
