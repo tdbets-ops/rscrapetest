@@ -1,0 +1,3 @@
+timestamp_utc,symbol,side,quantity,avg_fill_price,limit_sell_price,last_price,pct_change,spread_pct,atr_14_pct,atr_3_pct,peak_to_baseline_ratio,volume_spike_ratio,days_since_earnings,financial_status_indicator,financial_status_description,split_ratio_proxy,industry,ask_gap_pct,last_real_price,firing
+2026-10-19T13:45:38Z,NYXH,buy,5,0.9456,0.993,0.9399,-0.15324324324324334,0.0069,0.0821,0.0683,1.136,not_computed_ratio_below_threshold,75,CC0,,6.375,Medical Specialties,0.0068,0.9401,9:30
+2026-10-19T13:45:39Z,GLAS,buy,1,2.7299,2.87,2.785,-0.12695924764890276,0.0290,0.1837,0.1904,1.0671,not_computed_ratio_below_threshold,67,CA0,,5.047,Agricultural Commodities/Milling,0.0076,2.769,9:30

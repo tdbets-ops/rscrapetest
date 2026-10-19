@@ -1,5 +1,5 @@
 timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
-2026-10-16T19:45:01Z,CRVO,2.83,,2.75,2.13,0.02,time_stop_4_sessions;sessions_held=4;dd=-0.1733;fill_price=2.2541;realized_pnl=-0.49
-2026-10-16T19:45:02Z,SAIQ,3.49,3.45,3.48,3.1101,0.02,decay_target_updated;sessions_held=1;dd=-0.0695
-2026-10-16T19:45:03Z,AIBZ,2.55,2.52,2.47,2.22,0.02,decay_target_updated;sessions_held=0;dd=-0.0789
-2026-10-16T19:45:00Z,IAEZZZ,,,,,,skipped_instrument_not_found_likely_delisted
+2026-10-19T13:45:52Z,NYXH,0.993,0.993,0.9456,0.9456,0.05,initial_target_set_no_real_bars_since_fill
+2026-10-19T13:45:54Z,GLAS,2.87,2.87,2.7299,2.7299,0.05,initial_target_set_no_real_bars_since_fill
+2026-10-19T13:48:00Z,SAIQ,3.55,3.55,3.48,3.11,0.05,unchanged;sessions_held=2;dd=0.0133
+2026-10-19T13:48:00Z,IAEZZZ,,,,, ,unmanageable_instrument_not_found
