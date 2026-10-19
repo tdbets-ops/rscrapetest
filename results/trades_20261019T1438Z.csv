@@ -1,0 +1,6 @@
+symbol,quantity,fill_price,limit_sell_price,last_price,pct_change,spread_pct,atr14_pct,atr3_pct,peak_to_baseline_ratio,volume_spike_ratio,financial_status_indicator,financial_status_description,split_ratio_proxy,fundamentals_guardrails_failed,firing,evaluated_at
+BKHA,1,4.9000,5.15,4.76,-0.168053,0.0273,0.349,0.642,1.868,3.57,CC0,,4.83,,10:30,2026-10-19T14:33:00Z
+MBAI,2,2.3999,2.52,2.345,-0.160000,0.0256,0.158,0.137,1.118,1.57,CC0,,11.70,,10:30,2026-10-19T14:33:00Z
+HUHU,2,2.0965,2.21,2.1002,-0.132231,0.0333,0.278,0.202,1.145,19.11,CC0,,5.81,,10:30,2026-10-19T14:33:00Z
+NWCL,1,5.1675,5.43,5.25,-0.117347,0.0152,0.124,0.156,1.200,1.87,CC0,,2.21,,10:30,2026-10-19T14:33:00Z
+ATOS,1,2.5799,2.71,2.571,-0.116495,0.0078,0.100,0.160,1.600,2.54,CC0,,6.01,,10:30,2026-10-19T14:33:00Z
