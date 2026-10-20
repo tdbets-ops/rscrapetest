@@ -1,0 +1,5 @@
+timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
+2026-10-20T15:32:55Z,NYXH,0.998,0.998,0.9636,0.8999,0.05,unchanged_decay_target_already_optimal
+2026-10-20T15:32:55Z,NWCL,5.43,5.43,5.1977,4.24,0.05,unchanged_decay_target_already_optimal
+2026-10-20T15:32:55Z,ATOS,2.71,2.71,2.70,2.51,0.05,unchanged_decay_target_already_optimal
+2026-10-20T15:32:55Z,LCU,5.10,5.10,4.8499,4.55,0.05,unchanged_decay_target_already_optimal
