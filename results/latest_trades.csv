@@ -1,3 +1,2 @@
 symbol,entry_price,quantity,limit_sell_price,bracket_last_price,bracket_pct_change,spread_pct,atr14_pct,atr3_pct,prior_spike_ratio,volume_spike_ratio,days_since_earnings,financial_status_indicator,financial_status_description,split_ratio_proxy,ask_gap_pct,industry,fundamentals_guardrails_failed,evaluated_at,firing
-RAIL,4.30,1,4.52,4.64,-0.20683760683760685,0.01122,0.0589,0.05103,1.0379,,78,CC0,,3.345,0.00787,Trucks/Construction/Farm Machinery,,2026-10-20T13:35:00Z,9:30
-AIAI,2.4199,2,2.55,2.415,-0.11861313868613144,0.0502,0.1688,0.1475,1.1501,,,CC0,,8.19,0.00418,Packaged Software,,2026-10-20T13:35:00Z,9:30
+LCU,4.8499,1,5.10,4.55,-0.20175438596491233,0.0221,0.1728,0.2655,1.3252,,,CC0,,1.9766,0.0067,Other Metals/Minerals,,2026-10-20T14:40:00Z,10:30
