@@ -1,0 +1,6 @@
+timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
+2026-10-20T13:40:00Z,NYXH,0.998,0.998,0.9636,0.8999,0.05,unchanged;sessions_held=1;dd=-0.0152
+2026-10-20T13:40:00Z,NWCL,5.43,5.43,5.1977,4.24,0.05,unchanged;sessions_held=1;dd=-0.1758
+2026-10-20T13:40:00Z,ATOS,2.71,2.71,2.70,2.519,0.05,unchanged;sessions_held=1;dd=-0.0233
+2026-10-20T13:40:00Z,RAIL,4.52,4.52,,,0.05,unchanged;sessions_held=0;dd=-0.0430;new_position
+2026-10-20T13:40:00Z,AIAI,2.55,2.55,,,0.05,unchanged;sessions_held=0;dd=-0.0012;new_position

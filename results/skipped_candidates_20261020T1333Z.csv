@@ -1,0 +1,33 @@
+symbol,entry_price,pct_change,skip_reason,guardrail_detail,fundamentals_guardrails_failed,evaluated_at,firing
+POM,0.4901,-0.15318027850959726,a1_spread,spread_pct=0.3863,,2026-10-20T13:35:00Z,9:30
+GTN.A,5.90,-0.14745762711864407,a1_spread,spread_pct=0.2559,,2026-10-20T13:35:00Z,9:30
+LCU,4.94,-0.14035087719298242,a1_spread,spread_pct=0.1113,,2026-10-20T13:35:00Z,9:30
+TGL,0.2501,-0.13960597826086946,a1_spread,spread_pct=0.0951,,2026-10-20T13:35:00Z,9:30
+CHOW,0.283,-0.13355441664154358,a1_spread,spread_pct=0.0997,,2026-10-20T13:35:00Z,9:30
+MYND,0.1926,-0.12414733969986365,a1_spread,spread_pct=0.2814,,2026-10-20T13:35:00Z,9:30
+CMCM,2.326,-0.12295786758383492,a1_spread,spread_pct=0.1247,,2026-10-20T13:35:00Z,9:30
+XXII,0.2481,-0.11864406779661009,a1_spread,spread_pct=0.1524,,2026-10-20T13:35:00Z,9:30
+BUDA,7.35,-0.1183673469387754,a1_spread,spread_pct=0.0857,,2026-10-20T13:35:00Z,9:30
+MWG,1.49,-0.10067114093959725,a1_spread,spread_pct=0.1342,,2026-10-20T13:35:00Z,9:30
+AACG,0.6905,-0.10000000000000009,a1_spread,spread_pct=0.1158,,2026-10-20T13:35:00Z,9:30
+SHFS,0.0752,-0.1765957446808511,a2_atr,atr14_pct=2.2200,,2026-10-20T13:35:00Z,9:30
+RUBI,0.1718,-0.16697848456501396,a2_atr,atr14_pct=0.7157;atr3_pct=1.3600,,2026-10-20T13:35:00Z,9:30
+DKI,0.045,-0.11764705882352938,a2_atr,atr14_pct=7.5006,,2026-10-20T13:35:00Z,9:30
+IPW,0.2761,-0.23379328299921892,a6_reverse_split_proxy,split_ratio_proxy=7589,a6,2026-10-20T13:35:00Z,9:30
+IREX,4.94,-0.1017518131093823,a6_reverse_split_proxy,split_ratio_proxy=31.43,a6;a8,2026-10-20T13:35:00Z,9:30
+IRE,3.39,-0.13520408163265302,a6_reverse_split_proxy,split_ratio_proxy=37.16,a6;a8,2026-10-20T13:35:00Z,9:30
+AEHG,2.89,-0.1347305389221556,a8_leveraged_etf,industry=Investment Trusts Or Mutual Funds,a8,2026-10-20T13:35:00Z,9:30
+IREG,2.85,-0.1337386018237082,a8_leveraged_etf,industry=Investment Trusts Or Mutual Funds,a8,2026-10-20T13:35:00Z,9:30
+CIFU,2.24,-0.12840466926070024,a6_reverse_split_proxy,split_ratio_proxy=23.07,a6;a8,2026-10-20T13:35:00Z,9:30
+AAOG,1.0,-0.12663755458515286,a6_reverse_split_proxy,split_ratio_proxy=22.75,a6;a8,2026-10-20T13:35:00Z,9:30
+AAOX,4.51,-0.12596899224806207,a6_reverse_split_proxy,split_ratio_proxy=22.72,a6;a8,2026-10-20T13:35:00Z,9:30
+RIME,0.09095,-0.12210424710424705,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5;a6,2026-10-20T13:35:00Z,9:30
+AXTL,1.45,-0.12121212121212119,a8_leveraged_etf,industry=Investment Trusts Or Mutual Funds,a8,2026-10-20T13:35:00Z,9:30
+CIFG,0.916,-0.11923076923076922,a6_reverse_split_proxy,split_ratio_proxy=23.16,a6;a8,2026-10-20T13:35:00Z,9:30
+LUCD,0.3341,-0.1147323794382618,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5,2026-10-20T13:35:00Z,9:30
+TWG,0.0645,-0.11279229711141676,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5;a6,2026-10-20T13:35:00Z,9:30
+YFOR,0.32,-0.10813823857302118,a6_reverse_split_proxy,split_ratio_proxy=2226,a6,2026-10-20T13:35:00Z,9:30
+VCIG,0.2481,-0.10336104083845325,a6_reverse_split_proxy,split_ratio_proxy=12780,a6,2026-10-20T13:35:00Z,9:30
+IREC,7.84,-0.1017518131093823,a8_leveraged_etf,industry=;description=2x leveraged exposure/daily price movement of,a8,2026-10-20T13:35:00Z,9:30
+JETD,3.35,-0.149746192893401,a8_leveraged_etf,industry=Investment Trusts Or Mutual Funds,a8,2026-10-20T13:35:00Z,9:30
+ILLU,8.48,-0.14944834503510532,a7_stale_quote,no_recent_real_trades,,2026-10-20T13:35:00Z,9:30
