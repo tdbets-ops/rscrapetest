@@ -1,5 +1,5 @@
 timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
-2026-10-20T19:33:01Z,NYXH,0.969,0.969,0.9636,0.8999,0.02,unchanged_decay_target_already_optimal
-2026-10-20T19:33:01Z,NWCL,5.28,5.28,5.1977,4.20,0.02,unchanged_decay_target_already_optimal
-2026-10-20T19:33:01Z,ATOS,2.65,2.65,2.70,2.51,0.02,unchanged_trailing_target_already_optimal
-2026-10-20T19:33:01Z,LCU,4.95,4.95,4.8499,4.50,0.02,unchanged_decay_target_already_optimal
+2026-10-21T13:38:00Z,NYXH,0.998,0.998,0.9636,0.8999,0.05,target_unchanged;decay_target=0.998;trailing_invalid(0.945<=avg0.95);sessions_held=2;dd=-0.0260
+2026-10-21T13:38:00Z,NWCL,5.43,5.43,5.1977,3.93,0.05,target_unchanged;decay_target=5.43;trailing_invalid(5.10<=avg5.17);sessions_held=2;dd=-0.2094
+2026-10-21T13:38:00Z,ATOS,2.71,2.71,2.7,2.51,0.05,target_unchanged;decay_target=2.71;trailing=2.65(not_higher);sessions_held=2;dd=-0.0243
+2026-10-21T13:38:00Z,LCU,5.1,5.1,4.8499,4.3421,0.05,target_unchanged;decay_target=5.10;trailing_invalid(4.76<=avg4.85);sessions_held=1;dd=-0.1047

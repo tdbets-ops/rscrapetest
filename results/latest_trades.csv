@@ -1,2 +1,1 @@
-symbol,entry_price,quantity,limit_sell_price,bracket_last_price,bracket_pct_change,spread_pct,atr14_pct,atr3_pct,prior_spike_ratio,volume_spike_ratio,days_since_earnings,financial_status_indicator,financial_status_description,split_ratio_proxy,ask_gap_pct,industry,fundamentals_guardrails_failed,evaluated_at,firing
-LCU,4.8499,1,5.10,4.55,-0.20175438596491233,0.0221,0.1728,0.2655,1.3252,,,CC0,,1.9766,0.0067,Other Metals/Minerals,,2026-10-20T14:40:00Z,10:30
+symbol,quantity,avg_fill_price,limit_sell_price,per_position_cap,spy_pct_change,spread_pct,atr_14_pct,atr_3_pct,peak_to_baseline_ratio,volume_spike_ratio,days_since_earnings,financial_status_indicator,financial_status_description,split_ratio_proxy,ask_gap_pct,last_price,pct_change,firing,evaluated_at

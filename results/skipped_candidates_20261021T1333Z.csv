@@ -1,0 +1,26 @@
+symbol,entry_price,pct_change,skip_reason,guardrail_detail,fundamentals_guardrails_failed,evaluated_at,firing
+CJMB,0.47,-0.2408,a1_spread,spread_pct=0.0851,,2026-10-21T13:36:34Z,9:30
+NIVF,0.1902,-0.2285,a2_atr_guardrail,atr_14_pct=1.7352;atr_3_pct=0.2840,,2026-10-21T13:36:34Z,9:30
+INLF,0.2089,-0.2081,a2_atr_guardrail,atr_14_pct=2.6705;atr_3_pct=3.1335,,2026-10-21T13:36:34Z,9:30
+HKPD,0.092,-0.1964,a1_spread,spread_pct=0.1348,,2026-10-21T13:36:34Z,9:30
+LOFD,6.3,-0.1905,a8_leveraged_inverse_etf,industry=Investment Trusts Or Mutual Funds;check=i,a8,2026-10-21T13:36:34Z,9:30
+SAIQ,5.581,-0.1856,a3_prior_spike,peak_to_baseline_ratio=1.521;volume_spike_ratio=393.25,,2026-10-21T13:36:34Z,9:30
+MWYN,2.29,-0.1741,a3_prior_spike,peak_to_baseline_ratio=2.604;volume_spike_ratio=10.96,,2026-10-21T13:36:34Z,9:30
+POAS,2.0202,-0.1652,a1_spread,spread_pct=0.3564,,2026-10-21T13:36:34Z,9:30
+PRSO,0.5038,-0.1512,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant;check=i_and_ii,a5,2026-10-21T13:36:34Z,9:30
+NEXR,0.6603,-0.1487,a1_spread,spread_pct=0.1802,,2026-10-21T13:36:34Z,9:30
+LWLX,6.7863,-0.1424,a1_spread,spread_pct=0.0855,,2026-10-21T13:36:34Z,9:30
+OPENW,0.091,-0.141,a1_spread,spread_pct=0.1209,,2026-10-21T13:36:34Z,9:30
+NWGL,0.1286,-0.1373,a2_atr_guardrail,atr_14_pct=1.8368;atr_3_pct=1.8477,,2026-10-21T13:36:34Z,9:30
+FEBO,0.73,-0.137,a1_spread,spread_pct=0.1233,,2026-10-21T13:36:34Z,9:30
+BEZ,6.38,-0.1351,a6_reverse_split_proxy,split_ratio_proxy=48.06;high_52_weeks=306.6,a6;a8,2026-10-21T13:36:34Z,9:30
+SRTM,0.5075,-0.1335,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant;check=i_and_ii,a5;a6,2026-10-21T13:36:34Z,9:30
+LGHT,11.35,-0.1278,a7_thin_liquidity,reason=no_recent_real_trades;window_min=15,a8,2026-10-21T13:36:34Z,9:30
+CMCM,2.33,-0.1245,a1_spread,spread_pct=0.2532,,2026-10-21T13:36:34Z,9:30
+HCAI,0.214,-0.1233,a1_spread,spread_pct=0.0958,,2026-10-21T13:36:34Z,9:30
+ARMH,9.57,-0.1195,a8_leveraged_inverse_etf,industry=Investment Trusts Or Mutual Funds;check=i,a8,2026-10-21T13:36:34Z,9:30
+BUDA,7.35,-0.1184,a1_spread,spread_pct=0.1959,,2026-10-21T13:36:34Z,9:30
+HUDI,0.51,-0.1176,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant;check=i_and_ii,a5,2026-10-21T13:36:34Z,9:30
+CTW,1.75,-0.1162,a1_spread,spread_pct=0.3429,,2026-10-21T13:36:34Z,9:30
+FRTT,0.695,-0.1015,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant;check=i_and_ii,a5,2026-10-21T13:36:34Z,9:30
+SDST,0.0179,-0.1,a2_atr_guardrail,atr_14_pct=1.4367;atr_3_pct=0.6616,,2026-10-21T13:36:34Z,9:30
