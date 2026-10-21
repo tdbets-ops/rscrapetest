@@ -1,1 +1,4 @@
-symbol,quantity,avg_fill_price,limit_sell_price,per_position_cap,spy_pct_change,spread_pct,atr_14_pct,atr_3_pct,peak_to_baseline_ratio,volume_spike_ratio,days_since_earnings,financial_status_indicator,financial_status_description,split_ratio_proxy,ask_gap_pct,last_price,pct_change,firing,evaluated_at
+symbol,side,quantity,avg_fill_price,limit_sell_price,last_price_at_scan,pct_change_at_scan,spread_pct,atr14_pct,atr3_pct,peak_to_baseline_ratio,volume_spike_ratio,ask_gap_pct,financial_status_indicator,financial_status_description,split_ratio_proxy,industry,evaluated_at,firing
+GTBP,buy,1,5.8541,6.15,5.835,-0.2051983584131327,0.0086,0.1285,0.1246,1.094,1.58,0.00428,CC0,,4.93,Pharmaceuticals: Major,2026-10-21T14:35:00Z,10:30
+SAIQ,buy,1,5.7954,6.09,5.787,-0.16846491228070168,0.0052,0.2551,0.2748,1.232,6323.93,-0.00334,CC0,,2.24,Financial Conglomerates,2026-10-21T14:35:00Z,10:30
+CTW,buy,2,1.8499,1.95,1.77,-0.11616161616161616,0.0508,0.1551,0.1494,1.235,1.13,-0.00556,CC0,,1.77,Packaged Software,2026-10-21T14:35:00Z,10:30

@@ -1,5 +1,9 @@
 timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
-2026-10-21T13:38:00Z,NYXH,0.998,0.998,0.9636,0.8999,0.05,target_unchanged;decay_target=0.998;trailing_invalid(0.945<=avg0.95);sessions_held=2;dd=-0.0260
-2026-10-21T13:38:00Z,NWCL,5.43,5.43,5.1977,3.93,0.05,target_unchanged;decay_target=5.43;trailing_invalid(5.10<=avg5.17);sessions_held=2;dd=-0.2094
-2026-10-21T13:38:00Z,ATOS,2.71,2.71,2.7,2.51,0.05,target_unchanged;decay_target=2.71;trailing=2.65(not_higher);sessions_held=2;dd=-0.0243
-2026-10-21T13:38:00Z,LCU,5.1,5.1,4.8499,4.3421,0.05,target_unchanged;decay_target=5.10;trailing_invalid(4.76<=avg4.85);sessions_held=1;dd=-0.1047
+2026-10-21T14:40:42Z,NYXH,0.998,0.993,0.9636,0.8999,0.05,decay_target_sub_penny_rule_update
+2026-10-21T14:39:00Z,NWCL,5.43,5.43,5.1977,3.93,0.05,decay_target_unchanged
+2026-10-21T14:39:00Z,ATOS,2.71,2.71,2.70,2.41,0.05,trailing_target_unchanged
+2026-10-21T14:39:00Z,LCU,5.10,5.10,4.8499,4.29,0.05,decay_target_unchanged
+2026-10-21T14:38:04Z,GTBP,6.15,6.15,5.835,5.835,0.05,decay_target_initial
+2026-10-21T14:38:05Z,SAIQ,6.09,6.09,5.84,5.67,0.05,decay_target_initial
+2026-10-21T14:38:07Z,CTW,1.95,1.95,1.80,1.80,0.05,decay_target_initial
+2026-10-21T14:39:00Z,IAEZZZ,,,,,,skipped_no_quote_data_untradeable_position
