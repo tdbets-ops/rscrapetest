@@ -1,9 +1,7 @@
 timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
-2026-10-21T15:36:00Z,NYXH,0.998,0.998,0.9636,0.8901,0.05,target_unchanged;drawdown_pct=-0.0481;sessions_held=2
-2026-10-21T15:36:00Z,ATOS,2.71,2.71,2.70,2.41,0.05,target_unchanged;drawdown_pct=-0.0388;sessions_held=2
-2026-10-21T15:36:00Z,NWCL,5.43,5.43,5.1977,3.93,0.05,target_unchanged;drawdown_pct=-0.1799;sessions_held=2
-2026-10-21T15:36:00Z,LCU,5.10,5.10,4.8499,4.290,0.05,target_unchanged;drawdown_pct=-0.0866;sessions_held=1
-2026-10-21T15:36:00Z,CTW,1.95,1.95,1.7501,1.7501,0.05,target_unchanged;drawdown_pct=-0.0540;sessions_held=0;under_60min_a2_pending
-2026-10-21T15:36:00Z,SAIQ,6.09,6.09,5.7993,5.570,0.05,target_unchanged;drawdown_pct=-0.0234;sessions_held=0;under_60min_a2_pending
-2026-10-21T15:36:00Z,GTBP,6.15,6.15,5.8588,5.810,0.05,target_unchanged;drawdown_pct=-0.0075;sessions_held=0;under_60min_a2_pending
-2026-10-21T15:36:00Z,IAEZZZ,,,,,,skipped_no_quote_untradable_position
+2026-10-21T19:37:43Z,SAIQ,5.92,5.92,5.95,5.338,0.02,no_change
+2026-10-21T19:37:43Z,GTBP,5.97,5.97,5.8588,5.31,0.02,no_change
+2026-10-21T19:37:43Z,NYXH,0.969,0.969,0.96,0.8901,0.02,no_change
+2026-10-21T19:37:43Z,NWCL,5.28,5.28,5.1977,3.93,0.02,no_change
+2026-10-21T19:37:43Z,ATOS,2.65,2.65,2.7,2.39,0.02,no_change
+2026-10-21T19:37:43Z,LCU,4.95,4.95,4.8499,4.0,0.02,no_change

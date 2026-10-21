@@ -1,0 +1,7 @@
+timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
+2026-10-21T19:37:43Z,SAIQ,5.92,5.92,5.95,5.338,0.02,no_change
+2026-10-21T19:37:43Z,GTBP,5.97,5.97,5.8588,5.31,0.02,no_change
+2026-10-21T19:37:43Z,NYXH,0.969,0.969,0.96,0.8901,0.02,no_change
+2026-10-21T19:37:43Z,NWCL,5.28,5.28,5.1977,3.93,0.02,no_change
+2026-10-21T19:37:43Z,ATOS,2.65,2.65,2.7,2.39,0.02,no_change
+2026-10-21T19:37:43Z,LCU,4.95,4.95,4.8499,4.0,0.02,no_change
