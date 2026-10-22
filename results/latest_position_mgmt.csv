@@ -1,7 +1,7 @@
 timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
-2026-10-21T19:37:43Z,SAIQ,5.92,5.92,5.95,5.338,0.02,no_change
-2026-10-21T19:37:43Z,GTBP,5.97,5.97,5.8588,5.31,0.02,no_change
-2026-10-21T19:37:43Z,NYXH,0.969,0.969,0.96,0.8901,0.02,no_change
-2026-10-21T19:37:43Z,NWCL,5.28,5.28,5.1977,3.93,0.02,no_change
-2026-10-21T19:37:43Z,ATOS,2.65,2.65,2.7,2.39,0.02,no_change
-2026-10-21T19:37:43Z,LCU,4.95,4.95,4.8499,4.0,0.02,no_change
+2026-10-22T13:43:00Z,NYXH,0.998,0.998,0.9636,0.8081,0.05,no_change_target_confirmed
+2026-10-22T13:43:00Z,NWCL,5.43,5.43,5.1977,3.93,0.05,no_change_target_confirmed
+2026-10-22T13:43:00Z,ATOS,2.71,2.71,2.7,2.39,0.05,no_change_target_confirmed
+2026-10-22T13:43:00Z,LCU,5.1,5.1,4.8499,4.0,0.05,no_change_target_confirmed
+2026-10-22T13:43:00Z,GTBP,6.15,6.15,5.8588,5.28,0.05,no_change_target_confirmed
+2026-10-22T13:43:00Z,AUNA,5.04,5.04,4.79,4.765,0.05,initial_target_placed_phaseB

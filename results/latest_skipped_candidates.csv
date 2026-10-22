@@ -1,27 +1,25 @@
 symbol,entry_price,pct_change,skip_reason,guardrail_detail,fundamentals_guardrails_failed,evaluated_at,firing
-OPENW,0.081,-0.18100000000000005,a1_spread,spread_pct=0.1136,,2026-10-21T14:35:00Z,10:30
-MPU,1.71,-0.14084507042253513,a1_spread,spread_pct=0.1287,,2026-10-21T14:35:00Z,10:30
-DKI,0.0426,-0.11064718162839247,a1_spread,spread_pct=0.0845,,2026-10-21T14:35:00Z,10:30
-PFAI,4.09,-0.10698689956331882,a1_spread,spread_pct=0.1345,,2026-10-21T14:35:00Z,10:30
-NIVF,0.1917,-0.23849539815926374,a2_atr,atr14_pct=1.7213;atr3_pct=0.2817,,2026-10-21T14:35:00Z,10:30
-NWGL,0.1208,-0.20039421813403416,a2_atr,atr14_pct=1.9553;atr3_pct=1.9676,,2026-10-21T14:35:00Z,10:30
-MWYN,2.29,-0.1518518518518519,a3_prior_spike,peak_to_baseline_ratio=2.678;volume_spike_ratio=15.03,,2026-10-21T14:35:00Z,10:30
-OLB,0.3736,-0.13327120223671954,a3_prior_spike,peak_to_baseline_ratio=3.769;volume_spike_ratio=1195.40,,2026-10-21T14:35:00Z,10:30
-SRTM,0.4675,-0.22083333333333327,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5;a6,2026-10-21T14:35:00Z,10:30
-HKPD,0.0874,-0.2196428571428571,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5;a6,2026-10-21T14:35:00Z,10:30
-OPTU,0.6591,-0.21317782854394615,a5_compliance,financial_status_indicator=CA4;financial_status_description=Noncompliant,a5,2026-10-21T14:35:00Z,10:30
-PRSO,0.4623,-0.205275617179574,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5,2026-10-21T14:35:00Z,10:30
-NXTS,0.5296,-0.13928165122704372,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5;a6,2026-10-21T14:35:00Z,10:30
-YOUL,0.2447,-0.13838028169014077,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5,2026-10-21T14:35:00Z,10:30
-FRTT,0.6303,-0.11529279595562415,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5,2026-10-21T14:35:00Z,10:30
-SAFX,0.182,-0.1107350096711799,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5,2026-10-21T14:35:00Z,10:30
-HUDI,0.5245,-0.10899653979238745,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5,2026-10-21T14:35:00Z,10:30
-SMCZ,5.13,-0.23134328358208953,a6_reverse_split_proxy,split_ratio_proxy=26.0,a6;a8,2026-10-21T14:35:00Z,10:30
-CRMT,0.6675,-0.15506329113924056,a6_reverse_split_proxy,split_ratio_proxy=42.99,a6,2026-10-21T14:35:00Z,10:30
-PFSA,0.7802,-0.1184180790960452,a6_reverse_split_proxy,split_ratio_proxy=3845.0,a6,2026-10-21T14:35:00Z,10:30
-BEZ,6.345,-0.11002785515320335,a6_reverse_split_proxy,split_ratio_proxy=48.33,a6;a8,2026-10-21T14:35:00Z,10:30
-DRIO,3.45,-0.15441176470588233,a7_thin_liquidity,ask_gap_pct=0.058;last_real_price=3.45;reason=gap_exceeded,,2026-10-21T14:35:00Z,10:30
-SPCQ,8.355,-0.1955896452540747,a8_leveraged_etf,industry=Investment Trusts Or Mutual Funds,a8,2026-10-21T14:35:00Z,10:30
-LOFD,5.0408,-0.19144444444444447,a8_leveraged_etf,industry=Investment Trusts Or Mutual Funds,a8,2026-10-21T14:35:00Z,10:30
-SSPC,6.99,-0.18987341772151894,a8_leveraged_etf,industry=Investment Trusts Or Mutual Funds,a8,2026-10-21T14:35:00Z,10:30
-XPEG,2.2999,-0.12210389709530901,a8_leveraged_etf,industry=Investment Trusts Or Mutual Funds;description_match=2x leveraged exposure,a8,2026-10-21T14:35:00Z,10:30
+TWG,0.0505,-0.2356,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5;a6,2026-10-22T13:41:00Z,9:30
+NIVF,0.145,-0.2346,a2_atr_guardrail,atr_14_pct=2.137;atr_3_pct=0.420,,2026-10-22T13:41:00Z,9:30
+WHLR,0.4173,-0.2075,a2_atr_guardrail,atr_14_pct=1.549;atr_3_pct=0.274,,2026-10-22T13:41:00Z,9:30
+SDST,0.0139,-0.2045,a2_atr_guardrail,atr_14_pct=1.577;atr_3_pct=0.640,,2026-10-22T13:41:00Z,9:30
+NWGL,0.1005,-0.2042,a2_atr_guardrail,atr_14_pct=2.223;atr_3_pct=1.683,,2026-10-22T13:41:00Z,9:30
+MERC,0.1689,-0.1919,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5;a6,2026-10-22T13:41:00Z,9:30
+HUBC,0.2404,-0.1903,a2_atr_guardrail,atr_14_pct=2.086;atr_3_pct=0.417,,2026-10-22T13:41:00Z,9:30
+SBFM,0.1782,-0.1866,a1_spread_guardrail,spread_pct=0.1835,,2026-10-22T13:41:00Z,9:30
+YFOR,0.22,-0.1859,a6_reverse_split_proxy,split_ratio_proxy=3189.5,a6,2026-10-22T13:41:00Z,9:30
+RBNE,0.1855,-0.1793,a2_atr_guardrail,atr_14_pct=1.549;atr_3_pct=2.708,,2026-10-22T13:41:00Z,9:30
+AIRE,0.8401,-0.1764,a6_reverse_split_proxy,split_ratio_proxy=38.68,a6,2026-10-22T13:41:00Z,9:30
+AMOD,0.8868,-0.1577,a3_prior_spike_guardrail,peak_to_baseline_ratio=2.522,,2026-10-22T13:41:00Z,9:30
+AAOX,4.34,-0.1574,a6_reverse_split_proxy,split_ratio_proxy=23.73,a6;a8,2026-10-22T13:41:00Z,9:30
+NEXR,0.6,-0.157,a3_prior_spike_guardrail,peak_to_baseline_ratio=1.561;volume_spike_ratio=27.66,,2026-10-22T13:41:00Z,9:30
+AAOG,0.954,-0.1509,a6_reverse_split_proxy,split_ratio_proxy=24.09,a6;a8,2026-10-22T13:41:00Z,9:30
+SPHL,2.95,-0.1485,a3_prior_spike_guardrail,peak_to_baseline_ratio=2.525,,2026-10-22T13:41:00Z,9:30
+SRTM,0.4019,-0.1451,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5;a6,2026-10-22T13:41:00Z,9:30
+WFF,0.0801,-0.1322,a2_atr_guardrail,atr_14_pct=44.53;atr_3_pct=21.18,,2026-10-22T13:41:00Z,9:30
+BKHA,4.3,-0.1224,a1_spread_guardrail,spread_pct=0.1907,,2026-10-22T13:41:00Z,9:30
+DBGI,1.64,-0.1137,a6_reverse_split_proxy,split_ratio_proxy=439.0,a6,2026-10-22T13:41:00Z,9:30
+HKPD,0.0912,-0.1078,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5;a6,2026-10-22T13:41:00Z,9:30
+BRNX,0.77,-0.1062,a6_reverse_split_proxy,split_ratio_proxy=477.3,a6,2026-10-22T13:41:00Z,9:30
+AXG,0.0719,-0.1047,a2_atr_guardrail,atr_14_pct=1.158;atr_3_pct=0.319,,2026-10-22T13:41:00Z,9:30
+AARD,3.96,-0.102,a1_spread_guardrail,spread_pct=0.1944,,2026-10-22T13:41:00Z,9:30
