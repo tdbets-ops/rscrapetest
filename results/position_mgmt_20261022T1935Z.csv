@@ -1,0 +1,12 @@
+timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
+2026-10-22T19:35:00Z,QTEX,1.43,1.43,1.4298,1.38,0.02,no_change
+2026-10-22T19:35:00Z,NYXH,0.969,0.969,0.9636,0.802,0.02,no_change
+2026-10-22T19:35:00Z,NWCL,5.28,5.28,5.1977,3.93,0.02,no_change
+2026-10-22T19:35:00Z,LCU,4.95,4.95,4.8499,4.0,0.02,no_change
+2026-10-22T19:35:00Z,GTBP,5.97,5.97,5.8588,5.28,0.02,no_change
+2026-10-22T19:35:00Z,PPSI,2.34,2.34,2.33,2.2,0.02,no_change
+2026-10-22T19:35:00Z,USAS,3.32,3.32,3.25,3.16,0.02,no_change
+2026-10-22T19:35:00Z,USDE,10.2,10.2,10.23,9.805,0.02,no_change
+2026-10-22T19:35:00Z,NUAI,2.92,2.92,2.875,2.64,0.02,no_change
+2026-10-22T19:35:00Z,CEPL,2.89,2.89,2.9274,2.74,0.02,no_change
+2026-10-22T19:35:00Z,IAEZZZ,,,,,,skipped_no_instrument_untradeable
