@@ -1,0 +1,24 @@
+symbol,entry_price,pct_change,skip_reason,guardrail_detail,fundamentals_guardrails_failed,evaluated_at,firing
+POM,1.539,-0.24630541871921174,a3_prior_spike_guardrail,peak_to_baseline_ratio=3.333;volume_spike_ratio=1839.4,,2026-10-23T13:35:00Z,9:30
+HUBC,0.1551,-0.21368368864650472,a2_atr_guardrail,atr_14_pct=3.391;atr_3_pct=0.6693,,2026-10-23T13:35:00Z,9:30
+RIME,0.0978,-0.18405916187345936,a5_compliance_guardrail,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5;a6,2026-10-23T13:35:00Z,9:30
+CRDU,4.775,-0.17562080536912758,a8_leveraged_inverse_etf,industry=Investment Trusts Or Mutual Funds;description_match=2x exposure,a8,2026-10-23T13:35:00Z,9:30
+GTN.A,6.04,-0.16721854304635758,a1_spread_guardrail,spread_pct=0.2732,,2026-10-23T13:35:00Z,9:30
+TWG,0.0405,-0.1567796610169491,a1_spread_guardrail,spread_pct=0.1209,,2026-10-23T13:35:00Z,9:30
+AAME,1.34,-0.15189873417721517,a5_compliance_guardrail,financial_status_indicator=CC5;financial_status_description=Noncompliant,a5,2026-10-23T13:35:00Z,9:30
+ILLU,9.98,-0.1503006012024048,a7_thin_liquidity_stale_quote,no_recent_real_trades,,2026-10-23T13:35:00Z,9:30
+ROMA,5.81,-0.1485807236331131,a1_spread_guardrail,spread_pct=0.4458,,2026-10-23T13:35:00Z,9:30
+SHFS,0.2891,-0.14581510644502768,a5_compliance_guardrail,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5;a6,2026-10-23T13:35:00Z,9:30
+FIXX,5.86,-0.1455090061652943,a1_spread_guardrail,spread_pct=0.0853,,2026-10-23T13:35:00Z,9:30
+AUID,0.2999,-0.14529914529914528,a5_compliance_guardrail,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5,2026-10-23T13:35:00Z,9:30
+CRD,7.32,-0.14385964912280705,a8_leveraged_inverse_etf,industry=;description_match=2x leveraged;daily price movement of,a8,2026-10-23T13:35:00Z,9:30
+NCPL,1.91,-0.13905829596412558,a3_prior_spike_guardrail,peak_to_baseline_ratio=1.8692;volume_spike_ratio=22.07,,2026-10-23T13:35:00Z,9:30
+XLAB,4.00,-0.13588110403397022,a3_prior_spike_guardrail,peak_to_baseline_ratio=3.4196,,2026-10-23T13:35:00Z,9:30
+BEC,9.0191,-0.12500000000000006,a8_leveraged_inverse_etf,industry=;description_match=2x leveraged;daily price movement of,a8,2026-10-23T13:35:00Z,9:30
+ENLV,0.1719,-0.12399598393574297,a6_reverse_split_proxy,split_ratio_proxy=157.9,a6,2026-10-23T13:35:00Z,9:30
+FGL,2.71,-0.11149825783972135,a6_reverse_split_proxy,split_ratio_proxy=2609.6,a6,2026-10-23T13:35:00Z,9:30
+YFOR,0.2026,-0.11135563380281698,a6_reverse_split_proxy,split_ratio_proxy=3464.0,a6,2026-10-23T13:35:00Z,9:30
+LVLU,9.77,-0.10979498861047837,a1_spread_guardrail,spread_pct=0.1269,,2026-10-23T13:35:00Z,9:30
+DBGI,1.12,-0.10223076923076924,a6_reverse_split_proxy,split_ratio_proxy=642.9,a6,2026-10-23T13:35:00Z,9:30
+WHLR,0.3836,-0.10091313509716687,a2_atr_guardrail,atr_14_pct=2.732;atr_3_pct=0.3216,,2026-10-23T13:35:00Z,9:30
+IMCC,0.832,-0.10024872931761654,a1_spread_guardrail,spread_pct=0.2524,,2026-10-23T13:35:00Z,9:30
