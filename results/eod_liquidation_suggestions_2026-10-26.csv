@@ -1,0 +1,13 @@
+symbol,quantity,avg_buy_price,current_price,pct_change_since_buy,low_since_buy,current_resting_target_price,rationale
+PAGS,1,8.6544,8.555,-1.149,8.205,9.09,no flag: pct_change=-1.15% near_low=False trend_down=False
+SBS,1,4.9885,4.715,-5.483,4.51,5.24,no flag: pct_change=-5.48% near_low=False trend_down=True
+ITUB,1,7.6899,7.69,0.001,7.235,8.08,no flag: pct_change=0.00% near_low=False trend_down=False
+CIG,2,1.8685,1.905,1.953,1.81,1.97,no flag: pct_change=1.95% near_low=False trend_down=False
+UGP,1,6.625,6.555,-1.057,6.255,6.97,no flag: pct_change=-1.06% near_low=False trend_down=False
+PAX,1,9.7358,9.765,0.3,9.5,10.23,no flag: pct_change=0.30% near_low=False trend_down=False
+NAUT,1,2.6299,2.43,-7.601,2.23,2.77,no flag: pct_change=-7.60% near_low=False trend_down=False
+VINP,1,9.98,9.17,-8.116,8.91,10.48,no flag: pct_change=-8.12% near_low=False trend_down=True
+SID,4,1.0085,0.8992,-10.838,0.8801,1.06,no flag: pct_change=-10.84% near_low=False trend_down=True
+BSBR,1,4.8599,4.82,-0.821,4.78,5.11,no flag: pct_change=-0.82% near_low=True trend_down=True
+CATX,3,1.4199,1.19,-16.191,1.115,1.5,no flag: pct_change=-16.19% near_low=False trend_down=True
+YRD,2,0.6397,0.5705,-10.818,0.5615,0.672,"SUGGEST_LIQUIDATE: down -10.82%, near_low (low=0.5615), trend_down second-half avg 0.5743 < first-half 0.6120"
