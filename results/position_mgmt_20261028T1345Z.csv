@@ -1,0 +1,11 @@
+timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
+2026-10-28T13:45:08Z,QTEX,1.47,1.47,1.4298,1.22,0.05,no_change_decay_floor_holds;trailing=1.41;sessions_held=4_watch_for_3:30pm_time_stop;dd=-0.0571
+2026-10-28T13:45:08Z,USAS,3.42,3.42,3.2591,2.975,0.05,no_change_decay_floor_holds;trailing_invalid_below_cost;sessions_held=4_watch_for_3:30pm_time_stop;dd=-0.0415
+2026-10-28T13:45:08Z,YRD,0.672,0.672,0.6309,0.5126,0.05,no_change_decay_floor_holds;trailing_invalid_below_cost;dd=-0.1711
+2026-10-28T13:45:08Z,PAGS,9.09,9.09,8.92,8.205,0.05,no_change_decay_floor_holds;trailing=8.75;dd=-0.0457
+2026-10-28T13:45:08Z,SBS,5.24,5.24,5.12,4.51,0.05,no_change_decay_floor_holds;trailing=5.02;dd=-0.0621
+2026-10-28T13:45:08Z,UGP,6.97,6.97,6.678,6.255,0.05,no_change_decay_floor_holds;trailing_invalid_below_cost;dd=-0.0467
+2026-10-28T13:45:08Z,VINP,10.48,10.48,10.15,8.86,0.05,no_change_decay_floor_holds;trailing_invalid_below_cost;dd=-0.1142
+2026-10-28T13:45:08Z,SID,1.07,1.07,1.01,0.8331,0.05,no_change_decay_floor_holds;trailing_invalid_below_cost;dd=-0.1736
+2026-10-28T13:45:08Z,BSBR,5.11,5.11,4.95,4.66,0.05,no_change_decay_floor_holds;trailing_invalid_below_cost;dd=-0.0463
+2026-10-28T13:45:08Z,CATX,1.5,1.5,1.475,1.06,0.05,no_change_decay_floor_holds;trailing=1.45;dd=-0.1620
