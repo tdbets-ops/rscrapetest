@@ -1,0 +1,26 @@
+symbol,entry_price,pct_change,skip_reason,guardrail_detail,fundamentals_guardrails_failed,evaluated_at,firing
+IGC,0.19,-0.22622538751571006,a1_spread,spread_pct=0.0958,,2026-10-29T13:52:00Z,9:30
+MEGL,0.184,-0.15138888888888893,a1_spread,spread_pct=0.0918,,2026-10-29T13:52:00Z,9:30
+SRTM,0.19,-0.14599542334096116,a1_spread,spread_pct=0.1116,,2026-10-29T13:52:00Z,9:30
+YMT,0.4141,-0.14009463073441678,a1_spread,spread_pct=0.0826,,2026-10-29T13:52:00Z,9:30
+YOUL,0.2411,-0.13793103448275856,a1_spread,spread_pct=0.1244,,2026-10-29T13:52:00Z,9:30
+YSXT,1.2405,-0.13194444444444442,a1_spread,spread_pct=0.1209,,2026-10-29T13:52:00Z,9:30
+YFOR,0.1365,-0.21046578493387,a2_atr_guardrail,atr14_pct=0.9463;atr3_pct=0.3158,,2026-10-29T13:52:00Z,9:30
+MKDW,0.1516,-0.1536312849162011,a2_atr_guardrail,atr14_pct=2.610;atr3_pct=1.1982,,2026-10-29T13:52:00Z,9:30
+SHFS,0.0806,-0.14042553191489365,a2_atr_guardrail,atr14_pct=1.8374;atr3_pct=1.1067,,2026-10-29T13:52:00Z,9:30
+CDT,0.0717,-0.13734939759036152,a2_atr_guardrail,atr14_pct=8.922;atr3_pct=0.4506,,2026-10-29T13:52:00Z,9:30
+RETO,0.67,-0.13391502276176023,a2_atr_guardrail,atr14_pct=6.607;atr3_pct=0.0892,,2026-10-29T13:52:00Z,9:30
+TWI,4.96,-0.2477341389728096,a4_earnings_recency,days_since_earnings=0,,2026-10-29T13:52:00Z,9:30
+HDSN,4.42,-0.1739961759082218,a4_earnings_recency,days_since_earnings=1,,2026-10-29T13:52:00Z,9:30
+PACK,3.15,-0.16269841269841265,a4_earnings_recency,days_since_earnings=0,,2026-10-29T13:52:00Z,9:30
+QUAD,8.0,-0.14627659574468085,a4_earnings_recency,days_since_earnings=1,,2026-10-29T13:52:00Z,9:30
+FPI,8.82,-0.13721618953603162,a4_earnings_recency,days_since_earnings=1,,2026-10-29T13:52:00Z,9:30
+CYH,2.2891,-0.13530075187969928,a4_earnings_recency,days_since_earnings=1,,2026-10-29T13:52:00Z,9:30
+NEXR,0.3505,-0.2495780590717299,a6_reverse_split_proxy,split_ratio_proxy=1626.2,a6,2026-10-29T13:52:00Z,9:30
+LABT,0.232,-0.18456140350877187,a6_reverse_split_proxy,split_ratio_proxy=423.3,a6,2026-10-29T13:52:00Z,9:30
+OPNW,1.15,-0.17266187050359713,a6_reverse_split_proxy,split_ratio_proxy=16.96,a6,2026-10-29T13:52:00Z,9:30
+PLCE,0.389,-0.1705294492876887,a6_reverse_split_proxy,split_ratio_proxy=24.57,a6,2026-10-29T13:52:00Z,9:30
+ELPW,2.6703,-0.11000000000000003,a6_reverse_split_proxy,split_ratio_proxy=20586,a6,2026-10-29T13:52:00Z,9:30
+AAOG,1.08,-0.10743801652892554,a6_reverse_split_proxy,split_ratio_proxy=21.28,a6;a8,2026-10-29T13:52:00Z,9:30
+AAOX,4.9,-0.1038251366120219,a6_reverse_split_proxy,split_ratio_proxy=21.02,a6;a8,2026-10-29T13:52:00Z,9:30
+AEHG,2.93,-0.11480362537764346,a8_leveraged_inverse_etf,check=(i)_industry;industry=Investment Trusts Or Mutual Funds;desc_snippet=2x leveraged exposure to the daily price movement of,a8,2026-10-29T13:52:00Z,9:30

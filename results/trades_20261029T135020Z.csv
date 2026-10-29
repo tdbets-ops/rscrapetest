@@ -1,0 +1,9 @@
+symbol,firing,timestamp_utc,side,quantity,avg_fill_price,limit_sell_price,scan_last_price,scan_pct_change,guardrails,per_position_cap,spy_pct_change
+CHRS,9:30,2026-10-29T13:55:30Z,buy,5,0.8298,0.872,0.9253,-0.20232758620689648,a1=pass;a2=pass;a3=pass;a4=pass;a5=pass;a6=pass;a7=pass;a8=pass,5,-0.005503
+KPRX,9:30,2026-10-29T13:55:30Z,buy,2,1.9126,2.01,1.94,-0.17796610169491522,a1=pass;a2=pass;a3=pass;a4=pass;a5=pass;a6=pass;a7=pass;a8=pass,5,-0.005503
+NUAI,9:30,2026-10-29T13:55:30Z,buy,1,2.7984,2.94,2.785,-0.16366366366366364,a1=pass;a2=pass;a3=pass;a4=pass;a5=pass;a6=pass;a7=pass;a8=pass,5,-0.005503
+HLN,9:30,2026-10-29T13:55:30Z,buy,1,8.6599,9.1,8.68,-0.13200000000000003,a1=pass;a2=pass;a3=pass;a4=pass;a5=pass;a6=pass;a7=pass;a8=pass,5,-0.005503
+AZTR,9:30,2026-10-29T13:55:30Z,buy,6,0.8054,0.846,0.8009,-0.11463630333849217,a1=pass;a2=pass;a3=pass;a4=pass;a5=pass;a6=pass;a7=pass;a8=pass,5,-0.005503
+VEEA,9:30,2026-10-29T13:55:30Z,buy,1,4.8999,5.15,4.9705,-0.11399286987522281,a1=pass;a2=pass;a3=pass;a4=pass;a5=pass;a6=pass;a7=pass;a8=pass,5,-0.005503
+FISN,9:30,2026-10-29T13:55:30Z,buy,1,2.9299,3.08,2.97,-0.10271903323262835,a1=pass;a2=pass;a3=pass;a4=pass;a5=pass;a6=pass;a7=pass;a8=pass,5,-0.005503
+DAVI,9:30,2026-10-29T13:55:30Z,buy,1,3.04,3.2,2.96,-0.10030395136778117,a1=pass;a2=pass;a3=pass;a4=pass;a5=pass;a6=pass;a7=pass;a8=pass,5,-0.005503
