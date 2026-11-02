@@ -1,0 +1,4 @@
+timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
+2026-11-02T14:03:28Z,KPRX,1.96,2.02,1.96,1.55,0.05,decay_trailing_update;sessions_held=2;drawdown_pct=-0.1771
+2026-11-02T14:03:29Z,HLN,8.84,9.10,8.785,8.38,0.05,decay_trailing_update;sessions_held=2;drawdown_pct=0.0000
+2026-11-02T14:03:30Z,AZTR,0.823,0.840,0.8395,0.6511,0.05,decay_trailing_update;sessions_held=2;drawdown_pct=-0.0746
