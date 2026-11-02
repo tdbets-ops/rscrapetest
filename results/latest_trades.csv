@@ -1,1 +1,5 @@
-symbol,entry_timestamp,quantity,fill_price,limit_sell_price,spread_pct,atr_14_pct,atr_3_pct,peak_to_baseline_ratio,volume_spike_ratio,days_since_earnings,financial_status_indicator,financial_status_description,split_ratio_proxy,last_price,pct_change,firing
+symbol,quantity,avg_fill_price,limit_sell_price,last_price_at_eval,pct_change_at_eval,firing,evaluated_at
+CD,1,5.095,5.35,5.18,-0.1741,10:30,2026-11-02T15:10:00Z
+TLSA,7,0.6965,0.732,0.68,-0.1549,10:30,2026-11-02T15:10:00Z
+ZENA,6,0.7711,0.81,0.7643,-0.1274,10:30,2026-11-02T15:10:00Z
+WATR,4,1.2499,1.32,1.21,-0.1168,10:30,2026-11-02T15:10:00Z

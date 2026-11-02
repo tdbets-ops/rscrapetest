@@ -1,0 +1,8 @@
+timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
+2026-11-02T15:14:00Z,KPRX,2.02,2.01,1.96,1.55,0.05,target_updated_trailing_valid
+2026-11-02T15:14:00Z,HLN,9.1,9.1,8.785,8.38,0.05,no_change_target_confirmed
+2026-11-02T15:14:00Z,AZTR,0.84,0.846,0.8395,0.6511,0.05,target_updated_trailing_valid
+2026-11-02T15:14:00Z,CD,,5.35,5.095,5.095,0.05,initial_target_placed
+2026-11-02T15:14:00Z,ZENA,,0.81,0.7711,0.7711,0.05,initial_target_placed
+2026-11-02T15:14:00Z,TLSA,,0.732,0.6965,0.6965,0.05,initial_target_placed
+2026-11-02T15:14:00Z,WATR,,1.32,1.2499,1.2499,0.05,initial_target_placed
