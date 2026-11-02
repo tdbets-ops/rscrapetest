@@ -1,0 +1,4 @@
+timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
+2026-11-02T20:37:00Z,ZENA,0.786,0.786,0.7995,0.7233,0.02,no_change_matches_local_loop
+2026-11-02T20:37:00Z,KPRX,1.96,1.96,1.96,1.55,0.02,no_change_matches_local_loop
+2026-11-02T20:37:00Z,HLN,8.84,8.84,8.84,8.38,0.02,no_change_matches_local_loop
