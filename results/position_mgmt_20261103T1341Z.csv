@@ -1,0 +1,4 @@
+timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
+2026-11-03T13:41:34Z,ZENA,0.786,0.810,0.7995,0.7233,0.05,decay_target_higher;sessions_held=1;dd=-0.0274
+2026-11-03T13:41:35Z,KPRX,1.96,2.01,1.960,1.550,0.05,decay_target_higher;sessions_held=3;dd=-0.1792
+2026-11-03T13:41:36Z,HLN,8.84,9.10,8.840,8.380,0.05,decay_target_higher;sessions_held=3;dd=0.0220
