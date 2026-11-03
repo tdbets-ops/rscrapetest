@@ -1,5 +1,4 @@
 timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
-2026-11-03T14:38:00Z,ZENA,0.809,0.809,0.7995,0.689,0.05,no_change_needed
-2026-11-03T14:38:00Z,KPRX,2.02,2.02,1.96,1.55,0.05,no_change_needed
-2026-11-03T14:38:00Z,HLN,9.1,9.1,8.885,8.38,0.05,no_change_needed
-2026-11-03T14:39:00Z,VIVO,1.95,1.96,,,0.05,decay_target_recompute_avg_buy_price
+20261103T2040Z,VIVO,1.90,1.90,1.865,1.425,0.02,target_unchanged
+20261103T2040Z,ZENA,0.786,0.786,0.7995,0.689,0.02,target_unchanged
+20261103T2040Z,KPRX,1.96,1.96,1.96,1.55,0.02,target_unchanged
