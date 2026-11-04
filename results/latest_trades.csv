@@ -1,2 +1,2 @@
-symbol,side,quantity,price,limit_sell_price,last_price,pct_change,spread_pct,atr_14_pct,atr_3_pct,peak_to_baseline_ratio,volume_spike_ratio,days_since_earnings,financial_status_indicator,financial_status_description,split_ratio_proxy,ask_gap_pct,industry,firing,evaluated_at
-VIVO,buy,2,1.857,1.95,1.91,-0.1338,0.0387,0.1597,0.1501,1.008,,n/a (no reported qtr <=3d),CC0,,3.789,0.0165,Electric Utilities,9:30,2026-11-03T14:33:00Z
+symbol,quantity,avg_fill_price,limit_sell_price,last_price,pct_change,spread_pct,atr_14_pct,atr_3_pct,peak_to_baseline_ratio,volume_spike_ratio,days_since_earnings,financial_status_indicator,financial_status_description,split_ratio_proxy,ask_gap_pct,industry,fundamentals_guardrails_failed,evaluated_at,firing
+CLSK,1,7.2399,7.61,7.3897,-0.10306748466257677,0.0027,0.1049,0.1112,1.068,1.23,na_no_recent_report,CC0,,2.59,0.0214,Data Processing Services,,2026-11-04T14:37:56Z,9:30

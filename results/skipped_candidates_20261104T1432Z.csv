@@ -1,0 +1,31 @@
+symbol,entry_price,pct_change,skip_reason,guardrail_detail,fundamentals_guardrails_failed,evaluated_at,firing
+TOMZ,2.040000,-0.23959821428571434,a1_spread,spread_pct=0.1176,,2026-11-04T14:37:56Z,9:30
+CIFU,1.455000,-0.22680412371134018,a6_reverse_split_proxy,split_ratio_proxy=35.19;high_52w=51.21,a6;a8,2026-11-04T14:37:56Z,9:30
+XXII,0.037500,-0.2111801242236025,a2_atr,atr_14_pct=3.1897;atr_3_pct=0.8995,,2026-11-04T14:37:56Z,9:30
+DJTU,3.800000,-0.19205298013245034,a6_reverse_split_proxy,split_ratio_proxy=17.58;high_52w=66.80,a6;a8,2026-11-04T14:37:56Z,9:30
+FPSX,1.511600,-0.18157894736842103,a8_leveraged_inverse_etf,industry=Investment Trusts Or Mutual Funds,a8,2026-11-04T14:37:56Z,9:30
+CHOW,3.360000,-0.17647058823529416,a1_spread,spread_pct=0.1176,,2026-11-04T14:37:56Z,9:30
+RIBB,7.220000,-0.1731301939058172,a1_spread,spread_pct=0.3213,,2026-11-04T14:37:56Z,9:30
+TSQ,2.501000,-0.16910299003322257,a4_earnings_recency,days_since_earnings=0;report_date=2026-11-04,,2026-11-04T14:37:56Z,9:30
+TBLA,2.850000,-0.1617647058823529,a4_earnings_recency,days_since_earnings=0;report_date=2026-11-04,,2026-11-04T14:37:56Z,9:30
+AMBO,1.350000,-0.15625,a1_spread,spread_pct=0.2063,,2026-11-04T14:37:56Z,9:30
+HUBC,0.090100,-0.1555763823805061,a1_spread,spread_pct=0.0912,,2026-11-04T14:37:56Z,9:30
+SGRX,0.640000,-0.15355111757704004,a1_spread,spread_pct=0.1233,,2026-11-04T14:37:56Z,9:30
+COZX,4.230000,-0.14889336016096566,a7_thin_liquidity_stale_quote,no_recent_real_trades;window=14:30-14:35Z,a8,2026-11-04T14:37:56Z,9:30
+BDMD,0.100000,-0.1452991452991453,a2_atr,atr_14_pct=0.9579;atr_3_pct=0.8948,,2026-11-04T14:37:56Z,9:30
+RWT,2.690000,-0.135048231511254,a4_earnings_recency,days_since_earnings=1;report_date=2026-11-03,,2026-11-04T14:37:56Z,9:30
+INLF,0.293300,-0.13250517598343686,a1_spread,spread_pct=0.1052,,2026-11-04T14:37:56Z,9:30
+YFOR,0.116700,-0.12649700598802394,a1_spread,spread_pct=0.0931,,2026-11-04T14:37:56Z,9:30
+SLGB,0.241000,-0.12299854439592431,a1_spread,spread_pct=0.1023,,2026-11-04T14:37:56Z,9:30
+SAIQ,4.220000,-0.11899791231732783,a1_spread,spread_pct=0.0855,,2026-11-04T14:37:56Z,9:30
+ABTS,0.353000,-0.1175000000000001,a1_spread,spread_pct=0.1143,,2026-11-04T14:37:56Z,9:30
+FNG,3.090000,-0.11714285714285719,a8_leveraged_inverse_etf,industry=Investment Trusts Or Mutual Funds,a8,2026-11-04T14:37:56Z,9:30
+CRWX,5.810000,-0.11668567084758649,a8_leveraged_inverse_etf,description_contains=2x leveraged exposure;industry=empty,a8,2026-11-04T14:37:56Z,9:30
+ALA,4.670000,-0.11504424778761067,a7_thin_liquidity_stale_quote,no_recent_real_trades;window=14:30-14:35Z,a8,2026-11-04T14:37:56Z,9:30
+MERC,0.186300,-0.11415094339622642,a3_prior_spike,peak_to_baseline_ratio=1.925;volume_spike_ratio=451.38,,2026-11-04T14:37:56Z,9:30
+CIFR,7.080000,-0.11405172413793092,a4_earnings_recency,days_since_earnings=2;report_date=2026-11-02,,2026-11-04T14:37:56Z,9:30
+SMTK,0.270000,-0.11042944785276083,a1_spread,spread_pct=0.1655,,2026-11-04T14:37:56Z,9:30
+CRDU,4.330000,-0.11042944785276075,a7_thin_liquidity_stale_quote,ask_gap_pct=0.0331;last_real_price=4.230000,a8,2026-11-04T14:37:56Z,9:30
+SHFS,0.036100,-0.10937499999999997,a2_atr,atr_14_pct=3.1097;atr_3_pct=0.8686,,2026-11-04T14:37:56Z,9:30
+IPW,1.470000,-0.10365853658536582,a2_atr,atr_14_pct=1.0261;atr_3_pct=0.3094,,2026-11-04T14:37:56Z,9:30
+MCRB,1.770000,-0.10204081632653059,a4_earnings_recency,days_since_earnings=0;report_date=2026-11-04,,2026-11-04T14:37:56Z,9:30
