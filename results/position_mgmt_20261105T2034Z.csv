@@ -1,0 +1,5 @@
+timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
+2026-11-05T20:34:00Z,VIVO,1.90,1.90,1.8659,1.425,0.02,no_change_target_confirmed
+2026-11-05T20:34:00Z,CLSK,7.40,7.40,7.545,5.53,0.02,no_change_target_confirmed
+2026-11-05T20:34:00Z,IMXI,7.41,7.41,7.558,7.02,0.02,no_change_target_confirmed
+2026-11-05T20:34:00Z,MTVA,1.28,1.28,1.3,1.0157,0.02,no_change_target_confirmed
