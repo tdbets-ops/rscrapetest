@@ -1,0 +1,6 @@
+symbol,quantity,avg_fill_price,limit_sell_price,bracket_last_price,bracket_pct_change,spread_pct,atr_14_pct,atr_3_pct,spike_ratio,volume_spike_ratio,days_since_earnings,financial_status_indicator,financial_status_description,split_ratio_proxy,leveraged_etf_check,ask_gap_pct,fundamentals_guardrails_failed,evaluated_at,firing
+NKTX,3,1.275,1.34,1.3272,-0.2328,0.0076,0.1156,0.1466,1.079,2.57,4,CC0,,2.820,pass,-0.00377,,2026-11-09T14:34:00Z,9:30
+IBRX,1,6.6799,7.02,6.975,-0.1922,0.0015,0.1016,0.1109,1.060,1.47,>90,CC0,,1.869,pass,0.02073,,2026-11-09T14:34:00Z,9:30
+LFMD,2,2.0499,2.16,1.99,-0.1603,0.0105,0.0840,0.1076,1.056,1.41,>90,CC0,,2.855,pass,0.00005,,2026-11-09T14:34:00Z,9:30
+ACCV,1,10.1899,10.70,9.695,-0.1234,0.0690,0.1453,0.1835,1.105,3.09,n/a,CC0,,1.810,pass,0.01900,,2026-11-09T14:34:00Z,9:30
+NXH,3,1.5477,1.63,1.47,-0.1145,0.0066,0.1137,0.0995,1.107,2.57,4,CC0,,5.096,pass,0.00596,,2026-11-09T14:34:00Z,9:30
