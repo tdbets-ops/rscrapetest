@@ -1,0 +1,3 @@
+timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
+2026-11-09T13:42:00Z,CLSK,7.4,7.61,7.545,5.575,0.05,decay_reset_fresh_day;decay_target=7.61;trailing_target=7.40;sessions_held=3;drawdown_pct=-0.1712
+2026-11-09T13:42:00Z,IMXI,7.41,7.61,7.558,7.0,0.05,decay_reset_fresh_day;decay_target=7.61;trailing_target=7.41;sessions_held=2;drawdown_pct=0.0097(stale_quote_fri_close)
