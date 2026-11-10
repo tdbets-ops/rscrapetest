@@ -1,4 +1,2 @@
 timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
-2026-11-10T14:39:00Z,NXH,1.63,1.63,1.56,1.435,0.05,no_change;sessions_held=1;dd=-0.0516
-2026-11-10T14:39:00Z,CLSK,7.61,7.61,7.545,5.575,0.05,no_change;sessions_held=4;dd=-0.0573
-2026-11-10T14:39:00Z,SEV,1.78,1.78,1.655,1.655,0.05,new_position_target_set
+2026-11-10T20:39:00Z,NXH,1.59,1.59,1.56,1.29,0.02,no_change_target_already_correct;sessions_held=1;dd=-0.1387
