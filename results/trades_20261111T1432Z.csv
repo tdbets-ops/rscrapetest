@@ -1,0 +1,2 @@
+symbol,quantity,buy_price,limit_sell_price,spread_pct,atr_14_pct,atr_3_pct,peak_to_baseline_ratio,volume_spike_ratio,days_since_earnings,financial_status_indicator,financial_status_description,split_ratio_proxy,industry,ask_gap_pct,last_price,pct_change,evaluated_at,firing
+GPRO,7,0.69,0.725,0.01176,0.0882,0.0819,1.0552,2.0266,93,CC0,,2.808,Electronics/Appliances,-0.0587,0.745,-0.116,2026-11-11T14:40:00Z,9:30

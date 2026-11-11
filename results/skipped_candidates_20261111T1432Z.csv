@@ -1,0 +1,34 @@
+symbol,entry_price,pct_change,skip_reason,guardrail_detail,fundamentals_guardrails_failed,evaluated_at,firing
+EQS,0.652,-0.1871,a1_spread,spread_pct=0.1784,,2026-11-11T14:36:00Z,9:30
+OPENZ,0.033,-0.1688,a1_spread,spread_pct=0.1212,,2026-11-11T14:36:00Z,9:30
+CDT,0.4799,-0.153,a1_spread,spread_pct=0.0958,,2026-11-11T14:36:00Z,9:30
+RAYA,0.59,-0.1459,a1_spread,spread_pct=0.0824,,2026-11-11T14:36:00Z,9:30
+YFOR,0.051,-0.1298,a1_spread,spread_pct=0.1196,,2026-11-11T14:36:00Z,9:30
+MWG,1.47,-0.1156,a1_spread,spread_pct=0.1360,,2026-11-11T14:36:00Z,9:30
+ESYN,1.33,-0.1133,a1_spread,spread_pct=0.2105,,2026-11-11T14:36:00Z,9:30
+GSIW,10.17,-0.1032,a1_spread,spread_pct=0.1475,,2026-11-11T14:36:00Z,9:30
+GITS,1.46,-0.1027,a1_spread,spread_pct=0.1575,,2026-11-11T14:36:00Z,9:30
+NIPG,3.35,-0.1019,a1_spread,spread_pct=0.1910,,2026-11-11T14:36:00Z,9:30
+DTST,2.76,-0.101,a1_spread,spread_pct=0.0833,,2026-11-11T14:36:00Z,9:30
+PARA,0.0658,-0.1795,a2_atr,atr_14_pct=18.8800;atr_3_pct=9.8966,,2026-11-11T14:36:00Z,9:30
+RUBI,1.1102,-0.1319,a2_atr,atr_14_pct=1.2822;atr_3_pct=0.4181,,2026-11-11T14:36:00Z,9:30
+VIVK,0.2531,-0.1276,a2_atr,atr_14_pct=1.7800;atr_3_pct=0.8254,,2026-11-11T14:36:00Z,9:30
+DBGI,0.1381,-0.1142,a2_atr,atr_14_pct=2.6922;atr_3_pct=1.2426,,2026-11-11T14:36:00Z,9:30
+STIM,1.6,-0.2189,a3_prior_spike,peak_to_baseline_ratio=1.508;volume_spike_ratio=9.544,,2026-11-11T14:36:00Z,9:30
+BYAH,1.61,-0.1846,a3_prior_spike,peak_to_baseline_ratio=1.5375;volume_spike_ratio=519.6,,2026-11-11T14:36:00Z,9:30
+GRWG,1.2418,-0.2384,a4_earnings_recency,days_since_earnings=1,,2026-11-11T14:36:00Z,9:30
+GENK,1.166,-0.2384,a4_earnings_recency,days_since_earnings=1,,2026-11-11T14:36:00Z,9:30
+LWLG,3.3999,-0.221,a4_earnings_recency,days_since_earnings=1,,2026-11-11T14:36:00Z,9:30
+STXS,0.8414,-0.1875,a4_earnings_recency,days_since_earnings=1,,2026-11-11T14:36:00Z,9:30
+MDAI,1.31,-0.1494,a4_earnings_recency,days_since_earnings=1,,2026-11-11T14:36:00Z,9:30
+VELO,5.24,-0.1422,a4_earnings_recency,days_since_earnings=1,,2026-11-11T14:36:00Z,9:30
+NCMI,1.52,-0.1235,a4_earnings_recency,days_since_earnings=1,,2026-11-11T14:36:00Z,9:30
+SUJA,8.33,-0.1174,a4_earnings_recency,days_since_earnings=1,,2026-11-11T14:36:00Z,9:30
+ITG,4.57,-0.1002,a4_earnings_recency,days_since_earnings=1,,2026-11-11T14:36:00Z,9:30
+BEZ,6.38,-0.2042,a6_reverse_split_proxy,split_ratio_proxy=48.06,a6;a8,2026-11-11T14:36:00Z,9:30
+SMRX,6.0746,-0.172,a8_leveraged_etf,industry=;description_match=2x leveraged exposure,a8,2026-11-11T14:36:00Z,9:30
+IPDN,0.86,-0.1704,a6_reverse_split_proxy,split_ratio_proxy=85.81,a6,2026-11-11T14:36:00Z,9:30
+SKDD,9.63,-0.1421,a8_leveraged_etf,industry=Investment Trusts Or Mutual Funds,a8,2026-11-11T14:36:00Z,9:30
+SMCZ,6.9881,-0.1338,a6_reverse_split_proxy,split_ratio_proxy=19.09,a6;a8,2026-11-11T14:36:00Z,9:30
+EVGN,0.3347,-0.1022,a5_compliance,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5,2026-11-11T14:36:00Z,9:30
+AMIX,1.66,-0.1,a6_reverse_split_proxy,split_ratio_proxy=19.61,a6,2026-11-11T14:36:00Z,9:30
