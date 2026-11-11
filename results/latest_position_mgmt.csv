@@ -1,2 +1,2 @@
 timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
-2026-11-10T20:39:00Z,NXH,1.59,1.59,1.56,1.29,0.02,no_change_target_already_correct;sessions_held=1;dd=-0.1387
+2026-11-11T13:36:43Z,NXH,1.59,1.63,1.56,1.29,0.05,decay_target_update
