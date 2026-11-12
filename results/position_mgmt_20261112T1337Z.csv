@@ -1,0 +1,2 @@
+timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
+2026-11-12T13:39:31Z,NXH,1.59,1.63,1.56,1.29,0.05,decay_target_only;trailing_invalid(1.53<=avg_buy1.55);sessions_held=3;drawdown_pct=-0.1226
