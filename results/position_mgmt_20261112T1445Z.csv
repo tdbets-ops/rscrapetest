@@ -1,0 +1,10 @@
+timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
+2026-11-12T14:45:00Z,NXH,1.63,1.63,1.56,1.29,0.05,no_change;decay_target_wins;trailing_invalid(peak*0.98=1.53<=avg_buy=1.5477)
+2026-11-12T14:41:00Z,VNET,3.23,3.23,3.0699,3.0699,0.05,initial_target_set_at_buy;no_completed_5min_bar_since_fill_yet
+2026-11-12T14:41:00Z,PACB,2.03,2.03,1.9284,1.9284,0.05,initial_target_set_at_buy;no_completed_5min_bar_since_fill_yet
+2026-11-12T14:41:00Z,REA,6.26,6.26,5.9571,5.9571,0.05,initial_target_set_at_buy;no_completed_5min_bar_since_fill_yet
+2026-11-12T14:41:00Z,AIBZ,2.93,2.93,2.7899,2.7899,0.05,initial_target_set_at_buy;no_completed_5min_bar_since_fill_yet
+2026-11-12T14:41:00Z,AGLT,8.26,8.26,7.8599,7.8599,0.05,initial_target_set_at_buy;no_completed_5min_bar_since_fill_yet
+2026-11-12T14:41:00Z,GLAS,1.49,1.49,1.4183,1.4183,0.05,initial_target_set_at_buy;no_completed_5min_bar_since_fill_yet
+2026-11-12T14:41:00Z,OPEN,1.33,1.33,1.2585,1.2585,0.05,initial_target_set_at_buy;no_completed_5min_bar_since_fill_yet
+2026-11-12T14:41:00Z,FMC,5.35,5.35,5.0944,5.0944,0.05,initial_target_set_at_buy;no_completed_5min_bar_since_fill_yet
