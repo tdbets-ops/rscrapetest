@@ -1,0 +1,6 @@
+timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
+2026-11-13T20:36:00Z,NXH,1.59,,1.56,1.18,0.02,time_stop_4_sessions;sessions_held=4;dd=-0.1871
+2026-11-13T20:36:00Z,GLAS,1.45,1.45,1.42,1.0613,0.02,no_change_target_confirmed
+2026-11-13T20:36:00Z,REA,6.10,6.10,6.22,5.27,0.02,no_change_target_confirmed
+2026-11-13T20:36:00Z,VNET,3.15,3.15,3.21,2.88,0.02,no_change_target_confirmed
+2026-11-13T20:36:00Z,AGLT,8.02,8.02,8.1425,6.585,0.02,no_change_target_confirmed
