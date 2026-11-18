@@ -1,0 +1,9 @@
+timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
+2026-11-18T13:37:28Z,TE,1.64,1.68,1.6094,1.25,0.05,decay_only_trailing_invalid
+2026-11-18T13:37:30Z,REA,6.10,6.26,6.22,4.3601,0.05,decay_above_trailing
+2026-11-18T13:37:31Z,VNET,3.15,3.23,3.21,2.50,0.05,decay_above_trailing
+2026-11-18T13:37:32Z,AGLT,8.02,8.26,8.1425,6.54,0.05,decay_above_trailing
+2026-11-18T13:37:34Z,IEP,3.99,4.11,3.8991,3.16,0.05,decay_only_trailing_invalid
+2026-11-18T13:37:35Z,NLOP,8.24,8.48,8.0818,7.52,0.05,decay_only_trailing_invalid
+2026-11-18T13:37:38Z,CCOI,3.85,3.96,3.895,3.06,0.05,decay_above_trailing
+2026-11-18T13:37:39Z,SPCE,1.68,1.72,1.71,1.29,0.05,decay_above_trailing
