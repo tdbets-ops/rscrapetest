@@ -1,10 +1,1 @@
-symbol,quantity,avg_fill_price,limit_sell_price,last_price,pct_change,spread_pct,atr14_pct,atr3_pct,prior_spike_ratio,volume_spike_ratio,days_since_earnings,financial_status_indicator,split_ratio_proxy,ask_gap_pct,firing,evaluated_at
-ENVX,3,1.3184,1.39,1.3401,-0.16562500000000008,0.0076,0.25,0.397,1.327,1.3,4,CC0,6.96,-0.0148,9:30,2026-11-16T14:40:00Z
-IEP,1,3.9099,4.11,3.94,-0.16033755274261607,0.0075,0.062,0.304,0.986,1.01,13,CC0,2.19,0.0228,9:30,2026-11-16T14:40:00Z
-NLOP,1,8.07,8.48,8.04,-0.15618448637316548,0.031,0.0304,0.27,1.008,1.01,4,CA0,3.73,0.0149,9:30,2026-11-16T14:40:00Z
-CCOI,1,3.77,3.96,3.66,-0.12468827930174564,0.0106,0.2,0.58,1.051,1.05,11,CC0,7.61,0.0216,9:30,2026-11-16T14:40:00Z
-SPCE,3,1.6284,1.72,1.675,-0.12228260869565222,0.0062,0.139,0.422,1.16,1.18,4,CA0,5.53,-0.0272,9:30,2026-11-16T14:40:00Z
-TE,3,1.5989,1.68,1.68,-0.12041884816753927,0.0063,0.193,0.366,1.283,1.26,4,CA0,7.85,-0.0123,9:30,2026-11-16T14:40:00Z
-NMAX,1,8.9498,9.4,8.83,-0.1022860125260961,0.0156,0.068,1.191,1.201,1.09,4,CA0,1.345,0.0237,9:30,2026-11-16T14:40:00Z
-ACRS,1,3.5099,3.69,3.59,-0.10076530612244898,0.0057,0.0847,0.29,1.125,1.13,11,CC0,1.87,-0.0248,9:30,2026-11-16T14:40:00Z
-ALGS,2,1.84,1.94,1.93,-0.10000000000000009,0.0273,0.26,0.556,1.076,1.09,10,CC0,7.54,-0.057,9:30,2026-11-16T14:40:00Z
+symbol,quantity,fill_price,sell_limit_price,spread_pct,atr14_pct,atr3_pct,prior_spike_ratio,volume_spike_ratio,days_since_earnings,financial_status_indicator,financial_status_description,split_ratio_proxy,ask_gap_pct,last_price,pct_change,evaluated_at,firing
