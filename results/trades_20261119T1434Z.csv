@@ -1,0 +1,2 @@
+symbol,side,quantity,avg_fill_price,limit_sell_price,last_price_at_scan,pct_change_at_scan,spread_pct,atr_14_pct,atr_3_pct,peak_to_baseline_ratio,volume_spike_ratio,days_since_earnings,financial_status_indicator,financial_status_description,split_ratio_proxy,ask_gap_pct,firing,evaluated_at
+RYOJ,buy,2,2.11,2.22,1.9,-0.15555555555555559,0.0,0.1376,0.0958,1.0858,n/a,n/a(no_reported_earnings),CC0,,4.263,-0.0263,9:30,2026-11-19T14:34:00Z

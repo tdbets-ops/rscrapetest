@@ -1,4 +1,5 @@
 timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
-2026-11-19T13:39:00Z,TE,1.64,1.68,1.6094,1.25,0.05,daily_decay_reset;sessions_held=3;dd=-13.75%
-2026-11-19T13:39:00Z,NLOP,8.24,8.48,8.0818,7.03,0.05,daily_decay_reset;sessions_held=3;dd=-11.77%
-2026-11-19T13:39:00Z,CCOI,3.85,3.96,3.895,3.06,0.05,daily_decay_reset;sessions_held=3;dd=-15.65%
+2026-11-19T14:42:00Z,TE,1.68,1.68,1.6296,1.25,0.05,no_change_needed;decay_target=1.68;trailing_invalid(peak*0.98=1.598<avg_buy)
+2026-11-19T14:42:00Z,NLOP,8.48,8.48,8.0818,7.03,0.05,no_change_needed;decay_target=8.48;trailing_invalid(peak*0.98=7.9202<avg_buy)
+2026-11-19T14:42:00Z,CCOI,3.96,3.96,3.895,3.06,0.05,no_change_needed;decay_target=3.96;trailing=3.8171_below_decay
+2026-11-19T14:42:00Z,RYOJ,2.22,2.22,2.0699,1.62,0.05,no_change_needed;initial_target_set_this_cycle;decay_target=2.22;trailing_invalid(peak<avg_buy)
