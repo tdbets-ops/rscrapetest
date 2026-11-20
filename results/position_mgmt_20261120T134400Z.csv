@@ -1,0 +1,4 @@
+timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
+2026-11-20T13:44:00Z,TE,1.64,1.68,1.6094,1.22,0.05,decay_target_update;sessions_held=3;dd=-0.2304
+2026-11-20T13:44:00Z,NLOP,8.24,8.48,8.0818,6.96,0.05,decay_target_update;sessions_held=3;dd=-0.1140
+2026-11-20T13:44:00Z,CCOI,3.85,3.96,3.895,3.01,0.05,decay_target_update;sessions_held=3;dd=-0.1883
