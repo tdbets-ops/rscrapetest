@@ -1,0 +1,5 @@
+timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
+2026-11-20T20:38:00Z,NLOP,8.48,,,,,time_stop_4_sessions;sessions_held=4;dd=-0.1487
+2026-11-20T20:38:00Z,CCOI,3.96,,,,,time_stop_4_sessions;sessions_held=4;dd=-0.2175
+2026-11-20T20:38:00Z,SVRA,4.62,4.49,4.52,4.215,0.02,target_decayed
+2026-11-20T20:38:00Z,INVE,2.43,2.36,2.35,2.1,0.02,target_decayed
