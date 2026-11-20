@@ -1,0 +1,4 @@
+symbol,side,quantity,avg_fill_price,limit_sell_price,last_price_at_eval,pct_change,spread_pct,atr14_pct,atr3_pct,spike_ratio,volume_spike_ratio,days_since_earnings,financial_status_indicator,financial_status_description,split_ratio_proxy,ask_gap_pct,industry,order_id_buy,order_id_sell,evaluated_at,firing
+SVRA,buy,1,4.395,4.62,4.395,-0.1871401151631477,0.002,0.076,0.098,1.08,3.33,10,CC0,,1.6,0.0,Pharmaceuticals: Major,6b005b6c-b9c2-42aa-b3b4-8f69b33560e3,6b005b86-969a-4516-8e5b-c8e0fd71861d,2026-11-20T14:38:00Z,9:30
+INVE,buy,2,2.31,2.43,2.295,-0.1433962264150943,0.044,0.042,0.048,1.025,1.55,8,CC0,,2.3,0.024,Semiconductors,6b005b6e-0f51-4458-93b9-f77fb0791c19,6b005b87-54d0-42c4-bc8e-b36441e39e11,2026-11-20T14:38:00Z,9:30
+AUC,buy,1,7.1305,7.49,7.09,-0.11152882205513791,0.032,0.148,0.138,1.128,1.94,,CC0,,1.3,0.0141,Investment Managers,6b005b6f-d14f-40b6-a910-98e444f67ccd,6b005b88-4bcb-4390-8b0c-493aa5a208c9,2026-11-20T14:38:00Z,9:30
