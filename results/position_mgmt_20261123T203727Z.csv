@@ -1,0 +1,5 @@
+timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
+2026-11-23T20:37:27Z,SVRA,4.62,4.49,4.52,4.041,0.02,decay_trailing_update
+2026-11-23T20:37:27Z,INVE,2.43,2.36,2.35,1.91,0.02,decay_trailing_update
+2026-11-23T20:37:27Z,MNRO,9.07,8.81,8.81,7.54,0.02,decay_trailing_update
+2026-11-23T20:37:27Z,AZIO,0.393,0.382,0.3898,0.3205,0.02,decay_trailing_update
