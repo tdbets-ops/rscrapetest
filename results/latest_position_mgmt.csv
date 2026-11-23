@@ -1,3 +1,5 @@
 timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
-2026-11-23T13:40:58Z,SVRA,4.49,4.62,4.52,4.215,0.05,decay_target_raised;sessions_held=1;dd=-0.0341
-2026-11-23T13:40:59Z,INVE,2.36,2.43,2.30,2.10,0.05,decay_target_raised;sessions_held=1;dd=-0.0563
+2026-11-23T14:41:00Z,SVRA,4.62,4.62,4.52,4.205,0.05,decay_recompute_unchanged;trailing_invalid_lower_than_decay
+2026-11-23T14:41:00Z,INVE,2.43,2.43,2.35,2.1,0.05,decay_recompute_unchanged;trailing_invalid_below_cost
+2026-11-23T14:41:00Z,MNRO,9.07,9.07,8.6719,8.37,0.05,initial_target_set_at_buy;trailing_invalid_below_cost
+2026-11-23T14:41:00Z,AZIO,0.393,0.393,0.3856,0.3611,0.05,initial_target_set_at_buy;trailing_valid_but_lower_than_decay
