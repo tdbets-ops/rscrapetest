@@ -1,0 +1,3 @@
+timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
+2026-11-23T13:40:58Z,SVRA,4.49,4.62,4.52,4.215,0.05,decay_target_raised;sessions_held=1;dd=-0.0341
+2026-11-23T13:40:59Z,INVE,2.36,2.43,2.30,2.10,0.05,decay_target_raised;sessions_held=1;dd=-0.0563
