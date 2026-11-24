@@ -1,0 +1,4 @@
+symbol,side,quantity,avg_fill_price,limit_sell_price,last_price_at_eval,pct_change_at_eval,evaluated_at,firing,order_type,time_in_force
+ZSQR,buy,1,2.240000,2.36,2.20,-0.12527472527472525,2026-11-24T14:37:00Z,9:30,market,gfd
+MWYN,buy,2,1.179400,1.24,1.18,-0.12499999999999993,2026-11-24T14:37:00Z,9:30,market,gfd
+BTQ,buy,2,1.088400,1.15,1.0902,-0.10084033613445369,2026-11-24T14:37:00Z,9:30,market,gfd

@@ -1,3 +1,4 @@
-symbol,side,order_id,quantity,avg_fill_price,dollar_spent,limit_sell_price,sell_order_id,last_price_scan,pct_change_scan,spread_pct,atr_14_pct,atr_3_pct,peak_to_baseline_ratio,volume_spike_ratio,days_since_earnings,financial_status_indicator,financial_status_description,split_ratio_proxy,ask_gap_pct,industry,firing,evaluated_at
-MNRO,buy,6b044fde-25f8-4c42-9d9e-465deaef4ee1,1,8.63,8.63,9.07,6b045001-7ffa-4749-8c06-42271da3bf49,8.62,-0.1032,0.0186,8.78,8.55,1.056,1.24,25,CC0,,2.77,0.0151,Specialty Stores,9:30,2026-11-23T14:38:00Z
-AZIO,buy,6b044fed-c030-4515-a610-c038a77ee31e,13,0.3738,4.8594,0.393,6b045002-8a3d-41e3-89aa-f83a3c47816e,0.3838,-0.1011,0.0506,26.89,32.38,1.161,51.89,5,CC0,,12.8,0.0162,Packaged Software,9:30,2026-11-23T14:38:00Z
+symbol,side,quantity,avg_fill_price,limit_sell_price,last_price_at_eval,pct_change_at_eval,evaluated_at,firing,order_type,time_in_force
+ZSQR,buy,1,2.240000,2.36,2.20,-0.12527472527472525,2026-11-24T14:37:00Z,9:30,market,gfd
+MWYN,buy,2,1.179400,1.24,1.18,-0.12499999999999993,2026-11-24T14:37:00Z,9:30,market,gfd
+BTQ,buy,2,1.088400,1.15,1.0902,-0.10084033613445369,2026-11-24T14:37:00Z,9:30,market,gfd
