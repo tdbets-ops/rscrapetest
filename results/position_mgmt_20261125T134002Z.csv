@@ -1,0 +1,6 @@
+timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
+2026-11-25T13:39:46Z,INVE,2.36,2.43,2.32,1.91,0.05,decay_target_new_session_high
+2026-11-25T13:39:47Z,MNRO,8.81,9.07,8.81,7.50,0.05,decay_target_new_session_high
+2026-11-25T13:39:48Z,AZIO,0.383,0.393,0.3898,0.3001,0.05,decay_target_new_session_high
+2026-11-25T13:39:49Z,MWYN,1.21,1.24,1.20,1.11,0.05,decay_target_new_session_high
+2026-11-25T13:39:50Z,BTQ,1.12,1.15,1.105,1.05,0.05,decay_target_new_session_high
