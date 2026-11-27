@@ -1,5 +1,5 @@
 timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
-20261127T1442Z,INVE,2.43,2.43,2.32,1.91,0.05,no_change
-20261127T1442Z,MNRO,9.07,9.07,8.81,7.25,0.05,no_change
-20261127T1442Z,AZIO,0.389,0.389,0.3898,0.3001,0.05,no_change
-20261127T1442Z,ALVO,3.96,3.96,3.765,3.705,0.05,initial_target_set
+2026-11-27T20:38:04Z,INVE,2.43,,2.32,1.91,,time_stop_4_sessions;sessions_held=4;dd=-0.1342
+2026-11-27T20:38:06Z,ALVO,3.96,3.68,3.748,3.555,,auto_liquidate_never_touched_breakeven_60min;exit_style=limit_at_bid
+2026-11-27T20:38:08Z,MNRO,9.07,8.81,8.81,7.25,0.02,decay_trailing_target_update
+2026-11-27T20:38:09Z,AZIO,0.389,0.382,0.3898,0.3001,0.02,decay_trailing_target_update
