@@ -1,0 +1,33 @@
+symbol,entry_price,pct_change,skip_reason,guardrail_detail,fundamentals_guardrails_failed,evaluated_at,firing
+SRTM,0.2859,-0.2107438016528926,a1_spread,spread_pct=0.2190,,2026-11-27T14:35:00Z,9:30
+XTAI,12.3625,-0.2064711830131446,a8_leveraged_inverse_etf,description_match=2x leveraged exposure;daily price movement of,a8,2026-11-27T14:35:00Z,9:30
+LOOP,0.1211,-0.19738562091503262,a1_spread,spread_pct=0.0892,,2026-11-27T14:35:00Z,9:30
+APUS,2.2108,-0.1865942028985506,a6_reverse_split_proxy,split_ratio_proxy=27.00;high_52w=59.70,a6,2026-11-27T14:35:00Z,9:30
+PWCM,0.3305,-0.17126379137412232,a1_spread,spread_pct=0.1713,,2026-11-27T14:35:00Z,9:30
+TWG,1.45,-0.15976331360946747,a3_prior_spike_guardrail,peak_to_baseline_ratio=1.446;volume_spike_ratio=124.58,,2026-11-27T14:35:00Z,9:30
+SITX,5.629,-0.15615562266832467,a8_leveraged_inverse_etf,industry=Investment Trusts Or Mutual Funds,a8,2026-11-27T14:35:00Z,9:30
+ZDAI,1.44,-0.15277777777777776,a1_spread,spread_pct=0.1944,,2026-11-27T14:35:00Z,9:30
+CHWM,3.45,-0.15079365079365076,a1_spread,spread_pct=0.2087,,2026-11-27T14:35:00Z,9:30
+TOPP,0.464,-0.1502654867256636,a1_spread,spread_pct=0.1703,,2026-11-27T14:35:00Z,9:30
+FTHM,0.07,-0.14859926918392208,a5_compliance_guardrail,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5;a6,2026-11-27T14:35:00Z,9:30
+MRAX,6.8748,-0.14615697911211956,a1_spread,spread_pct=0.1077,,2026-11-27T14:35:00Z,9:30
+NVTC,3.0553,-0.14247373416685752,a8_leveraged_inverse_etf,description_match=2x leveraged exposure;daily price movement of,a8,2026-11-27T14:35:00Z,9:30
+ZNB,0.2448,-0.14225648213034336,a1_spread,spread_pct=0.0940,,2026-11-27T14:35:00Z,9:30
+STAK,2.3014,-0.13868613138686142,a2_atr_guardrail,atr3_pct=0.8126;atr14_pct=0.3901,,2026-11-27T14:35:00Z,9:30
+XQTM,3.9167,-0.13702862103301253,a8_leveraged_inverse_etf,description_match=2x leveraged exposure;daily price movement of,a8,2026-11-27T14:35:00Z,9:30
+OGEN,0.11,-0.13155770782889423,a1_spread,spread_pct=0.1818,,2026-11-27T14:35:00Z,9:30
+MTSG,2.3375,-0.13155080213903747,a3_prior_spike_guardrail,peak_to_baseline_ratio=1.407;volume_spike_ratio=5.98,,2026-11-27T14:35:00Z,9:30
+VWAV,0.0388,-0.1286031042128603,a2_atr_guardrail,atr14_pct=10.162;atr3_pct=4.198,,2026-11-27T14:35:00Z,9:30
+TERC,5.519,-0.1266533792353687,a8_leveraged_inverse_etf,description_match=2x leveraged exposure;daily price movement of,a8,2026-11-27T14:35:00Z,9:30
+EOSEW,0.95,-0.12631578947368421,a1_spread,spread_pct=0.6316,,2026-11-27T14:35:00Z,9:30
+BMHL,3.45,-0.12463768115942032,a1_spread,spread_pct=0.1856,,2026-11-27T14:35:00Z,9:30
+PLUT,0.75,-0.11971830985915491,a1_spread,spread_pct=0.5587,,2026-11-27T14:35:00Z,9:30
+VS,0.56,-0.11811023622047237,a1_spread,spread_pct=0.3261,,2026-11-27T14:35:00Z,9:30
+TRUG,0.22,-0.11666666666666674,a5_compliance_guardrail,financial_status_indicator=CC4;financial_status_description=Noncompliant,a5;a6,2026-11-27T14:35:00Z,9:30
+NIVF,0.0157,-0.11299435028248597,a1_spread,spread_pct=0.1146,,2026-11-27T14:35:00Z,9:30
+ATCX,1.36,-0.11029411764705892,a1_spread,spread_pct=0.1912,,2026-11-27T14:35:00Z,9:30
+BRFH,0.6955,-0.1078810508067742,a1_spread,spread_pct=0.1096,,2026-11-27T14:35:00Z,9:30
+RMSG,0.1572,-0.10685249709639953,a1_spread,spread_pct=0.1145,,2026-11-27T14:35:00Z,9:30
+BGLC,1.135,-0.10317460317460327,a3_prior_spike_guardrail,peak_to_baseline_ratio=1.862;volume_spike_ratio=11543.36,,2026-11-27T14:35:00Z,9:30
+ZSQR,2.035,-0.10297482837528608,a1_spread,spread_pct=0.1032,,2026-11-27T14:35:00Z,9:30
+LGHL,0.8366,-0.10145993067955038,a1_spread,spread_pct=0.1032,,2026-11-27T14:35:00Z,9:30

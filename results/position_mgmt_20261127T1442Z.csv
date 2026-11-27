@@ -1,0 +1,5 @@
+timestamp_utc,symbol,old_target,new_target,peak_price,low_since_buy,decay_pct,reason
+20261127T1442Z,INVE,2.43,2.43,2.32,1.91,0.05,no_change
+20261127T1442Z,MNRO,9.07,9.07,8.81,7.25,0.05,no_change
+20261127T1442Z,AZIO,0.389,0.389,0.3898,0.3001,0.05,no_change
+20261127T1442Z,ALVO,3.96,3.96,3.765,3.705,0.05,initial_target_set

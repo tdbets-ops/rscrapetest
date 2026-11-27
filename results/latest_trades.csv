@@ -1,4 +1,2 @@
-symbol,side,quantity,avg_fill_price,limit_sell_price,last_price_at_eval,pct_change_at_eval,evaluated_at,firing,order_type,time_in_force
-ZSQR,buy,1,2.240000,2.36,2.20,-0.12527472527472525,2026-11-24T14:37:00Z,9:30,market,gfd
-MWYN,buy,2,1.179400,1.24,1.18,-0.12499999999999993,2026-11-24T14:37:00Z,9:30,market,gfd
-BTQ,buy,2,1.088400,1.15,1.0902,-0.10084033613445369,2026-11-24T14:37:00Z,9:30,market,gfd
+symbol,entry_timestamp,avg_fill_price,quantity,limit_sell_price,bracket_last_price,bracket_pct_change,spread_pct,atr14_pct,atr3_pct,peak_to_baseline_ratio,volume_spike_ratio,days_since_earnings,financial_status_indicator,financial_status_description,split_ratio_proxy,sector,industry,leveraged_etf_match,ask_gap_pct,last_real_price,firing
+ALVO,2026-11-27T14:38:51Z,3.765,1,3.96,3.745,-0.13301662707838482,0.0080,0.0769,0.0630,1.072,3.68,16,CC0,,1.744,Health Technology,Biotechnology,False,0.00401,3.745,9:30
